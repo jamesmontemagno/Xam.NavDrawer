@@ -1,4 +1,5 @@
 using Android.App;
+using Android.Content.PM;
 using Android.Content.Res;
 using Android.OS;
 using Android.Support.V4.Widget;
@@ -18,7 +19,7 @@ using XamDroid.NavigationDrawer.MvxSample.Droid.Helpers;
 
 namespace MvxSample.Droid.Views
 {
-    [Activity(Label = "Home", Theme = "@style/MyTheme", Icon = "@drawable/ic_launcher")]
+    [Activity(Label = "Home", LaunchMode = LaunchMode.SingleTop, Theme = "@style/MyTheme", Icon = "@drawable/ic_launcher")]
     public class HomeView : MvxFragmentActivity, IFragmentHost
 	{
         private DrawerLayout _drawer;
@@ -80,7 +81,9 @@ namespace MvxSample.Droid.Views
             {
                 this.ViewModel.SelectMenuItemCommand.Execute(this.ViewModel.MenuItems[0]);
             }
+ 
         }
+
 
         /// <summary>
         /// Use the custom presenter to determine if we can navigate forward.

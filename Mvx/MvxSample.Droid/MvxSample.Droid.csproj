@@ -132,7 +132,9 @@
       <SubType>AndroidResource</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\Layout\fragment_friends.axml" />
-    <AndroidResource Include="Resources\Layout\page_friend.axml" />
+    <AndroidResource Include="Resources\Layout\page_friend.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
     <AndroidResource Include="Resources\Layout\item_monkey.axml" />
     <AndroidResource Include="Resources\Layout\fragment_friends_all.axml">
       <SubType>AndroidResource</SubType>

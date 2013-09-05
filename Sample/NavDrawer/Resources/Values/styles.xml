@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+  <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+  <style name="MyBaseTheme" parent="@android:style/Theme.Light">
+    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+  </style>
+
+  <!-- Application theme. -->
+  <style name="MyTheme" parent="MyBaseTheme">
+    <item name="vpiIconPageIndicatorStyle">@style/Widget.IconPageIndicator</item>
+    <item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item>
+    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    
+  </style>
+
+  <style name="TextAppearance.TabPageIndicator" parent="Widget">
+    <item name="android:textStyle">bold</item>
+    <item name="android:textColor">@color/vpi__light_theme</item>
+  </style>
+
+</resources>

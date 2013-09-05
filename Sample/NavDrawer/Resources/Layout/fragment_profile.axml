@@ -15,30 +15,27 @@
               android:paddingRight="8dp">
 
 
-  <Mvx.MvxImageView
+  <ImageView android:id="@+id/profile_image"
       android:layout_width="150dp"
       android:layout_height="150dp"
-      android:scaleType="centerCrop"
-      local:MvxBind="ImageUrl Image"/>
+      android:scaleType="centerCrop"/>
 
-  <TextView
+  <TextView android:id="@+id/profile_name"
       android:paddingLeft="8dp"
       android:paddingRight="8dp"
       android:layout_width="fill_parent"
       android:layout_height="wrap_content"
       android:text="Name here"
       android:textAppearance="?android:attr/textAppearanceMedium"
-      local:MvxBind="Text Title"
       android:singleLine="true"/>
 
-  <TextView
+  <TextView android:id="@+id/profile_description"
     android:paddingLeft="8dp"
     android:paddingRight="8dp"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:text="Description here"
     android:textAppearance="?android:attr/textAppearanceSmall"
-    local:MvxBind="Text Description"
     android:singleLine="false"/>
 
 </LinearLayout>

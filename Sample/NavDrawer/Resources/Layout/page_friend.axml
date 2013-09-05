@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:local="http://schemas.android.com/apk/res-auto"
+      android:orientation="vertical"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:background="@color/standard_background">
+
+
+    <ImageView android:id="@+id/friend_image"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"/>
+
+    <TextView android:id="@+id/friend_description"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Name here"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:singleLine="true"/>
+
+  <TextView
+       android:paddingLeft="8dp"
+       android:paddingRight="8dp"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="Related Friends:"
+       android:textAppearance="?android:attr/textAppearanceSmall"
+       android:singleLine="true"/>
+
+  <GridView android:id="@+id/grid"
+     android:paddingTop="8dp"
+     android:paddingBottom="8dp"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:numColumns="@integer/item_columns"
+     android:longClickable="true"
+     android:stretchMode="columnWidth"
+     android:drawSelectorOnTop="true"
+     android:clipChildren="false"
+     android:clipToPadding="false"
+     android:horizontalSpacing="8dp"
+     android:verticalSpacing="8dp"
+     android:gravity="center"
+     android:fastScrollEnabled="true"
+     android:fastScrollAlwaysVisible="true"
+     android:scrollbarAlwaysDrawVerticalTrack="true"
+     android:scrollbars="vertical"
+     android:scrollbarStyle="outsideInset"
+     android:smoothScrollbar="true"/>
+
+</LinearLayout>
