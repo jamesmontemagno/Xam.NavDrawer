@@ -1,0 +1,3 @@
+[submodule "Mvx/MvvmCross-Bindings"]
+	path = Mvx/MvvmCross-Bindings
+	url = https://github.com/slodge/MvvmCross-Binaries.git
