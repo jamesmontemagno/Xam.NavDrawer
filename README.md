@@ -10,11 +10,16 @@ Sample code showing Standard and MvvmCross implementation of the Navigation Draw
 
 
 ## Getting started
-See blog post here.
+Blog post on: [MotzCod.es](http://motzcod.es/post/60427389481/effective-navigation-in-xamarin-android-part-1)
+
+## Contributions/Thanks
+
+[@Cheesebaron](http://github.com/cheesebaron) for:
+[ViewPagerIndicator](https://github.com/Cheesebaron/ViewPagerIndicator)
+[Drawer Sample](https://github.com/Cheesebaron/DrawerSample)
 
 
-
-## My License
+## License
 
    Copyright 2013 James Montemagno
 
