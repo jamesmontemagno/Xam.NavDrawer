@@ -49,7 +49,7 @@ namespace MvxSample.Droid.Views
                     }
                     else
                     {
-                        NavUtils.NavigateUpFromSameTask(this); 
+                        NavUtils.NavigateUpTo(this, upIntent);  
                     }
                      */
                     break;

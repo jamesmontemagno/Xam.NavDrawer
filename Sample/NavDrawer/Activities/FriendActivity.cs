@@ -14,8 +14,11 @@ using com.refractored.monodroidtoolkit.imageloader;
 
 namespace NavDrawer.Activities
 {
-    [Activity(Label = "Friend", Theme = "@style/MyTheme", Icon = "@android:color/transparent", ParentActivity = typeof(HomeView))]
-    [MetaData("android.support.PARENT_ACTIVITY", Value = "NavDrawer.Activities.HomeView")]
+    [Activity(Label = "Friend", Theme = "@style/MyTheme",
+	          Icon = "@android:color/transparent",
+	          ParentActivity = typeof(HomeView))]
+    [MetaData("android.support.PARENT_ACTIVITY",
+	          Value = "NavDrawer.Activities.HomeView")]
     public class FriendActivity : Activity
     {
         private List<FriendViewModel> _friends;
@@ -54,28 +57,33 @@ namespace NavDrawer.Activities
 
         public override bool OnOptionsItemSelected(IMenuItem item)
         {
-            switch (item.ItemId)
-            {
+            switch (item.ItemId)            {
                 case Android.Resource.Id.Home:
+
+					NavUtils.NavigateUpFromSameTask(this);
+
                     //Wrong:
                     //var intent = new Intent(this, typeof(HomeView));
                     //intent.AddFlags(ActivityFlags.ClearTop);
                     //StartActivity(intent);
-                    NavUtils.NavigateUpFromSameTask(this);
+                    
 
                     //if this could be launched externally:
                     /*
-                     var upIntent = NavUtils.GetParentActivityIntent(this);
-                    if (NavUtils.ShouldUpRecreateTask(this, upIntent))
-                    {
-                        Android.Support.V4.App.TaskStackBuilder.Create(this).
-                            AddNextIntentWithParentStack(upIntent).
-                            StartActivities();
-                    }
-                    else
-                    {
-                        NavUtils.NavigateUpFromSameTask(this); 
-                    }
+						var upIntent = NavUtils.GetParentActivityIntent(this);
+						if (NavUtils.ShouldUpRecreateTask(this, upIntent))
+						{
+							// This activity is NOT part of this app's task, so create a new task
+							// when navigating up, with a synthesized back stack.
+							Android.Support.V4.App.TaskStackBuilder.Create(this).
+								AddNextIntentWithParentStack(upIntent).StartActivities();
+						}
+						else
+						{
+							// This activity is part of this app's task, so simply
+							// navigate up to the logical parent activity.
+							NavUtils.NavigateUpTo(this, upIntent); 
+						}
                      */
                     break;
             }
