@@ -18,7 +18,7 @@ namespace NavDrawer.Activities
 	          Icon = "@android:color/transparent",
 	          ParentActivity = typeof(HomeView))]
     [MetaData("android.support.PARENT_ACTIVITY",
-	          Value = "NavDrawer.Activities.HomeView")]
+	          Value = "navdrawer.activities.HomeView")]
     public class FriendActivity : Activity
     {
         private List<FriendViewModel> _friends;

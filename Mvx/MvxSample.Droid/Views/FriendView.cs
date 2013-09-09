@@ -11,7 +11,7 @@ using MvxSample.Core.ViewModels.Friends;
 namespace MvxSample.Droid.Views
 {
     [Activity(Label = "Friend", Theme = "@style/MyTheme", Icon = "@android:color/transparent", ParentActivity = typeof(HomeView))]
-    [MetaData("android.support.PARENT_ACTIVITY", Value = "MvxSample.Droid.Views.HomeView")]
+    [MetaData("android.support.PARENT_ACTIVITY", Value = "mvxsample.droid.views.HomeView")]
     public class FriendView : MvxActivity
     {
         protected override void OnViewModelSet()
