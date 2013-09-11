@@ -15,10 +15,8 @@ using com.refractored.monodroidtoolkit.imageloader;
 namespace NavDrawer.Activities
 {
     [Activity(Label = "Friend", Theme = "@style/MyTheme",
-	          Icon = "@android:color/transparent",
-	          ParentActivity = typeof(HomeView))]
-    [MetaData("android.support.PARENT_ACTIVITY",
-	          Value = "navdrawer.activities.HomeView")]
+	          Icon = "@android:color/transparent",ParentActivity = typeof(HomeView))]
+    [MetaData("android.support.PARENT_ACTIVITY", Value = "navdrawer.activities.HomeView")]
     public class FriendActivity : Activity
     {
         private List<FriendViewModel> _friends;
@@ -28,14 +26,21 @@ namespace NavDrawer.Activities
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.page_friend);
             m_ImageLoader = new ImageLoader(this);
+
             this.ActionBar.SetDisplayHomeAsUpEnabled(true);
             this.ActionBar.SetHomeButtonEnabled(true);
+
             _friends = Util.GenerateFriends();
             _friends.RemoveRange(0, _friends.Count - 2);
             var title = Intent.GetStringExtra("Title");
             var image = Intent.GetStringExtra("Image");
 
+            title = string.IsNullOrWhiteSpace(title) ? "New Friend" : title;
             this.Title = title;
+
+            if (string.IsNullOrWhiteSpace(image))
+                image = _friends[0].Image;
+
 
             m_ImageLoader.DisplayImage(image, this.FindViewById<ImageView>(Resource.Id.friend_image), -1);
             this.FindViewById<TextView>(Resource.Id.friend_description).Text = title;
@@ -57,7 +62,8 @@ namespace NavDrawer.Activities
 
         public override bool OnOptionsItemSelected(IMenuItem item)
         {
-            switch (item.ItemId)            {
+            switch (item.ItemId)           
+            {
                 case Android.Resource.Id.Home:
 
 					NavUtils.NavigateUpFromSameTask(this);
@@ -69,8 +75,8 @@ namespace NavDrawer.Activities
                     
 
                     //if this could be launched externally:
-                    /*
-						var upIntent = NavUtils.GetParentActivityIntent(this);
+                    
+						/*var upIntent = NavUtils.GetParentActivityIntent(this);
 						if (NavUtils.ShouldUpRecreateTask(this, upIntent))
 						{
 							// This activity is NOT part of this app's task, so create a new task
@@ -83,8 +89,8 @@ namespace NavDrawer.Activities
 							// This activity is part of this app's task, so simply
 							// navigate up to the logical parent activity.
 							NavUtils.NavigateUpTo(this, upIntent); 
-						}
-                     */
+						}*/
+                     
                     break;
             }
 

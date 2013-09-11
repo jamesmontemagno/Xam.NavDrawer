@@ -18,9 +18,19 @@ namespace NavDrawer.Helpers
 
     public class MyActionBarDrawerToggle : ActionBarDrawerToggle
     {
-        public MyActionBarDrawerToggle(Activity activity, DrawerLayout drawerLayout, int drawerImageRes, int openDrawerContentDescRes, int closeDrawerContentDescRes)
-            : base(activity, drawerLayout, drawerImageRes, openDrawerContentDescRes, closeDrawerContentDescRes)
-        { }
+        public MyActionBarDrawerToggle(Activity activity,
+                                       DrawerLayout drawerLayout,
+                                       int drawerImageRes,
+                                       int openDrawerContentDescRes,
+                                       int closeDrawerContentDescRes)
+            : base(activity,
+                  drawerLayout,
+                  drawerImageRes,
+                  openDrawerContentDescRes,
+                  closeDrawerContentDescRes)
+        {
+            
+        }
 
         public event ActionBarDrawerChangedEventHandler DrawerClosed;
         public event ActionBarDrawerChangedEventHandler DrawerOpened;

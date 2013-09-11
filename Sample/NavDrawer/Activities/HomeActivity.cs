@@ -38,7 +38,8 @@ namespace NavDrawer.Activities
             this.m_DrawerList = this.FindViewById<ListView>(Resource.Id.left_drawer);
 
             this.m_DrawerList.Adapter = new ArrayAdapter<string>(this, Resource.Layout.item_menu, Sections);
-            this.m_DrawerList.ItemClick += DrawerListOnItemClick;
+
+            this.m_DrawerList.ItemClick += (sender, args) => ListItemClicked(args.Position);
 
 
             this.m_Drawer.SetDrawerShadow(Resource.Drawable.drawer_shadow_dark, (int)GravityFlags.Start);
@@ -52,14 +53,14 @@ namespace NavDrawer.Activities
                                                       Resource.String.drawer_close);
 
             //Display the current fragments title and update the options menu
-            this.m_DrawerToggle.DrawerClosed += delegate
+            this.m_DrawerToggle.DrawerClosed += (o, args) => 
             {
                 this.ActionBar.Title = this.m_Title;
                 this.InvalidateOptionsMenu();
             };
 
             //Display the drawer title and update the options menu
-            this.m_DrawerToggle.DrawerOpened += delegate
+            this.m_DrawerToggle.DrawerOpened += (o, args) => 
             {
                 this.ActionBar.Title = this.m_DrawerTitle;
                 this.InvalidateOptionsMenu();
@@ -71,9 +72,9 @@ namespace NavDrawer.Activities
             
 
             //if first time you will want to go ahead and click first item.
-            if (null == savedInstanceState)
+            if (savedInstanceState == null)
             {
-                DrawerListOnItemClick(null, new AdapterView.ItemClickEventArgs(null, null, 0, 0));
+                ListItemClicked(0);
             }
 
 
@@ -103,10 +104,10 @@ namespace NavDrawer.Activities
             return base.OnOptionsItemSelected(item);
         }
 
-        private void DrawerListOnItemClick(object sender, AdapterView.ItemClickEventArgs itemClickEventArgs)
+        private void ListItemClicked(int position)
         {
             Android.Support.V4.App.Fragment fragment = null;
-            switch (itemClickEventArgs.Position)
+            switch (position)
             {
                 case 0:
                     fragment = new BrowseFragment();
@@ -123,10 +124,12 @@ namespace NavDrawer.Activities
                 .Replace(Resource.Id.content_frame, fragment)
                 .Commit();
 
-            this.m_DrawerList.SetItemChecked(itemClickEventArgs.Position, true);
-            ActionBar.Title = this.m_Title = Sections[itemClickEventArgs.Position];
+            this.m_DrawerList.SetItemChecked(position, true);
+            ActionBar.Title = this.m_Title = Sections[position];
             this.m_Drawer.CloseDrawer(this.m_DrawerList);
         }
+
+       
 
 
 
@@ -134,7 +137,7 @@ namespace NavDrawer.Activities
         {
 
             var drawerOpen = this.m_Drawer.IsDrawerOpen(this.m_DrawerList);
-            //when open down't show anything
+            //when open don't show anything
             for (int i = 0; i < menu.Size(); i++)
                 menu.GetItem(i).SetVisible(!drawerOpen);
 
