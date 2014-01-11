@@ -1,0 +1,33 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Adapters/MonkeyAdapter.cs">
+    <Files>
+      <File FileName="Fragments/FriendsFragment.cs" Line="1" Column="1" />
+      <File FileName="Fragments/BrowseFragment.cs" Line="1" Column="1" />
+      <File FileName="Fragments/FriendsAllFragment.cs" Line="1" Column="1" />
+      <File FileName="Fragments/FriendsRecentFragment.cs" Line="1" Column="1" />
+      <File FileName="Fragments/ProfileFragment.cs" Line="1" Column="1" />
+      <File FileName="Helpers/MyActionBarDrawerToggle.cs" Line="1" Column="1" />
+      <File FileName="Activities/FriendActivity.cs" Line="1" Column="1" />
+      <File FileName="Activities/HomeActivity.cs" Line="1" Column="1" />
+      <File FileName="Resources/Values/styles.xml" Line="1" Column="1" />
+      <File FileName="Resources/Values-v14/styles.xml" Line="1" Column="1" />
+      <File FileName="../../../../../../../Library/Frameworks/Mono.framework/External/xbuild/Xamarin/Android/Xamarin.Android.Common.targets" Line="1" Column="1" />
+      <File FileName="Adapters/MonkeyAdapter.cs" Line="34" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="NavDrawer" expanded="True" selected="True">
+            <Node name="Adapters" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.NavDrawer MonoForAntroid.PreferredDevice="3.7in WVGA (Nexus One)" />
+</Properties>
