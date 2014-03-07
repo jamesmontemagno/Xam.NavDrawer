@@ -45,6 +45,12 @@
     </JavaOptions>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="com.refractored.monodroidtoolkit">
+      <HintPath>..\..\CommonDlls\com.refractored.monodroidtoolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="DK.Ostebaronen.Droid.ViewPagerIndicator">
+      <HintPath>..\..\CommonDlls\DK.Ostebaronen.Droid.ViewPagerIndicator.dll</HintPath>
+    </Reference>
     <Reference Include="Mono.Android" />
     <Reference Include="Mono.Android.Export" />
     <Reference Include="mscorlib" />
@@ -57,12 +63,6 @@
     </Reference>
     <Reference Include="Xamarin.Android.Support.v7.AppCompat">
       <HintPath>Components\xamandroidsupportv7appcompat-7.18.0\lib\android\Xamarin.Android.Support.v7.AppCompat.dll</HintPath>
-    </Reference>
-    <Reference Include="DK.Ostebaronen.Droid.ViewPagerIndicator">
-      <HintPath>..\Common\DK.Ostebaronen.Droid.ViewPagerIndicator.dll</HintPath>
-    </Reference>
-    <Reference Include="com.refractored.monodroidtoolkit">
-      <HintPath>..\Common\com.refractored.monodroidtoolkit.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -146,7 +146,5 @@
       <Visible>False</Visible>
     </XamarinComponentReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\Layout-v11\" />
-  </ItemGroup>
+  <ItemGroup />
 </Project>

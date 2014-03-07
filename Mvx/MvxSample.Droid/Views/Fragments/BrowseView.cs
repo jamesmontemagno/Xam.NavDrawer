@@ -14,7 +14,7 @@ namespace MvxSample.Droid.Views.Fragments
 
         public override Android.Views.View OnCreateView(Android.Views.LayoutInflater inflater, Android.Views.ViewGroup container, Android.OS.Bundle savedInstanceState)
         {
-            this.SetHasOptionsMenu(true);
+          this.HasOptionsMenu = true;
             var ignored = base.OnCreateView(inflater, container, savedInstanceState);
             return this.BindingInflate(Resource.Layout.fragment_browse, null);
         }

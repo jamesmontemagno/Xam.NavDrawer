@@ -20,10 +20,7 @@ namespace XamDroid.NavigationDrawer.MvxSample.Droid.Helpers
         {
         }
 
-        protected MvxSquareImageView(IntPtr javaReference, JniHandleOwnership transfer)
-            : base(javaReference, transfer)
-        {
-        }
+       
 
         protected override void OnMeasure(int widthMeasureSpec, int heightMeasureSpec)
         {
