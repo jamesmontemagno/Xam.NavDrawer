@@ -1,3 +1,6 @@
 [submodule "Mvx/MvvmCross-Bindings"]
 	path = Mvx/MvvmCross-Bindings
 	url = https://github.com/slodge/MvvmCross-Binaries.git
+[submodule "Cheesebaron/ViewPagerIndicator"]
+	path = ViewPagerIndicator
+	url = https://github.com/Cheesebaron/ViewPagerIndicator.git
