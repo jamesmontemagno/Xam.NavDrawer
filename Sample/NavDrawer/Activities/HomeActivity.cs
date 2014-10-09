@@ -12,138 +12,134 @@ using NavDrawer.Helpers;
 
 namespace NavDrawer.Activities
 {
-    [Activity(Label = "Home", MainLauncher = true, LaunchMode = LaunchMode.SingleTop,Theme = "@style/MyTheme", Icon = "@drawable/ic_launcher")]
-    public class HomeView : FragmentActivity
+	[Activity (Label = "Home", MainLauncher = true, LaunchMode = LaunchMode.SingleTop, Theme = "@style/MyTheme", Icon = "@drawable/ic_launcher")]
+	public class HomeView : FragmentActivity
 	{
         
-        private MyActionBarDrawerToggle m_DrawerToggle;
-        private string m_DrawerTitle;
-        private string m_Title;
+		private MyActionBarDrawerToggle drawerToggle;
+		private string drawerTitle;
+		private string title;
 
-        private DrawerLayout m_Drawer;
-        private ListView m_DrawerList;
-        private static readonly string[] Sections = new[]
-            {
-                "Browse", "Friends", "Profile"
-            };
+		private DrawerLayout drawerLayout;
+		private ListView drawerListView;
+		private static readonly string[] Sections = new[] {
+			"Browse", "Friends", "Profile"
+		};
 
-        protected override void OnCreate(Bundle savedInstanceState)
-        {
-            base.OnCreate(savedInstanceState);
-            SetContentView(Resource.Layout.page_home_view);
+		protected override void OnCreate (Bundle savedInstanceState)
+		{
+			base.OnCreate (savedInstanceState);
+			SetContentView (Resource.Layout.page_home_view);
 
-            this.m_Title = this.m_DrawerTitle = this.Title;
+			this.title = this.drawerTitle = this.Title;
 
-            this.m_Drawer = this.FindViewById<DrawerLayout>(Resource.Id.drawer_layout);
-            this.m_DrawerList = this.FindViewById<ListView>(Resource.Id.left_drawer);
-
-            this.m_DrawerList.Adapter = new ArrayAdapter<string>(this, Resource.Layout.item_menu, Sections);
-
-            this.m_DrawerList.ItemClick += (sender, args) => ListItemClicked(args.Position);
+			this.drawerLayout = this.FindViewById<DrawerLayout> (Resource.Id.drawer_layout);
+			this.drawerListView = this.FindViewById<ListView> (Resource.Id.left_drawer);
 
 
-            this.m_Drawer.SetDrawerShadow(Resource.Drawable.drawer_shadow_dark, (int)GravityFlags.Start);
+			//Create Adapter for drawer List
+			this.drawerListView.Adapter = new ArrayAdapter<string> (this, Resource.Layout.item_menu, Sections);
+
+			//Set click handler when item is selected
+			this.drawerListView.ItemClick += (sender, args) => ListItemClicked (args.Position);
+
+			//Set Drawer Shadow
+			this.drawerLayout.SetDrawerShadow (Resource.Drawable.drawer_shadow_dark, (int)GravityFlags.Start);
 
 
 
-            //DrawerToggle is the animation that happens with the indicator next to the actionbar
-            this.m_DrawerToggle = new MyActionBarDrawerToggle(this, this.m_Drawer,
-                                                      Resource.Drawable.ic_drawer_light,
-                                                      Resource.String.drawer_open,
-                                                      Resource.String.drawer_close);
+			//DrawerToggle is the animation that happens with the indicator next to the actionbar
+			this.drawerToggle = new MyActionBarDrawerToggle (this, this.drawerLayout,
+				Resource.Drawable.ic_drawer_light,
+				Resource.String.drawer_open,
+				Resource.String.drawer_close);
 
-            //Display the current fragments title and update the options menu
-            this.m_DrawerToggle.DrawerClosed += (o, args) => 
-            {
-                this.ActionBar.Title = this.m_Title;
-                this.InvalidateOptionsMenu();
-            };
+			//Display the current fragments title and update the options menu
+			this.drawerToggle.DrawerClosed += (o, args) => {
+				this.ActionBar.Title = this.title;
+				this.InvalidateOptionsMenu ();
+			};
 
-            //Display the drawer title and update the options menu
-            this.m_DrawerToggle.DrawerOpened += (o, args) => 
-            {
-                this.ActionBar.Title = this.m_DrawerTitle;
-                this.InvalidateOptionsMenu();
-            };
+			//Display the drawer title and update the options menu
+			this.drawerToggle.DrawerOpened += (o, args) => {
+				this.ActionBar.Title = this.drawerTitle;
+				this.InvalidateOptionsMenu ();
+			};
 
-            //Set the drawer lister to be the toggle.
-            this.m_Drawer.SetDrawerListener(this.m_DrawerToggle);
+			//Set the drawer lister to be the toggle.
+			this.drawerLayout.SetDrawerListener (this.drawerToggle);
 
             
 
-            //if first time you will want to go ahead and click first item.
-            if (savedInstanceState == null)
-            {
-                ListItemClicked(0);
-            }
+			//if first time you will want to go ahead and click first item.
+			if (savedInstanceState == null) {
+				ListItemClicked (0);
+			}
 
 
-            this.ActionBar.SetDisplayHomeAsUpEnabled(true);
-            this.ActionBar.SetHomeButtonEnabled(true);
-        }
+			this.ActionBar.SetDisplayHomeAsUpEnabled (true);
+			this.ActionBar.SetHomeButtonEnabled (true);
+		}
 
-        protected override void OnPostCreate(Bundle savedInstanceState)
-        {
-            base.OnPostCreate(savedInstanceState);
-            this.m_DrawerToggle.SyncState();
-        }
+		private void ListItemClicked (int position)
+		{
+			Android.Support.V4.App.Fragment fragment = null;
+			switch (position) {
+			case 0:
+				fragment = new BrowseFragment ();
+				break;
+			case 1:
+				fragment = new FriendsFragment ();
+				break;
+			case 2:
+				fragment = new ProfileFragment ();
+				break;
+			}
 
-        public override void OnConfigurationChanged(Configuration newConfig)
-        {
-            base.OnConfigurationChanged(newConfig);
-            this.m_DrawerToggle.OnConfigurationChanged(newConfig);
-        }
+			SupportFragmentManager.BeginTransaction ()
+				.Replace (Resource.Id.content_frame, fragment)
+				.Commit ();
 
-        // Pass the event to ActionBarDrawerToggle, if it returns
-        // true, then it has handled the app icon touch event
-        public override bool OnOptionsItemSelected(IMenuItem item)
-        {
-            if (this.m_DrawerToggle.OnOptionsItemSelected(item))
-                return true;
+			this.drawerListView.SetItemChecked (position, true);
+			ActionBar.Title = this.title = Sections [position];
+			this.drawerLayout.CloseDrawers();
+		}
 
-            return base.OnOptionsItemSelected(item);
-        }
+		public override bool OnPrepareOptionsMenu (IMenu menu)
+		{
 
-        private void ListItemClicked(int position)
-        {
-            Android.Support.V4.App.Fragment fragment = null;
-            switch (position)
-            {
-                case 0:
-                    fragment = new BrowseFragment();
-                    break;
-                case 1:
-                    fragment = new FriendsFragment();
-                    break;
-                case 2:
-                    fragment = new ProfileFragment();
-                    break;
-            }
-
-            SupportFragmentManager.BeginTransaction()
-                .Replace(Resource.Id.content_frame, fragment)
-                .Commit();
-
-            this.m_DrawerList.SetItemChecked(position, true);
-            ActionBar.Title = this.m_Title = Sections[position];
-            this.m_Drawer.CloseDrawer(this.m_DrawerList);
-        }
-
-       
+			var drawerOpen = this.drawerLayout.IsDrawerOpen((int)GravityFlags.Left);
+			//when open don't show anything
+			for (int i = 0; i < menu.Size (); i++)
+				menu.GetItem (i).SetVisible (!drawerOpen);
 
 
+			return base.OnPrepareOptionsMenu (menu);
+		}
 
-        public override bool OnPrepareOptionsMenu(IMenu menu)
-        {
+		protected override void OnPostCreate (Bundle savedInstanceState)
+		{
+			base.OnPostCreate (savedInstanceState);
+			this.drawerToggle.SyncState ();
+		}
 
-            var drawerOpen = this.m_Drawer.IsDrawerOpen(this.m_DrawerList);
-            //when open don't show anything
-            for (int i = 0; i < menu.Size(); i++)
-                menu.GetItem(i).SetVisible(!drawerOpen);
+		public override void OnConfigurationChanged (Configuration newConfig)
+		{
+			base.OnConfigurationChanged (newConfig);
+			this.drawerToggle.OnConfigurationChanged (newConfig);
+		}
+
+		// Pass the event to ActionBarDrawerToggle, if it returns
+		// true, then it has handled the app icon touch event
+		public override bool OnOptionsItemSelected (IMenuItem item)
+		{
+			if (this.drawerToggle.OnOptionsItemSelected (item))
+				return true;
+
+			return base.OnOptionsItemSelected (item);
+		}
 
 
-            return base.OnPrepareOptionsMenu(menu);
-        }
 
 	}
 }
