@@ -1,0 +1,19 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 4 (KitKat)" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Activities/FriendActivity.cs">
+    <Files>
+      <File FileName="Fragments/ProfileFragment.cs" Line="1" Column="1" />
+      <File FileName="Activities/HomeActivity.cs" Line="35" Column="35" />
+      <File FileName="Fragments/FriendsFragment.cs" Line="17" Column="17" />
+      <File FileName="Activities/FriendActivity.cs" Line="81" Column="81" />
+      <File FileName="Helpers/MyActionBarDrawerToggle.cs" Line="20" Column="20" />
+      <File FileName="Resources/Values/styles.xml" Line="1" Column="1" />
+      <File FileName="Resources/Values-v14/styles.xml" Line="11" Column="11" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.NavDrawer MonoForAntroid.PreferredDevice="Nexus 4" />
+</Properties>
