@@ -55,6 +55,7 @@ namespace NavDrawer.Activities
 
 			//DrawerToggle is the animation that happens with the indicator next to the actionbar
 			this.drawerToggle = new MyActionBarDrawerToggle (this, this.drawerLayout,
+				this.Toolbar,
 				Resource.String.drawer_open,
 				Resource.String.drawer_close);
 
