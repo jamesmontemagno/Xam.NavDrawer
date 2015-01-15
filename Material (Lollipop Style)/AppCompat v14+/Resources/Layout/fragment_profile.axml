@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp">
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop" />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <CheckBox
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:text="One"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:text="Two"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </RadioGroup>
+        <android.support.v7.widget.SwitchCompat
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Switch" />
+        <CheckedTextView
+            android:layout_width="fill_parent"
+            android:layout_height="90dip"
+            android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+            android:clickable="true"
+            android:checked="true"
+            android:gravity="center"
+            android:hint="Checked" />
+        <TextView
+            android:id="@+id/profile_name"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Name here"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:singleLine="true" />
+        <TextView
+            android:id="@+id/profile_description"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Description here"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:singleLine="false" />
+    </LinearLayout>
+</ScrollView>
