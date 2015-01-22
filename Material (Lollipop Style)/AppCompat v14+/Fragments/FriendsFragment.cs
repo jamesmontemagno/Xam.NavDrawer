@@ -2,16 +2,16 @@ using Android.OS;
 using Android.Support.V4.App;
 using Android.Support.V4.View;
 
-using DK.Ostebaronen.Droid.ViewPagerIndicator;
 
 using NavDrawer.Adapters;
+using com.refractored;
 
 namespace NavDrawer.Fragments
 {
     public class FriendsFragment : Fragment
     {
         private ViewPager m_ViewPager;
-        private TabPageIndicator m_PageIndicator;
+        private PagerSlidingTabStrip m_PageIndicator;
         private FragmentPagerAdapter m_Adapter;
 
         public FriendsFragment()
@@ -27,7 +27,7 @@ namespace NavDrawer.Fragments
             // Create your application here
             this.m_ViewPager = view.FindViewById<ViewPager>(Resource.Id.viewPager);
             this.m_ViewPager.OffscreenPageLimit = 4;
-            this.m_PageIndicator = view.FindViewById<TabPageIndicator>(Resource.Id.viewPagerIndicator);
+						this.m_PageIndicator = view.FindViewById<PagerSlidingTabStrip>(Resource.Id.tabs);
 
             //Since we are a fragment in a fragment you need to pass down the child fragment manager!
             this.m_Adapter = new FriendsAdapter(this.ChildFragmentManager);
@@ -36,7 +36,6 @@ namespace NavDrawer.Fragments
             this.m_ViewPager.Adapter = this.m_Adapter;
 
             this.m_PageIndicator.SetViewPager(this.m_ViewPager);
-            this.m_PageIndicator.CurrentItem = 0;
             return view;
         }
 
