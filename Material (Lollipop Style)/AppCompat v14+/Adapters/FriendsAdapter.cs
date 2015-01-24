@@ -10,7 +10,7 @@ namespace NavDrawer.Adapters
     {
         private static readonly string[] Content = new[]
             {
-                "All", "Recent"
+                "All", "Recent", "Adorable", "Super Cute", "North America", "South America"
             };
 
         public FriendsAdapter(FragmentManager p0) 
@@ -30,9 +30,10 @@ namespace NavDrawer.Adapters
                         return new FriendsAllFragment();
                     case 1:
                         return new FriendsRecentFragment();
+										
                 }
 
-                return null;
+								return new FriendsAllFragment();
             }
 
             public override Java.Lang.ICharSequence GetPageTitleFormatted(int p0) { return new Java.Lang.String(Content[p0 % Content.Length].ToUpper()); }

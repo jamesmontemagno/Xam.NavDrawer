@@ -6,9 +6,7 @@
         by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
     -->
   <style name="MyTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
-    <item name="vpiIconPageIndicatorStyle">@style/Widget.IconPageIndicator</item>
-    <item name="vpiTabPageIndicatorStyle">@style/Widget.TabPageIndicator</item>
-    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    !-- All customizations that are NOT specific to a particular API-level can go here. -->
     <item name="android:windowNoTitle">true</item>
     <!--We will be using the toolbar so no need to show ActionBar-->
     <item name="windowActionBar">false</item>
@@ -22,6 +20,8 @@
     <item name="colorAccent">@color/material_green_A200</item>
   	<!-- You can also set colorControlNormal, colorControlActivated
          colorControlHighlight and colorSwitchThumbNormal. -->
+
+     <item name="android:textColorPrimary">@android:color/white</item>
   </style>
 
 
@@ -29,10 +29,6 @@
   <style name="MyTheme" parent="MyTheme.Base">
    
   </style>
-
-  <style name="TextAppearance.TabPageIndicator" parent="Widget">
-    <item name="android:textStyle">bold</item>
-    <item name="android:textColor">@color/vpi__light_theme</item>
-  </style>
+   
 
 </resources>

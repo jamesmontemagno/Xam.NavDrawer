@@ -131,143 +131,984 @@ namespace NavDrawer
 			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_unpinnedDrawable = global::NavDrawer.Resource.Styleable.ProgressButton_unpinnedDrawable;
 			global::com.refractored.monodroidtoolkit.Resource.Styleable.Theme = global::NavDrawer.Resource.Styleable.Theme;
 			global::com.refractored.monodroidtoolkit.Resource.Styleable.Theme_circularProgressBarStyle = global::NavDrawer.Resource.Styleable.Theme_circularProgressBarStyle;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Attribute.centered = global::NavDrawer.Resource.Attribute.centered;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Attribute.clipPadding = global::NavDrawer.Resource.Attribute.clipPadding;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Attribute.fadeDelay = global::NavDrawer.Resource.Attribute.fadeDelay;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Attribute.fadeLength = global::NavDrawer.Resource.Attribute.fadeLength;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Attribute.fades = global::NavDrawer.Resource.Attribute.fades;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Attribute.fillColor = global::NavDrawer.Resource.Attribute.fillColor;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Attribute.footerColor = global::NavDrawer.Resource.Attribute.footerColor;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Attribute.footerIndicatorHeight = global::NavDrawer.Resource.Attribute.footerIndicatorHeight;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Attribute.footerIndicatorStyle = global::NavDrawer.Resource.Attribute.footerIndicatorStyle;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Attribute.footerIndicatorUnderlinePadding = global::NavDrawer.Resource.Attribute.footerIndicatorUnderlinePadding;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Attribute.footerLineHeight = global::NavDrawer.Resource.Attribute.footerLineHeight;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Attribute.footerPadding = global::NavDrawer.Resource.Attribute.footerPadding;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Attribute.gapWidth = global::NavDrawer.Resource.Attribute.gapWidth;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Attribute.linePosition = global::NavDrawer.Resource.Attribute.linePosition;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Attribute.lineWidth = global::NavDrawer.Resource.Attribute.lineWidth;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Attribute.pageColor = global::NavDrawer.Resource.Attribute.pageColor;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Attribute.radius = global::NavDrawer.Resource.Attribute.radius;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Attribute.selectedBold = global::NavDrawer.Resource.Attribute.selectedBold;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Attribute.selectedColor = global::NavDrawer.Resource.Attribute.selectedColor;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Attribute.snap = global::NavDrawer.Resource.Attribute.snap;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Attribute.strokeColor = global::NavDrawer.Resource.Attribute.strokeColor;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Attribute.strokeWidth = global::NavDrawer.Resource.Attribute.strokeWidth;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Attribute.titlePadding = global::NavDrawer.Resource.Attribute.titlePadding;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Attribute.topPadding = global::NavDrawer.Resource.Attribute.topPadding;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Attribute.unselectedColor = global::NavDrawer.Resource.Attribute.unselectedColor;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Attribute.vpiCirclePageIndicatorStyle = global::NavDrawer.Resource.Attribute.vpiCirclePageIndicatorStyle;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Attribute.vpiIconPageIndicatorStyle = global::NavDrawer.Resource.Attribute.vpiIconPageIndicatorStyle;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Attribute.vpiLinePageIndicatorStyle = global::NavDrawer.Resource.Attribute.vpiLinePageIndicatorStyle;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Attribute.vpiTabPageIndicatorStyle = global::NavDrawer.Resource.Attribute.vpiTabPageIndicatorStyle;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Attribute.vpiTitlePageIndicatorStyle = global::NavDrawer.Resource.Attribute.vpiTitlePageIndicatorStyle;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Attribute.vpiUnderlinePageIndicatorStyle = global::NavDrawer.Resource.Attribute.vpiUnderlinePageIndicatorStyle;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Boolean.default_circle_indicator_centered = global::NavDrawer.Resource.Boolean.default_circle_indicator_centered;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Boolean.default_circle_indicator_snap = global::NavDrawer.Resource.Boolean.default_circle_indicator_snap;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Boolean.default_line_indicator_centered = global::NavDrawer.Resource.Boolean.default_line_indicator_centered;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Boolean.default_title_indicator_selected_bold = global::NavDrawer.Resource.Boolean.default_title_indicator_selected_bold;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Boolean.default_underline_indicator_fades = global::NavDrawer.Resource.Boolean.default_underline_indicator_fades;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Color.default_circle_indicator_fill_color = global::NavDrawer.Resource.Color.default_circle_indicator_fill_color;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Color.default_circle_indicator_page_color = global::NavDrawer.Resource.Color.default_circle_indicator_page_color;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Color.default_circle_indicator_stroke_color = global::NavDrawer.Resource.Color.default_circle_indicator_stroke_color;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Color.default_line_indicator_selected_color = global::NavDrawer.Resource.Color.default_line_indicator_selected_color;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Color.default_line_indicator_unselected_color = global::NavDrawer.Resource.Color.default_line_indicator_unselected_color;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Color.default_title_indicator_footer_color = global::NavDrawer.Resource.Color.default_title_indicator_footer_color;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Color.default_title_indicator_selected_color = global::NavDrawer.Resource.Color.default_title_indicator_selected_color;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Color.default_title_indicator_text_color = global::NavDrawer.Resource.Color.default_title_indicator_text_color;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Color.default_underline_indicator_selected_color = global::NavDrawer.Resource.Color.default_underline_indicator_selected_color;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Color.vpi__background_holo_dark = global::NavDrawer.Resource.Color.vpi__background_holo_dark;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Color.vpi__background_holo_light = global::NavDrawer.Resource.Color.vpi__background_holo_light;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Color.vpi__bright_foreground_disabled_holo_dark = global::NavDrawer.Resource.Color.vpi__bright_foreground_disabled_holo_dark;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Color.vpi__bright_foreground_disabled_holo_light = global::NavDrawer.Resource.Color.vpi__bright_foreground_disabled_holo_light;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Color.vpi__bright_foreground_holo_dark = global::NavDrawer.Resource.Color.vpi__bright_foreground_holo_dark;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Color.vpi__bright_foreground_holo_light = global::NavDrawer.Resource.Color.vpi__bright_foreground_holo_light;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Color.vpi__bright_foreground_inverse_holo_dark = global::NavDrawer.Resource.Color.vpi__bright_foreground_inverse_holo_dark;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Color.vpi__bright_foreground_inverse_holo_light = global::NavDrawer.Resource.Color.vpi__bright_foreground_inverse_holo_light;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Color.vpi__dark_theme = global::NavDrawer.Resource.Color.vpi__dark_theme;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Color.vpi__light_theme = global::NavDrawer.Resource.Color.vpi__light_theme;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Dimension.default_circle_indicator_radius = global::NavDrawer.Resource.Dimension.default_circle_indicator_radius;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Dimension.default_circle_indicator_stroke_width = global::NavDrawer.Resource.Dimension.default_circle_indicator_stroke_width;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Dimension.default_line_indicator_gap_width = global::NavDrawer.Resource.Dimension.default_line_indicator_gap_width;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Dimension.default_line_indicator_line_width = global::NavDrawer.Resource.Dimension.default_line_indicator_line_width;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Dimension.default_line_indicator_stroke_width = global::NavDrawer.Resource.Dimension.default_line_indicator_stroke_width;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Dimension.default_title_indicator_clip_padding = global::NavDrawer.Resource.Dimension.default_title_indicator_clip_padding;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Dimension.default_title_indicator_footer_indicator_height = global::NavDrawer.Resource.Dimension.default_title_indicator_footer_indicator_height;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Dimension.default_title_indicator_footer_indicator_underline_padding = global::NavDrawer.Resource.Dimension.default_title_indicator_footer_indicator_underline_padding;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Dimension.default_title_indicator_footer_line_height = global::NavDrawer.Resource.Dimension.default_title_indicator_footer_line_height;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Dimension.default_title_indicator_footer_padding = global::NavDrawer.Resource.Dimension.default_title_indicator_footer_padding;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Dimension.default_title_indicator_text_size = global::NavDrawer.Resource.Dimension.default_title_indicator_text_size;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Dimension.default_title_indicator_title_padding = global::NavDrawer.Resource.Dimension.default_title_indicator_title_padding;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Dimension.default_title_indicator_top_padding = global::NavDrawer.Resource.Dimension.default_title_indicator_top_padding;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Drawable.vpi__tab_indicator = global::NavDrawer.Resource.Drawable.vpi__tab_indicator;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Drawable.vpi__tab_selected_focused_holo = global::NavDrawer.Resource.Drawable.vpi__tab_selected_focused_holo;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Drawable.vpi__tab_selected_holo = global::NavDrawer.Resource.Drawable.vpi__tab_selected_holo;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Drawable.vpi__tab_selected_pressed_holo = global::NavDrawer.Resource.Drawable.vpi__tab_selected_pressed_holo;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Drawable.vpi__tab_unselected_focused_holo = global::NavDrawer.Resource.Drawable.vpi__tab_unselected_focused_holo;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Drawable.vpi__tab_unselected_holo = global::NavDrawer.Resource.Drawable.vpi__tab_unselected_holo;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Drawable.vpi__tab_unselected_pressed_holo = global::NavDrawer.Resource.Drawable.vpi__tab_unselected_pressed_holo;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Id.bottom = global::NavDrawer.Resource.Id.bottom;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Id.none = global::NavDrawer.Resource.Id.none;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Id.top = global::NavDrawer.Resource.Id.top;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Id.triangle = global::NavDrawer.Resource.Id.triangle;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Id.underline = global::NavDrawer.Resource.Id.underline;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Integer.default_circle_indicator_orientation = global::NavDrawer.Resource.Integer.default_circle_indicator_orientation;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Integer.default_title_indicator_footer_indicator_style = global::NavDrawer.Resource.Integer.default_title_indicator_footer_indicator_style;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Integer.default_title_indicator_line_position = global::NavDrawer.Resource.Integer.default_title_indicator_line_position;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Integer.default_underline_indicator_fade_delay = global::NavDrawer.Resource.Integer.default_underline_indicator_fade_delay;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Integer.default_underline_indicator_fade_length = global::NavDrawer.Resource.Integer.default_underline_indicator_fade_length;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Style.TextAppearance_TabPageIndicator = global::NavDrawer.Resource.Style.TextAppearance_TabPageIndicator;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Style.Theme_PageIndicatorDefaults = global::NavDrawer.Resource.Style.Theme_PageIndicatorDefaults;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Style.Widget = global::NavDrawer.Resource.Style.Widget;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Style.Widget_IconPageIndicator = global::NavDrawer.Resource.Style.Widget_IconPageIndicator;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Style.Widget_TabPageIndicator = global::NavDrawer.Resource.Style.Widget_TabPageIndicator;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator = global::NavDrawer.Resource.Styleable.CirclePageIndicator;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_android_background = global::NavDrawer.Resource.Styleable.CirclePageIndicator_android_background;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_android_orientation = global::NavDrawer.Resource.Styleable.CirclePageIndicator_android_orientation;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_centered = global::NavDrawer.Resource.Styleable.CirclePageIndicator_centered;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_fillColor = global::NavDrawer.Resource.Styleable.CirclePageIndicator_fillColor;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_pageColor = global::NavDrawer.Resource.Styleable.CirclePageIndicator_pageColor;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_radius = global::NavDrawer.Resource.Styleable.CirclePageIndicator_radius;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_snap = global::NavDrawer.Resource.Styleable.CirclePageIndicator_snap;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_strokeColor = global::NavDrawer.Resource.Styleable.CirclePageIndicator_strokeColor;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_strokeWidth = global::NavDrawer.Resource.Styleable.CirclePageIndicator_strokeWidth;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Styleable.LinePageIndicator = global::NavDrawer.Resource.Styleable.LinePageIndicator;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Styleable.LinePageIndicator_android_background = global::NavDrawer.Resource.Styleable.LinePageIndicator_android_background;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Styleable.LinePageIndicator_centered = global::NavDrawer.Resource.Styleable.LinePageIndicator_centered;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Styleable.LinePageIndicator_gapWidth = global::NavDrawer.Resource.Styleable.LinePageIndicator_gapWidth;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Styleable.LinePageIndicator_lineWidth = global::NavDrawer.Resource.Styleable.LinePageIndicator_lineWidth;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Styleable.LinePageIndicator_selectedColor = global::NavDrawer.Resource.Styleable.LinePageIndicator_selectedColor;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Styleable.LinePageIndicator_strokeWidth = global::NavDrawer.Resource.Styleable.LinePageIndicator_strokeWidth;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Styleable.LinePageIndicator_unselectedColor = global::NavDrawer.Resource.Styleable.LinePageIndicator_unselectedColor;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Styleable.TitlePageIndicator = global::NavDrawer.Resource.Styleable.TitlePageIndicator;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Styleable.TitlePageIndicator_android_background = global::NavDrawer.Resource.Styleable.TitlePageIndicator_android_background;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Styleable.TitlePageIndicator_android_textColor = global::NavDrawer.Resource.Styleable.TitlePageIndicator_android_textColor;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Styleable.TitlePageIndicator_android_textSize = global::NavDrawer.Resource.Styleable.TitlePageIndicator_android_textSize;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Styleable.TitlePageIndicator_clipPadding = global::NavDrawer.Resource.Styleable.TitlePageIndicator_clipPadding;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Styleable.TitlePageIndicator_footerColor = global::NavDrawer.Resource.Styleable.TitlePageIndicator_footerColor;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Styleable.TitlePageIndicator_footerIndicatorHeight = global::NavDrawer.Resource.Styleable.TitlePageIndicator_footerIndicatorHeight;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Styleable.TitlePageIndicator_footerIndicatorStyle = global::NavDrawer.Resource.Styleable.TitlePageIndicator_footerIndicatorStyle;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Styleable.TitlePageIndicator_footerIndicatorUnderlinePadding = global::NavDrawer.Resource.Styleable.TitlePageIndicator_footerIndicatorUnderlinePadding;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Styleable.TitlePageIndicator_footerLineHeight = global::NavDrawer.Resource.Styleable.TitlePageIndicator_footerLineHeight;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Styleable.TitlePageIndicator_footerPadding = global::NavDrawer.Resource.Styleable.TitlePageIndicator_footerPadding;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Styleable.TitlePageIndicator_linePosition = global::NavDrawer.Resource.Styleable.TitlePageIndicator_linePosition;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Styleable.TitlePageIndicator_selectedBold = global::NavDrawer.Resource.Styleable.TitlePageIndicator_selectedBold;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Styleable.TitlePageIndicator_selectedColor = global::NavDrawer.Resource.Styleable.TitlePageIndicator_selectedColor;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Styleable.TitlePageIndicator_titlePadding = global::NavDrawer.Resource.Styleable.TitlePageIndicator_titlePadding;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Styleable.TitlePageIndicator_topPadding = global::NavDrawer.Resource.Styleable.TitlePageIndicator_topPadding;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Styleable.UnderlinePageIndicator = global::NavDrawer.Resource.Styleable.UnderlinePageIndicator;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Styleable.UnderlinePageIndicator_android_background = global::NavDrawer.Resource.Styleable.UnderlinePageIndicator_android_background;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Styleable.UnderlinePageIndicator_fadeDelay = global::NavDrawer.Resource.Styleable.UnderlinePageIndicator_fadeDelay;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Styleable.UnderlinePageIndicator_fadeLength = global::NavDrawer.Resource.Styleable.UnderlinePageIndicator_fadeLength;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Styleable.UnderlinePageIndicator_fades = global::NavDrawer.Resource.Styleable.UnderlinePageIndicator_fades;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Styleable.UnderlinePageIndicator_selectedColor = global::NavDrawer.Resource.Styleable.UnderlinePageIndicator_selectedColor;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Styleable.ViewPagerIndicator = global::NavDrawer.Resource.Styleable.ViewPagerIndicator;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Styleable.ViewPagerIndicator_vpiCirclePageIndicatorStyle = global::NavDrawer.Resource.Styleable.ViewPagerIndicator_vpiCirclePageIndicatorStyle;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Styleable.ViewPagerIndicator_vpiIconPageIndicatorStyle = global::NavDrawer.Resource.Styleable.ViewPagerIndicator_vpiIconPageIndicatorStyle;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Styleable.ViewPagerIndicator_vpiLinePageIndicatorStyle = global::NavDrawer.Resource.Styleable.ViewPagerIndicator_vpiLinePageIndicatorStyle;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Styleable.ViewPagerIndicator_vpiTabPageIndicatorStyle = global::NavDrawer.Resource.Styleable.ViewPagerIndicator_vpiTabPageIndicatorStyle;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Styleable.ViewPagerIndicator_vpiTitlePageIndicatorStyle = global::NavDrawer.Resource.Styleable.ViewPagerIndicator_vpiTitlePageIndicatorStyle;
-			global::DK.Ostebaronen.Droid.ViewPagerIndicator.Resource.Styleable.ViewPagerIndicator_vpiUnderlinePageIndicatorStyle = global::NavDrawer.Resource.Styleable.ViewPagerIndicator_vpiUnderlinePageIndicatorStyle;
+			global::com.refractored.Resource.Animation.abc_fade_in = global::NavDrawer.Resource.Animation.abc_fade_in;
+			global::com.refractored.Resource.Animation.abc_fade_out = global::NavDrawer.Resource.Animation.abc_fade_out;
+			global::com.refractored.Resource.Animation.abc_slide_in_bottom = global::NavDrawer.Resource.Animation.abc_slide_in_bottom;
+			global::com.refractored.Resource.Animation.abc_slide_in_top = global::NavDrawer.Resource.Animation.abc_slide_in_top;
+			global::com.refractored.Resource.Animation.abc_slide_out_bottom = global::NavDrawer.Resource.Animation.abc_slide_out_bottom;
+			global::com.refractored.Resource.Animation.abc_slide_out_top = global::NavDrawer.Resource.Animation.abc_slide_out_top;
+			global::com.refractored.Resource.Attribute.actionBarDivider = global::NavDrawer.Resource.Attribute.actionBarDivider;
+			global::com.refractored.Resource.Attribute.actionBarItemBackground = global::NavDrawer.Resource.Attribute.actionBarItemBackground;
+			global::com.refractored.Resource.Attribute.actionBarPopupTheme = global::NavDrawer.Resource.Attribute.actionBarPopupTheme;
+			global::com.refractored.Resource.Attribute.actionBarSize = global::NavDrawer.Resource.Attribute.actionBarSize;
+			global::com.refractored.Resource.Attribute.actionBarSplitStyle = global::NavDrawer.Resource.Attribute.actionBarSplitStyle;
+			global::com.refractored.Resource.Attribute.actionBarStyle = global::NavDrawer.Resource.Attribute.actionBarStyle;
+			global::com.refractored.Resource.Attribute.actionBarTabBarStyle = global::NavDrawer.Resource.Attribute.actionBarTabBarStyle;
+			global::com.refractored.Resource.Attribute.actionBarTabStyle = global::NavDrawer.Resource.Attribute.actionBarTabStyle;
+			global::com.refractored.Resource.Attribute.actionBarTabTextStyle = global::NavDrawer.Resource.Attribute.actionBarTabTextStyle;
+			global::com.refractored.Resource.Attribute.actionBarTheme = global::NavDrawer.Resource.Attribute.actionBarTheme;
+			global::com.refractored.Resource.Attribute.actionBarWidgetTheme = global::NavDrawer.Resource.Attribute.actionBarWidgetTheme;
+			global::com.refractored.Resource.Attribute.actionButtonStyle = global::NavDrawer.Resource.Attribute.actionButtonStyle;
+			global::com.refractored.Resource.Attribute.actionDropDownStyle = global::NavDrawer.Resource.Attribute.actionDropDownStyle;
+			global::com.refractored.Resource.Attribute.actionLayout = global::NavDrawer.Resource.Attribute.actionLayout;
+			global::com.refractored.Resource.Attribute.actionMenuTextAppearance = global::NavDrawer.Resource.Attribute.actionMenuTextAppearance;
+			global::com.refractored.Resource.Attribute.actionMenuTextColor = global::NavDrawer.Resource.Attribute.actionMenuTextColor;
+			global::com.refractored.Resource.Attribute.actionModeBackground = global::NavDrawer.Resource.Attribute.actionModeBackground;
+			global::com.refractored.Resource.Attribute.actionModeCloseButtonStyle = global::NavDrawer.Resource.Attribute.actionModeCloseButtonStyle;
+			global::com.refractored.Resource.Attribute.actionModeCloseDrawable = global::NavDrawer.Resource.Attribute.actionModeCloseDrawable;
+			global::com.refractored.Resource.Attribute.actionModeCopyDrawable = global::NavDrawer.Resource.Attribute.actionModeCopyDrawable;
+			global::com.refractored.Resource.Attribute.actionModeCutDrawable = global::NavDrawer.Resource.Attribute.actionModeCutDrawable;
+			global::com.refractored.Resource.Attribute.actionModeFindDrawable = global::NavDrawer.Resource.Attribute.actionModeFindDrawable;
+			global::com.refractored.Resource.Attribute.actionModePasteDrawable = global::NavDrawer.Resource.Attribute.actionModePasteDrawable;
+			global::com.refractored.Resource.Attribute.actionModePopupWindowStyle = global::NavDrawer.Resource.Attribute.actionModePopupWindowStyle;
+			global::com.refractored.Resource.Attribute.actionModeSelectAllDrawable = global::NavDrawer.Resource.Attribute.actionModeSelectAllDrawable;
+			global::com.refractored.Resource.Attribute.actionModeShareDrawable = global::NavDrawer.Resource.Attribute.actionModeShareDrawable;
+			global::com.refractored.Resource.Attribute.actionModeSplitBackground = global::NavDrawer.Resource.Attribute.actionModeSplitBackground;
+			global::com.refractored.Resource.Attribute.actionModeStyle = global::NavDrawer.Resource.Attribute.actionModeStyle;
+			global::com.refractored.Resource.Attribute.actionModeWebSearchDrawable = global::NavDrawer.Resource.Attribute.actionModeWebSearchDrawable;
+			global::com.refractored.Resource.Attribute.actionOverflowButtonStyle = global::NavDrawer.Resource.Attribute.actionOverflowButtonStyle;
+			global::com.refractored.Resource.Attribute.actionOverflowMenuStyle = global::NavDrawer.Resource.Attribute.actionOverflowMenuStyle;
+			global::com.refractored.Resource.Attribute.actionProviderClass = global::NavDrawer.Resource.Attribute.actionProviderClass;
+			global::com.refractored.Resource.Attribute.actionViewClass = global::NavDrawer.Resource.Attribute.actionViewClass;
+			global::com.refractored.Resource.Attribute.activityChooserViewStyle = global::NavDrawer.Resource.Attribute.activityChooserViewStyle;
+			global::com.refractored.Resource.Attribute.background = global::NavDrawer.Resource.Attribute.background;
+			global::com.refractored.Resource.Attribute.backgroundSplit = global::NavDrawer.Resource.Attribute.backgroundSplit;
+			global::com.refractored.Resource.Attribute.backgroundStacked = global::NavDrawer.Resource.Attribute.backgroundStacked;
+			global::com.refractored.Resource.Attribute.barSize = global::NavDrawer.Resource.Attribute.barSize;
+			global::com.refractored.Resource.Attribute.buttonBarButtonStyle = global::NavDrawer.Resource.Attribute.buttonBarButtonStyle;
+			global::com.refractored.Resource.Attribute.buttonBarStyle = global::NavDrawer.Resource.Attribute.buttonBarStyle;
+			global::com.refractored.Resource.Attribute.closeIcon = global::NavDrawer.Resource.Attribute.closeIcon;
+			global::com.refractored.Resource.Attribute.closeItemLayout = global::NavDrawer.Resource.Attribute.closeItemLayout;
+			global::com.refractored.Resource.Attribute.collapseContentDescription = global::NavDrawer.Resource.Attribute.collapseContentDescription;
+			global::com.refractored.Resource.Attribute.collapseIcon = global::NavDrawer.Resource.Attribute.collapseIcon;
+			global::com.refractored.Resource.Attribute.color = global::NavDrawer.Resource.Attribute.color;
+			global::com.refractored.Resource.Attribute.colorAccent = global::NavDrawer.Resource.Attribute.colorAccent;
+			global::com.refractored.Resource.Attribute.colorButtonNormal = global::NavDrawer.Resource.Attribute.colorButtonNormal;
+			global::com.refractored.Resource.Attribute.colorControlActivated = global::NavDrawer.Resource.Attribute.colorControlActivated;
+			global::com.refractored.Resource.Attribute.colorControlHighlight = global::NavDrawer.Resource.Attribute.colorControlHighlight;
+			global::com.refractored.Resource.Attribute.colorControlNormal = global::NavDrawer.Resource.Attribute.colorControlNormal;
+			global::com.refractored.Resource.Attribute.colorPrimary = global::NavDrawer.Resource.Attribute.colorPrimary;
+			global::com.refractored.Resource.Attribute.colorPrimaryDark = global::NavDrawer.Resource.Attribute.colorPrimaryDark;
+			global::com.refractored.Resource.Attribute.colorSwitchThumbNormal = global::NavDrawer.Resource.Attribute.colorSwitchThumbNormal;
+			global::com.refractored.Resource.Attribute.commitIcon = global::NavDrawer.Resource.Attribute.commitIcon;
+			global::com.refractored.Resource.Attribute.contentInsetEnd = global::NavDrawer.Resource.Attribute.contentInsetEnd;
+			global::com.refractored.Resource.Attribute.contentInsetLeft = global::NavDrawer.Resource.Attribute.contentInsetLeft;
+			global::com.refractored.Resource.Attribute.contentInsetRight = global::NavDrawer.Resource.Attribute.contentInsetRight;
+			global::com.refractored.Resource.Attribute.contentInsetStart = global::NavDrawer.Resource.Attribute.contentInsetStart;
+			global::com.refractored.Resource.Attribute.customNavigationLayout = global::NavDrawer.Resource.Attribute.customNavigationLayout;
+			global::com.refractored.Resource.Attribute.disableChildrenWhenDisabled = global::NavDrawer.Resource.Attribute.disableChildrenWhenDisabled;
+			global::com.refractored.Resource.Attribute.displayOptions = global::NavDrawer.Resource.Attribute.displayOptions;
+			global::com.refractored.Resource.Attribute.divider = global::NavDrawer.Resource.Attribute.divider;
+			global::com.refractored.Resource.Attribute.dividerHorizontal = global::NavDrawer.Resource.Attribute.dividerHorizontal;
+			global::com.refractored.Resource.Attribute.dividerPadding = global::NavDrawer.Resource.Attribute.dividerPadding;
+			global::com.refractored.Resource.Attribute.dividerVertical = global::NavDrawer.Resource.Attribute.dividerVertical;
+			global::com.refractored.Resource.Attribute.drawableSize = global::NavDrawer.Resource.Attribute.drawableSize;
+			global::com.refractored.Resource.Attribute.drawerArrowStyle = global::NavDrawer.Resource.Attribute.drawerArrowStyle;
+			global::com.refractored.Resource.Attribute.dropDownListViewStyle = global::NavDrawer.Resource.Attribute.dropDownListViewStyle;
+			global::com.refractored.Resource.Attribute.dropdownListPreferredItemHeight = global::NavDrawer.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::com.refractored.Resource.Attribute.editTextBackground = global::NavDrawer.Resource.Attribute.editTextBackground;
+			global::com.refractored.Resource.Attribute.editTextColor = global::NavDrawer.Resource.Attribute.editTextColor;
+			global::com.refractored.Resource.Attribute.elevation = global::NavDrawer.Resource.Attribute.elevation;
+			global::com.refractored.Resource.Attribute.expandActivityOverflowButtonDrawable = global::NavDrawer.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::com.refractored.Resource.Attribute.gapBetweenBars = global::NavDrawer.Resource.Attribute.gapBetweenBars;
+			global::com.refractored.Resource.Attribute.goIcon = global::NavDrawer.Resource.Attribute.goIcon;
+			global::com.refractored.Resource.Attribute.height = global::NavDrawer.Resource.Attribute.height;
+			global::com.refractored.Resource.Attribute.hideOnContentScroll = global::NavDrawer.Resource.Attribute.hideOnContentScroll;
+			global::com.refractored.Resource.Attribute.homeAsUpIndicator = global::NavDrawer.Resource.Attribute.homeAsUpIndicator;
+			global::com.refractored.Resource.Attribute.homeLayout = global::NavDrawer.Resource.Attribute.homeLayout;
+			global::com.refractored.Resource.Attribute.icon = global::NavDrawer.Resource.Attribute.icon;
+			global::com.refractored.Resource.Attribute.iconifiedByDefault = global::NavDrawer.Resource.Attribute.iconifiedByDefault;
+			global::com.refractored.Resource.Attribute.indeterminateProgressStyle = global::NavDrawer.Resource.Attribute.indeterminateProgressStyle;
+			global::com.refractored.Resource.Attribute.initialActivityCount = global::NavDrawer.Resource.Attribute.initialActivityCount;
+			global::com.refractored.Resource.Attribute.isLightTheme = global::NavDrawer.Resource.Attribute.isLightTheme;
+			global::com.refractored.Resource.Attribute.itemPadding = global::NavDrawer.Resource.Attribute.itemPadding;
+			global::com.refractored.Resource.Attribute.layout = global::NavDrawer.Resource.Attribute.layout;
+			global::com.refractored.Resource.Attribute.listChoiceBackgroundIndicator = global::NavDrawer.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::com.refractored.Resource.Attribute.listPopupWindowStyle = global::NavDrawer.Resource.Attribute.listPopupWindowStyle;
+			global::com.refractored.Resource.Attribute.listPreferredItemHeight = global::NavDrawer.Resource.Attribute.listPreferredItemHeight;
+			global::com.refractored.Resource.Attribute.listPreferredItemHeightLarge = global::NavDrawer.Resource.Attribute.listPreferredItemHeightLarge;
+			global::com.refractored.Resource.Attribute.listPreferredItemHeightSmall = global::NavDrawer.Resource.Attribute.listPreferredItemHeightSmall;
+			global::com.refractored.Resource.Attribute.listPreferredItemPaddingLeft = global::NavDrawer.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::com.refractored.Resource.Attribute.listPreferredItemPaddingRight = global::NavDrawer.Resource.Attribute.listPreferredItemPaddingRight;
+			global::com.refractored.Resource.Attribute.logo = global::NavDrawer.Resource.Attribute.logo;
+			global::com.refractored.Resource.Attribute.maxButtonHeight = global::NavDrawer.Resource.Attribute.maxButtonHeight;
+			global::com.refractored.Resource.Attribute.measureWithLargestChild = global::NavDrawer.Resource.Attribute.measureWithLargestChild;
+			global::com.refractored.Resource.Attribute.middleBarArrowSize = global::NavDrawer.Resource.Attribute.middleBarArrowSize;
+			global::com.refractored.Resource.Attribute.navigationContentDescription = global::NavDrawer.Resource.Attribute.navigationContentDescription;
+			global::com.refractored.Resource.Attribute.navigationIcon = global::NavDrawer.Resource.Attribute.navigationIcon;
+			global::com.refractored.Resource.Attribute.navigationMode = global::NavDrawer.Resource.Attribute.navigationMode;
+			global::com.refractored.Resource.Attribute.overlapAnchor = global::NavDrawer.Resource.Attribute.overlapAnchor;
+			global::com.refractored.Resource.Attribute.paddingEnd = global::NavDrawer.Resource.Attribute.paddingEnd;
+			global::com.refractored.Resource.Attribute.paddingStart = global::NavDrawer.Resource.Attribute.paddingStart;
+			global::com.refractored.Resource.Attribute.panelBackground = global::NavDrawer.Resource.Attribute.panelBackground;
+			global::com.refractored.Resource.Attribute.panelMenuListTheme = global::NavDrawer.Resource.Attribute.panelMenuListTheme;
+			global::com.refractored.Resource.Attribute.panelMenuListWidth = global::NavDrawer.Resource.Attribute.panelMenuListWidth;
+			global::com.refractored.Resource.Attribute.popupMenuStyle = global::NavDrawer.Resource.Attribute.popupMenuStyle;
+			global::com.refractored.Resource.Attribute.popupPromptView = global::NavDrawer.Resource.Attribute.popupPromptView;
+			global::com.refractored.Resource.Attribute.popupTheme = global::NavDrawer.Resource.Attribute.popupTheme;
+			global::com.refractored.Resource.Attribute.popupWindowStyle = global::NavDrawer.Resource.Attribute.popupWindowStyle;
+			global::com.refractored.Resource.Attribute.preserveIconSpacing = global::NavDrawer.Resource.Attribute.preserveIconSpacing;
+			global::com.refractored.Resource.Attribute.progressBarPadding = global::NavDrawer.Resource.Attribute.progressBarPadding;
+			global::com.refractored.Resource.Attribute.progressBarStyle = global::NavDrawer.Resource.Attribute.progressBarStyle;
+			global::com.refractored.Resource.Attribute.prompt = global::NavDrawer.Resource.Attribute.prompt;
+			global::com.refractored.Resource.Attribute.pstsDividerColor = global::NavDrawer.Resource.Attribute.pstsDividerColor;
+			global::com.refractored.Resource.Attribute.pstsDividerPadding = global::NavDrawer.Resource.Attribute.pstsDividerPadding;
+			global::com.refractored.Resource.Attribute.pstsDividerWidth = global::NavDrawer.Resource.Attribute.pstsDividerWidth;
+			global::com.refractored.Resource.Attribute.pstsIndicatorColor = global::NavDrawer.Resource.Attribute.pstsIndicatorColor;
+			global::com.refractored.Resource.Attribute.pstsIndicatorHeight = global::NavDrawer.Resource.Attribute.pstsIndicatorHeight;
+			global::com.refractored.Resource.Attribute.pstsPaddingMiddle = global::NavDrawer.Resource.Attribute.pstsPaddingMiddle;
+			global::com.refractored.Resource.Attribute.pstsScrollOffset = global::NavDrawer.Resource.Attribute.pstsScrollOffset;
+			global::com.refractored.Resource.Attribute.pstsShouldExpand = global::NavDrawer.Resource.Attribute.pstsShouldExpand;
+			global::com.refractored.Resource.Attribute.pstsTabBackground = global::NavDrawer.Resource.Attribute.pstsTabBackground;
+			global::com.refractored.Resource.Attribute.pstsTabPaddingLeftRight = global::NavDrawer.Resource.Attribute.pstsTabPaddingLeftRight;
+			global::com.refractored.Resource.Attribute.pstsTextAllCaps = global::NavDrawer.Resource.Attribute.pstsTextAllCaps;
+			global::com.refractored.Resource.Attribute.pstsTextAlpha = global::NavDrawer.Resource.Attribute.pstsTextAlpha;
+			global::com.refractored.Resource.Attribute.pstsTextSelectedAlpha = global::NavDrawer.Resource.Attribute.pstsTextSelectedAlpha;
+			global::com.refractored.Resource.Attribute.pstsTextSelectedStyle = global::NavDrawer.Resource.Attribute.pstsTextSelectedStyle;
+			global::com.refractored.Resource.Attribute.pstsTextStyle = global::NavDrawer.Resource.Attribute.pstsTextStyle;
+			global::com.refractored.Resource.Attribute.pstsUnderlineColor = global::NavDrawer.Resource.Attribute.pstsUnderlineColor;
+			global::com.refractored.Resource.Attribute.pstsUnderlineHeight = global::NavDrawer.Resource.Attribute.pstsUnderlineHeight;
+			global::com.refractored.Resource.Attribute.queryBackground = global::NavDrawer.Resource.Attribute.queryBackground;
+			global::com.refractored.Resource.Attribute.queryHint = global::NavDrawer.Resource.Attribute.queryHint;
+			global::com.refractored.Resource.Attribute.searchIcon = global::NavDrawer.Resource.Attribute.searchIcon;
+			global::com.refractored.Resource.Attribute.searchViewStyle = global::NavDrawer.Resource.Attribute.searchViewStyle;
+			global::com.refractored.Resource.Attribute.selectableItemBackground = global::NavDrawer.Resource.Attribute.selectableItemBackground;
+			global::com.refractored.Resource.Attribute.selectableItemBackgroundBorderless = global::NavDrawer.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::com.refractored.Resource.Attribute.showAsAction = global::NavDrawer.Resource.Attribute.showAsAction;
+			global::com.refractored.Resource.Attribute.showDividers = global::NavDrawer.Resource.Attribute.showDividers;
+			global::com.refractored.Resource.Attribute.showText = global::NavDrawer.Resource.Attribute.showText;
+			global::com.refractored.Resource.Attribute.spinBars = global::NavDrawer.Resource.Attribute.spinBars;
+			global::com.refractored.Resource.Attribute.spinnerDropDownItemStyle = global::NavDrawer.Resource.Attribute.spinnerDropDownItemStyle;
+			global::com.refractored.Resource.Attribute.spinnerMode = global::NavDrawer.Resource.Attribute.spinnerMode;
+			global::com.refractored.Resource.Attribute.spinnerStyle = global::NavDrawer.Resource.Attribute.spinnerStyle;
+			global::com.refractored.Resource.Attribute.splitTrack = global::NavDrawer.Resource.Attribute.splitTrack;
+			global::com.refractored.Resource.Attribute.state_above_anchor = global::NavDrawer.Resource.Attribute.state_above_anchor;
+			global::com.refractored.Resource.Attribute.submitBackground = global::NavDrawer.Resource.Attribute.submitBackground;
+			global::com.refractored.Resource.Attribute.subtitle = global::NavDrawer.Resource.Attribute.subtitle;
+			global::com.refractored.Resource.Attribute.subtitleTextAppearance = global::NavDrawer.Resource.Attribute.subtitleTextAppearance;
+			global::com.refractored.Resource.Attribute.subtitleTextStyle = global::NavDrawer.Resource.Attribute.subtitleTextStyle;
+			global::com.refractored.Resource.Attribute.suggestionRowLayout = global::NavDrawer.Resource.Attribute.suggestionRowLayout;
+			global::com.refractored.Resource.Attribute.switchMinWidth = global::NavDrawer.Resource.Attribute.switchMinWidth;
+			global::com.refractored.Resource.Attribute.switchPadding = global::NavDrawer.Resource.Attribute.switchPadding;
+			global::com.refractored.Resource.Attribute.switchStyle = global::NavDrawer.Resource.Attribute.switchStyle;
+			global::com.refractored.Resource.Attribute.switchTextAppearance = global::NavDrawer.Resource.Attribute.switchTextAppearance;
+			global::com.refractored.Resource.Attribute.textAllCaps = global::NavDrawer.Resource.Attribute.textAllCaps;
+			global::com.refractored.Resource.Attribute.textAppearanceLargePopupMenu = global::NavDrawer.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::com.refractored.Resource.Attribute.textAppearanceListItem = global::NavDrawer.Resource.Attribute.textAppearanceListItem;
+			global::com.refractored.Resource.Attribute.textAppearanceListItemSmall = global::NavDrawer.Resource.Attribute.textAppearanceListItemSmall;
+			global::com.refractored.Resource.Attribute.textAppearanceSearchResultSubtitle = global::NavDrawer.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::com.refractored.Resource.Attribute.textAppearanceSearchResultTitle = global::NavDrawer.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::com.refractored.Resource.Attribute.textAppearanceSmallPopupMenu = global::NavDrawer.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::com.refractored.Resource.Attribute.textColorSearchUrl = global::NavDrawer.Resource.Attribute.textColorSearchUrl;
+			global::com.refractored.Resource.Attribute.theme = global::NavDrawer.Resource.Attribute.theme;
+			global::com.refractored.Resource.Attribute.thickness = global::NavDrawer.Resource.Attribute.thickness;
+			global::com.refractored.Resource.Attribute.thumbTextPadding = global::NavDrawer.Resource.Attribute.thumbTextPadding;
+			global::com.refractored.Resource.Attribute.title = global::NavDrawer.Resource.Attribute.title;
+			global::com.refractored.Resource.Attribute.titleMarginBottom = global::NavDrawer.Resource.Attribute.titleMarginBottom;
+			global::com.refractored.Resource.Attribute.titleMarginEnd = global::NavDrawer.Resource.Attribute.titleMarginEnd;
+			global::com.refractored.Resource.Attribute.titleMarginStart = global::NavDrawer.Resource.Attribute.titleMarginStart;
+			global::com.refractored.Resource.Attribute.titleMarginTop = global::NavDrawer.Resource.Attribute.titleMarginTop;
+			global::com.refractored.Resource.Attribute.titleMargins = global::NavDrawer.Resource.Attribute.titleMargins;
+			global::com.refractored.Resource.Attribute.titleTextAppearance = global::NavDrawer.Resource.Attribute.titleTextAppearance;
+			global::com.refractored.Resource.Attribute.titleTextStyle = global::NavDrawer.Resource.Attribute.titleTextStyle;
+			global::com.refractored.Resource.Attribute.toolbarNavigationButtonStyle = global::NavDrawer.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::com.refractored.Resource.Attribute.toolbarStyle = global::NavDrawer.Resource.Attribute.toolbarStyle;
+			global::com.refractored.Resource.Attribute.topBottomBarArrowSize = global::NavDrawer.Resource.Attribute.topBottomBarArrowSize;
+			global::com.refractored.Resource.Attribute.track = global::NavDrawer.Resource.Attribute.track;
+			global::com.refractored.Resource.Attribute.voiceIcon = global::NavDrawer.Resource.Attribute.voiceIcon;
+			global::com.refractored.Resource.Attribute.windowActionBar = global::NavDrawer.Resource.Attribute.windowActionBar;
+			global::com.refractored.Resource.Attribute.windowActionBarOverlay = global::NavDrawer.Resource.Attribute.windowActionBarOverlay;
+			global::com.refractored.Resource.Attribute.windowActionModeOverlay = global::NavDrawer.Resource.Attribute.windowActionModeOverlay;
+			global::com.refractored.Resource.Attribute.windowFixedHeightMajor = global::NavDrawer.Resource.Attribute.windowFixedHeightMajor;
+			global::com.refractored.Resource.Attribute.windowFixedHeightMinor = global::NavDrawer.Resource.Attribute.windowFixedHeightMinor;
+			global::com.refractored.Resource.Attribute.windowFixedWidthMajor = global::NavDrawer.Resource.Attribute.windowFixedWidthMajor;
+			global::com.refractored.Resource.Attribute.windowFixedWidthMinor = global::NavDrawer.Resource.Attribute.windowFixedWidthMinor;
+			global::com.refractored.Resource.Boolean.abc_action_bar_embed_tabs = global::NavDrawer.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::com.refractored.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb = global::NavDrawer.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb;
+			global::com.refractored.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive = global::NavDrawer.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive;
+			global::com.refractored.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::NavDrawer.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::com.refractored.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon = global::NavDrawer.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon;
+			global::com.refractored.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::NavDrawer.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::com.refractored.Resource.Color.abc_background_cache_hint_selector_material_dark = global::NavDrawer.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::com.refractored.Resource.Color.abc_background_cache_hint_selector_material_light = global::NavDrawer.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::com.refractored.Resource.Color.abc_input_method_navigation_guard = global::NavDrawer.Resource.Color.abc_input_method_navigation_guard;
+			global::com.refractored.Resource.Color.abc_primary_text_disable_only_material_dark = global::NavDrawer.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::com.refractored.Resource.Color.abc_primary_text_disable_only_material_light = global::NavDrawer.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::com.refractored.Resource.Color.abc_primary_text_material_dark = global::NavDrawer.Resource.Color.abc_primary_text_material_dark;
+			global::com.refractored.Resource.Color.abc_primary_text_material_light = global::NavDrawer.Resource.Color.abc_primary_text_material_light;
+			global::com.refractored.Resource.Color.abc_search_url_text = global::NavDrawer.Resource.Color.abc_search_url_text;
+			global::com.refractored.Resource.Color.abc_search_url_text_normal = global::NavDrawer.Resource.Color.abc_search_url_text_normal;
+			global::com.refractored.Resource.Color.abc_search_url_text_pressed = global::NavDrawer.Resource.Color.abc_search_url_text_pressed;
+			global::com.refractored.Resource.Color.abc_search_url_text_selected = global::NavDrawer.Resource.Color.abc_search_url_text_selected;
+			global::com.refractored.Resource.Color.abc_secondary_text_material_dark = global::NavDrawer.Resource.Color.abc_secondary_text_material_dark;
+			global::com.refractored.Resource.Color.abc_secondary_text_material_light = global::NavDrawer.Resource.Color.abc_secondary_text_material_light;
+			global::com.refractored.Resource.Color.accent_material_dark = global::NavDrawer.Resource.Color.accent_material_dark;
+			global::com.refractored.Resource.Color.accent_material_light = global::NavDrawer.Resource.Color.accent_material_light;
+			global::com.refractored.Resource.Color.background_floating_material_dark = global::NavDrawer.Resource.Color.background_floating_material_dark;
+			global::com.refractored.Resource.Color.background_floating_material_light = global::NavDrawer.Resource.Color.background_floating_material_light;
+			global::com.refractored.Resource.Color.background_material_dark = global::NavDrawer.Resource.Color.background_material_dark;
+			global::com.refractored.Resource.Color.background_material_light = global::NavDrawer.Resource.Color.background_material_light;
+			global::com.refractored.Resource.Color.background_tab_pressed = global::NavDrawer.Resource.Color.background_tab_pressed;
+			global::com.refractored.Resource.Color.bright_foreground_disabled_material_dark = global::NavDrawer.Resource.Color.bright_foreground_disabled_material_dark;
+			global::com.refractored.Resource.Color.bright_foreground_disabled_material_light = global::NavDrawer.Resource.Color.bright_foreground_disabled_material_light;
+			global::com.refractored.Resource.Color.bright_foreground_inverse_material_dark = global::NavDrawer.Resource.Color.bright_foreground_inverse_material_dark;
+			global::com.refractored.Resource.Color.bright_foreground_inverse_material_light = global::NavDrawer.Resource.Color.bright_foreground_inverse_material_light;
+			global::com.refractored.Resource.Color.bright_foreground_material_dark = global::NavDrawer.Resource.Color.bright_foreground_material_dark;
+			global::com.refractored.Resource.Color.bright_foreground_material_light = global::NavDrawer.Resource.Color.bright_foreground_material_light;
+			global::com.refractored.Resource.Color.button_material_dark = global::NavDrawer.Resource.Color.button_material_dark;
+			global::com.refractored.Resource.Color.button_material_light = global::NavDrawer.Resource.Color.button_material_light;
+			global::com.refractored.Resource.Color.dim_foreground_disabled_material_dark = global::NavDrawer.Resource.Color.dim_foreground_disabled_material_dark;
+			global::com.refractored.Resource.Color.dim_foreground_disabled_material_light = global::NavDrawer.Resource.Color.dim_foreground_disabled_material_light;
+			global::com.refractored.Resource.Color.dim_foreground_material_dark = global::NavDrawer.Resource.Color.dim_foreground_material_dark;
+			global::com.refractored.Resource.Color.dim_foreground_material_light = global::NavDrawer.Resource.Color.dim_foreground_material_light;
+			global::com.refractored.Resource.Color.highlighted_text_material_dark = global::NavDrawer.Resource.Color.highlighted_text_material_dark;
+			global::com.refractored.Resource.Color.highlighted_text_material_light = global::NavDrawer.Resource.Color.highlighted_text_material_light;
+			global::com.refractored.Resource.Color.hint_foreground_material_dark = global::NavDrawer.Resource.Color.hint_foreground_material_dark;
+			global::com.refractored.Resource.Color.hint_foreground_material_light = global::NavDrawer.Resource.Color.hint_foreground_material_light;
+			global::com.refractored.Resource.Color.link_text_material_dark = global::NavDrawer.Resource.Color.link_text_material_dark;
+			global::com.refractored.Resource.Color.link_text_material_light = global::NavDrawer.Resource.Color.link_text_material_light;
+			global::com.refractored.Resource.Color.material_blue_grey_800 = global::NavDrawer.Resource.Color.material_blue_grey_800;
+			global::com.refractored.Resource.Color.material_blue_grey_900 = global::NavDrawer.Resource.Color.material_blue_grey_900;
+			global::com.refractored.Resource.Color.material_blue_grey_950 = global::NavDrawer.Resource.Color.material_blue_grey_950;
+			global::com.refractored.Resource.Color.material_deep_teal_200 = global::NavDrawer.Resource.Color.material_deep_teal_200;
+			global::com.refractored.Resource.Color.material_deep_teal_500 = global::NavDrawer.Resource.Color.material_deep_teal_500;
+			global::com.refractored.Resource.Color.primary_dark_material_dark = global::NavDrawer.Resource.Color.primary_dark_material_dark;
+			global::com.refractored.Resource.Color.primary_dark_material_light = global::NavDrawer.Resource.Color.primary_dark_material_light;
+			global::com.refractored.Resource.Color.primary_material_dark = global::NavDrawer.Resource.Color.primary_material_dark;
+			global::com.refractored.Resource.Color.primary_material_light = global::NavDrawer.Resource.Color.primary_material_light;
+			global::com.refractored.Resource.Color.primary_text_default_material_dark = global::NavDrawer.Resource.Color.primary_text_default_material_dark;
+			global::com.refractored.Resource.Color.primary_text_default_material_light = global::NavDrawer.Resource.Color.primary_text_default_material_light;
+			global::com.refractored.Resource.Color.primary_text_disabled_material_dark = global::NavDrawer.Resource.Color.primary_text_disabled_material_dark;
+			global::com.refractored.Resource.Color.primary_text_disabled_material_light = global::NavDrawer.Resource.Color.primary_text_disabled_material_light;
+			global::com.refractored.Resource.Color.ripple_material_dark = global::NavDrawer.Resource.Color.ripple_material_dark;
+			global::com.refractored.Resource.Color.ripple_material_light = global::NavDrawer.Resource.Color.ripple_material_light;
+			global::com.refractored.Resource.Color.secondary_text_default_material_dark = global::NavDrawer.Resource.Color.secondary_text_default_material_dark;
+			global::com.refractored.Resource.Color.secondary_text_default_material_light = global::NavDrawer.Resource.Color.secondary_text_default_material_light;
+			global::com.refractored.Resource.Color.secondary_text_disabled_material_dark = global::NavDrawer.Resource.Color.secondary_text_disabled_material_dark;
+			global::com.refractored.Resource.Color.secondary_text_disabled_material_light = global::NavDrawer.Resource.Color.secondary_text_disabled_material_light;
+			global::com.refractored.Resource.Color.switch_thumb_normal_material_dark = global::NavDrawer.Resource.Color.switch_thumb_normal_material_dark;
+			global::com.refractored.Resource.Color.switch_thumb_normal_material_light = global::NavDrawer.Resource.Color.switch_thumb_normal_material_light;
+			global::com.refractored.Resource.Dimension.abc_action_bar_default_height_material = global::NavDrawer.Resource.Dimension.abc_action_bar_default_height_material;
+			global::com.refractored.Resource.Dimension.abc_action_bar_default_padding_material = global::NavDrawer.Resource.Dimension.abc_action_bar_default_padding_material;
+			global::com.refractored.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::NavDrawer.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::com.refractored.Resource.Dimension.abc_action_bar_progress_bar_size = global::NavDrawer.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::com.refractored.Resource.Dimension.abc_action_bar_stacked_max_height = global::NavDrawer.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::com.refractored.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::NavDrawer.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::com.refractored.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::NavDrawer.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::com.refractored.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::NavDrawer.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::com.refractored.Resource.Dimension.abc_action_button_min_height_material = global::NavDrawer.Resource.Dimension.abc_action_button_min_height_material;
+			global::com.refractored.Resource.Dimension.abc_action_button_min_width_material = global::NavDrawer.Resource.Dimension.abc_action_button_min_width_material;
+			global::com.refractored.Resource.Dimension.abc_action_button_min_width_overflow_material = global::NavDrawer.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::com.refractored.Resource.Dimension.abc_config_prefDialogWidth = global::NavDrawer.Resource.Dimension.abc_config_prefDialogWidth;
+			global::com.refractored.Resource.Dimension.abc_control_inset_material = global::NavDrawer.Resource.Dimension.abc_control_inset_material;
+			global::com.refractored.Resource.Dimension.abc_control_padding_material = global::NavDrawer.Resource.Dimension.abc_control_padding_material;
+			global::com.refractored.Resource.Dimension.abc_dropdownitem_icon_width = global::NavDrawer.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::com.refractored.Resource.Dimension.abc_dropdownitem_text_padding_left = global::NavDrawer.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::com.refractored.Resource.Dimension.abc_dropdownitem_text_padding_right = global::NavDrawer.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::com.refractored.Resource.Dimension.abc_panel_menu_list_width = global::NavDrawer.Resource.Dimension.abc_panel_menu_list_width;
+			global::com.refractored.Resource.Dimension.abc_search_view_preferred_width = global::NavDrawer.Resource.Dimension.abc_search_view_preferred_width;
+			global::com.refractored.Resource.Dimension.abc_search_view_text_min_width = global::NavDrawer.Resource.Dimension.abc_search_view_text_min_width;
+			global::com.refractored.Resource.Dimension.abc_text_size_body_1_material = global::NavDrawer.Resource.Dimension.abc_text_size_body_1_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_body_2_material = global::NavDrawer.Resource.Dimension.abc_text_size_body_2_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_button_material = global::NavDrawer.Resource.Dimension.abc_text_size_button_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_caption_material = global::NavDrawer.Resource.Dimension.abc_text_size_caption_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_display_1_material = global::NavDrawer.Resource.Dimension.abc_text_size_display_1_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_display_2_material = global::NavDrawer.Resource.Dimension.abc_text_size_display_2_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_display_3_material = global::NavDrawer.Resource.Dimension.abc_text_size_display_3_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_display_4_material = global::NavDrawer.Resource.Dimension.abc_text_size_display_4_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_headline_material = global::NavDrawer.Resource.Dimension.abc_text_size_headline_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_large_material = global::NavDrawer.Resource.Dimension.abc_text_size_large_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_medium_material = global::NavDrawer.Resource.Dimension.abc_text_size_medium_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_menu_material = global::NavDrawer.Resource.Dimension.abc_text_size_menu_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_small_material = global::NavDrawer.Resource.Dimension.abc_text_size_small_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_subhead_material = global::NavDrawer.Resource.Dimension.abc_text_size_subhead_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::NavDrawer.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::com.refractored.Resource.Dimension.abc_text_size_title_material = global::NavDrawer.Resource.Dimension.abc_text_size_title_material;
+			global::com.refractored.Resource.Dimension.abc_text_size_title_material_toolbar = global::NavDrawer.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::com.refractored.Resource.Dimension.dialog_fixed_height_major = global::NavDrawer.Resource.Dimension.dialog_fixed_height_major;
+			global::com.refractored.Resource.Dimension.dialog_fixed_height_minor = global::NavDrawer.Resource.Dimension.dialog_fixed_height_minor;
+			global::com.refractored.Resource.Dimension.dialog_fixed_width_major = global::NavDrawer.Resource.Dimension.dialog_fixed_width_major;
+			global::com.refractored.Resource.Dimension.dialog_fixed_width_minor = global::NavDrawer.Resource.Dimension.dialog_fixed_width_minor;
+			global::com.refractored.Resource.Dimension.disabled_alpha_material_dark = global::NavDrawer.Resource.Dimension.disabled_alpha_material_dark;
+			global::com.refractored.Resource.Dimension.disabled_alpha_material_light = global::NavDrawer.Resource.Dimension.disabled_alpha_material_light;
+			global::com.refractored.Resource.Drawable.abc_ab_share_pack_holo_dark = global::NavDrawer.Resource.Drawable.abc_ab_share_pack_holo_dark;
+			global::com.refractored.Resource.Drawable.abc_ab_share_pack_holo_light = global::NavDrawer.Resource.Drawable.abc_ab_share_pack_holo_light;
+			global::com.refractored.Resource.Drawable.abc_btn_check_material = global::NavDrawer.Resource.Drawable.abc_btn_check_material;
+			global::com.refractored.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::NavDrawer.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::com.refractored.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::NavDrawer.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::com.refractored.Resource.Drawable.abc_btn_radio_material = global::NavDrawer.Resource.Drawable.abc_btn_radio_material;
+			global::com.refractored.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::NavDrawer.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::com.refractored.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::NavDrawer.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::com.refractored.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::NavDrawer.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::com.refractored.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::NavDrawer.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::com.refractored.Resource.Drawable.abc_cab_background_internal_bg = global::NavDrawer.Resource.Drawable.abc_cab_background_internal_bg;
+			global::com.refractored.Resource.Drawable.abc_cab_background_top_material = global::NavDrawer.Resource.Drawable.abc_cab_background_top_material;
+			global::com.refractored.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::NavDrawer.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_edit_text_material = global::NavDrawer.Resource.Drawable.abc_edit_text_material;
+			global::com.refractored.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha = global::NavDrawer.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha;
+			global::com.refractored.Resource.Drawable.abc_ic_clear_mtrl_alpha = global::NavDrawer.Resource.Drawable.abc_ic_clear_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::NavDrawer.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha = global::NavDrawer.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::NavDrawer.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::com.refractored.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::NavDrawer.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha = global::NavDrawer.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::NavDrawer.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::com.refractored.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::NavDrawer.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::NavDrawer.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_ic_search_api_mtrl_alpha = global::NavDrawer.Resource.Drawable.abc_ic_search_api_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha = global::NavDrawer.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_item_background_holo_dark = global::NavDrawer.Resource.Drawable.abc_item_background_holo_dark;
+			global::com.refractored.Resource.Drawable.abc_item_background_holo_light = global::NavDrawer.Resource.Drawable.abc_item_background_holo_light;
+			global::com.refractored.Resource.Drawable.abc_list_divider_mtrl_alpha = global::NavDrawer.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_list_focused_holo = global::NavDrawer.Resource.Drawable.abc_list_focused_holo;
+			global::com.refractored.Resource.Drawable.abc_list_longpressed_holo = global::NavDrawer.Resource.Drawable.abc_list_longpressed_holo;
+			global::com.refractored.Resource.Drawable.abc_list_pressed_holo_dark = global::NavDrawer.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::com.refractored.Resource.Drawable.abc_list_pressed_holo_light = global::NavDrawer.Resource.Drawable.abc_list_pressed_holo_light;
+			global::com.refractored.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::NavDrawer.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::com.refractored.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::NavDrawer.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::com.refractored.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::NavDrawer.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::com.refractored.Resource.Drawable.abc_list_selector_disabled_holo_light = global::NavDrawer.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::com.refractored.Resource.Drawable.abc_list_selector_holo_dark = global::NavDrawer.Resource.Drawable.abc_list_selector_holo_dark;
+			global::com.refractored.Resource.Drawable.abc_list_selector_holo_light = global::NavDrawer.Resource.Drawable.abc_list_selector_holo_light;
+			global::com.refractored.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::NavDrawer.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::com.refractored.Resource.Drawable.abc_popup_background_mtrl_mult = global::NavDrawer.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::com.refractored.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::NavDrawer.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::com.refractored.Resource.Drawable.abc_switch_thumb_material = global::NavDrawer.Resource.Drawable.abc_switch_thumb_material;
+			global::com.refractored.Resource.Drawable.abc_switch_track_mtrl_alpha = global::NavDrawer.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_tab_indicator_material = global::NavDrawer.Resource.Drawable.abc_tab_indicator_material;
+			global::com.refractored.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::NavDrawer.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::NavDrawer.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::NavDrawer.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::NavDrawer.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::NavDrawer.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::com.refractored.Resource.Drawable.abc_textfield_search_material = global::NavDrawer.Resource.Drawable.abc_textfield_search_material;
+			global::com.refractored.Resource.Drawable.background_tab = global::NavDrawer.Resource.Drawable.background_tab;
+			global::com.refractored.Resource.Id.action_bar = global::NavDrawer.Resource.Id.action_bar;
+			global::com.refractored.Resource.Id.action_bar_activity_content = global::NavDrawer.Resource.Id.action_bar_activity_content;
+			global::com.refractored.Resource.Id.action_bar_container = global::NavDrawer.Resource.Id.action_bar_container;
+			global::com.refractored.Resource.Id.action_bar_root = global::NavDrawer.Resource.Id.action_bar_root;
+			global::com.refractored.Resource.Id.action_bar_spinner = global::NavDrawer.Resource.Id.action_bar_spinner;
+			global::com.refractored.Resource.Id.action_bar_subtitle = global::NavDrawer.Resource.Id.action_bar_subtitle;
+			global::com.refractored.Resource.Id.action_bar_title = global::NavDrawer.Resource.Id.action_bar_title;
+			global::com.refractored.Resource.Id.action_context_bar = global::NavDrawer.Resource.Id.action_context_bar;
+			global::com.refractored.Resource.Id.action_menu_divider = global::NavDrawer.Resource.Id.action_menu_divider;
+			global::com.refractored.Resource.Id.action_menu_presenter = global::NavDrawer.Resource.Id.action_menu_presenter;
+			global::com.refractored.Resource.Id.action_mode_bar = global::NavDrawer.Resource.Id.action_mode_bar;
+			global::com.refractored.Resource.Id.action_mode_bar_stub = global::NavDrawer.Resource.Id.action_mode_bar_stub;
+			global::com.refractored.Resource.Id.action_mode_close_button = global::NavDrawer.Resource.Id.action_mode_close_button;
+			global::com.refractored.Resource.Id.activity_chooser_view_content = global::NavDrawer.Resource.Id.activity_chooser_view_content;
+			global::com.refractored.Resource.Id.always = global::NavDrawer.Resource.Id.always;
+			global::com.refractored.Resource.Id.beginning = global::NavDrawer.Resource.Id.beginning;
+			global::com.refractored.Resource.Id.bold = global::NavDrawer.Resource.Id.bold;
+			global::com.refractored.Resource.Id.checkbox = global::NavDrawer.Resource.Id.checkbox;
+			global::com.refractored.Resource.Id.collapseActionView = global::NavDrawer.Resource.Id.collapseActionView;
+			global::com.refractored.Resource.Id.decor_content_parent = global::NavDrawer.Resource.Id.decor_content_parent;
+			global::com.refractored.Resource.Id.default_activity_button = global::NavDrawer.Resource.Id.default_activity_button;
+			global::com.refractored.Resource.Id.dialog = global::NavDrawer.Resource.Id.dialog;
+			global::com.refractored.Resource.Id.disableHome = global::NavDrawer.Resource.Id.disableHome;
+			global::com.refractored.Resource.Id.dropdown = global::NavDrawer.Resource.Id.dropdown;
+			global::com.refractored.Resource.Id.edit_query = global::NavDrawer.Resource.Id.edit_query;
+			global::com.refractored.Resource.Id.end = global::NavDrawer.Resource.Id.end;
+			global::com.refractored.Resource.Id.expand_activities_button = global::NavDrawer.Resource.Id.expand_activities_button;
+			global::com.refractored.Resource.Id.expanded_menu = global::NavDrawer.Resource.Id.expanded_menu;
+			global::com.refractored.Resource.Id.home = global::NavDrawer.Resource.Id.home;
+			global::com.refractored.Resource.Id.homeAsUp = global::NavDrawer.Resource.Id.homeAsUp;
+			global::com.refractored.Resource.Id.icon = global::NavDrawer.Resource.Id.icon;
+			global::com.refractored.Resource.Id.ifRoom = global::NavDrawer.Resource.Id.ifRoom;
+			global::com.refractored.Resource.Id.image = global::NavDrawer.Resource.Id.image;
+			global::com.refractored.Resource.Id.italic = global::NavDrawer.Resource.Id.italic;
+			global::com.refractored.Resource.Id.listMode = global::NavDrawer.Resource.Id.listMode;
+			global::com.refractored.Resource.Id.list_item = global::NavDrawer.Resource.Id.list_item;
+			global::com.refractored.Resource.Id.middle = global::NavDrawer.Resource.Id.middle;
+			global::com.refractored.Resource.Id.never = global::NavDrawer.Resource.Id.never;
+			global::com.refractored.Resource.Id.none = global::NavDrawer.Resource.Id.none;
+			global::com.refractored.Resource.Id.normal = global::NavDrawer.Resource.Id.normal;
+			global::com.refractored.Resource.Id.progress_circular = global::NavDrawer.Resource.Id.progress_circular;
+			global::com.refractored.Resource.Id.progress_horizontal = global::NavDrawer.Resource.Id.progress_horizontal;
+			global::com.refractored.Resource.Id.radio = global::NavDrawer.Resource.Id.radio;
+			global::com.refractored.Resource.Id.search_badge = global::NavDrawer.Resource.Id.search_badge;
+			global::com.refractored.Resource.Id.search_bar = global::NavDrawer.Resource.Id.search_bar;
+			global::com.refractored.Resource.Id.search_button = global::NavDrawer.Resource.Id.search_button;
+			global::com.refractored.Resource.Id.search_close_btn = global::NavDrawer.Resource.Id.search_close_btn;
+			global::com.refractored.Resource.Id.search_edit_frame = global::NavDrawer.Resource.Id.search_edit_frame;
+			global::com.refractored.Resource.Id.search_go_btn = global::NavDrawer.Resource.Id.search_go_btn;
+			global::com.refractored.Resource.Id.search_mag_icon = global::NavDrawer.Resource.Id.search_mag_icon;
+			global::com.refractored.Resource.Id.search_plate = global::NavDrawer.Resource.Id.search_plate;
+			global::com.refractored.Resource.Id.search_src_text = global::NavDrawer.Resource.Id.search_src_text;
+			global::com.refractored.Resource.Id.search_voice_btn = global::NavDrawer.Resource.Id.search_voice_btn;
+			global::com.refractored.Resource.Id.shortcut = global::NavDrawer.Resource.Id.shortcut;
+			global::com.refractored.Resource.Id.showCustom = global::NavDrawer.Resource.Id.showCustom;
+			global::com.refractored.Resource.Id.showHome = global::NavDrawer.Resource.Id.showHome;
+			global::com.refractored.Resource.Id.showTitle = global::NavDrawer.Resource.Id.showTitle;
+			global::com.refractored.Resource.Id.split_action_bar = global::NavDrawer.Resource.Id.split_action_bar;
+			global::com.refractored.Resource.Id.submit_area = global::NavDrawer.Resource.Id.submit_area;
+			global::com.refractored.Resource.Id.tabMode = global::NavDrawer.Resource.Id.tabMode;
+			global::com.refractored.Resource.Id.tab_title = global::NavDrawer.Resource.Id.tab_title;
+			global::com.refractored.Resource.Id.title = global::NavDrawer.Resource.Id.title;
+			global::com.refractored.Resource.Id.up = global::NavDrawer.Resource.Id.up;
+			global::com.refractored.Resource.Id.useLogo = global::NavDrawer.Resource.Id.useLogo;
+			global::com.refractored.Resource.Id.withText = global::NavDrawer.Resource.Id.withText;
+			global::com.refractored.Resource.Id.wrap_content = global::NavDrawer.Resource.Id.wrap_content;
+			global::com.refractored.Resource.Integer.abc_max_action_buttons = global::NavDrawer.Resource.Integer.abc_max_action_buttons;
+			global::com.refractored.Resource.Layout.abc_action_bar_title_item = global::NavDrawer.Resource.Layout.abc_action_bar_title_item;
+			global::com.refractored.Resource.Layout.abc_action_bar_up_container = global::NavDrawer.Resource.Layout.abc_action_bar_up_container;
+			global::com.refractored.Resource.Layout.abc_action_bar_view_list_nav_layout = global::NavDrawer.Resource.Layout.abc_action_bar_view_list_nav_layout;
+			global::com.refractored.Resource.Layout.abc_action_menu_item_layout = global::NavDrawer.Resource.Layout.abc_action_menu_item_layout;
+			global::com.refractored.Resource.Layout.abc_action_menu_layout = global::NavDrawer.Resource.Layout.abc_action_menu_layout;
+			global::com.refractored.Resource.Layout.abc_action_mode_bar = global::NavDrawer.Resource.Layout.abc_action_mode_bar;
+			global::com.refractored.Resource.Layout.abc_action_mode_close_item_material = global::NavDrawer.Resource.Layout.abc_action_mode_close_item_material;
+			global::com.refractored.Resource.Layout.abc_activity_chooser_view = global::NavDrawer.Resource.Layout.abc_activity_chooser_view;
+			global::com.refractored.Resource.Layout.abc_activity_chooser_view_include = global::NavDrawer.Resource.Layout.abc_activity_chooser_view_include;
+			global::com.refractored.Resource.Layout.abc_activity_chooser_view_list_item = global::NavDrawer.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::com.refractored.Resource.Layout.abc_expanded_menu_layout = global::NavDrawer.Resource.Layout.abc_expanded_menu_layout;
+			global::com.refractored.Resource.Layout.abc_list_menu_item_checkbox = global::NavDrawer.Resource.Layout.abc_list_menu_item_checkbox;
+			global::com.refractored.Resource.Layout.abc_list_menu_item_icon = global::NavDrawer.Resource.Layout.abc_list_menu_item_icon;
+			global::com.refractored.Resource.Layout.abc_list_menu_item_layout = global::NavDrawer.Resource.Layout.abc_list_menu_item_layout;
+			global::com.refractored.Resource.Layout.abc_list_menu_item_radio = global::NavDrawer.Resource.Layout.abc_list_menu_item_radio;
+			global::com.refractored.Resource.Layout.abc_popup_menu_item_layout = global::NavDrawer.Resource.Layout.abc_popup_menu_item_layout;
+			global::com.refractored.Resource.Layout.abc_screen_content_include = global::NavDrawer.Resource.Layout.abc_screen_content_include;
+			global::com.refractored.Resource.Layout.abc_screen_simple = global::NavDrawer.Resource.Layout.abc_screen_simple;
+			global::com.refractored.Resource.Layout.abc_screen_simple_overlay_action_mode = global::NavDrawer.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::com.refractored.Resource.Layout.abc_screen_toolbar = global::NavDrawer.Resource.Layout.abc_screen_toolbar;
+			global::com.refractored.Resource.Layout.abc_search_dropdown_item_icons_2line = global::NavDrawer.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::com.refractored.Resource.Layout.abc_search_view = global::NavDrawer.Resource.Layout.abc_search_view;
+			global::com.refractored.Resource.Layout.abc_simple_dropdown_hint = global::NavDrawer.Resource.Layout.abc_simple_dropdown_hint;
+			global::com.refractored.Resource.Layout.support_simple_spinner_dropdown_item = global::NavDrawer.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::com.refractored.Resource.Layout.tab = global::NavDrawer.Resource.Layout.tab;
+			global::com.refractored.Resource.String.abc_action_bar_home_description = global::NavDrawer.Resource.String.abc_action_bar_home_description;
+			global::com.refractored.Resource.String.abc_action_bar_home_description_format = global::NavDrawer.Resource.String.abc_action_bar_home_description_format;
+			global::com.refractored.Resource.String.abc_action_bar_home_subtitle_description_format = global::NavDrawer.Resource.String.abc_action_bar_home_subtitle_description_format;
+			global::com.refractored.Resource.String.abc_action_bar_up_description = global::NavDrawer.Resource.String.abc_action_bar_up_description;
+			global::com.refractored.Resource.String.abc_action_menu_overflow_description = global::NavDrawer.Resource.String.abc_action_menu_overflow_description;
+			global::com.refractored.Resource.String.abc_action_mode_done = global::NavDrawer.Resource.String.abc_action_mode_done;
+			global::com.refractored.Resource.String.abc_activity_chooser_view_see_all = global::NavDrawer.Resource.String.abc_activity_chooser_view_see_all;
+			global::com.refractored.Resource.String.abc_activitychooserview_choose_application = global::NavDrawer.Resource.String.abc_activitychooserview_choose_application;
+			global::com.refractored.Resource.String.abc_searchview_description_clear = global::NavDrawer.Resource.String.abc_searchview_description_clear;
+			global::com.refractored.Resource.String.abc_searchview_description_query = global::NavDrawer.Resource.String.abc_searchview_description_query;
+			global::com.refractored.Resource.String.abc_searchview_description_search = global::NavDrawer.Resource.String.abc_searchview_description_search;
+			global::com.refractored.Resource.String.abc_searchview_description_submit = global::NavDrawer.Resource.String.abc_searchview_description_submit;
+			global::com.refractored.Resource.String.abc_searchview_description_voice = global::NavDrawer.Resource.String.abc_searchview_description_voice;
+			global::com.refractored.Resource.String.abc_shareactionprovider_share_with = global::NavDrawer.Resource.String.abc_shareactionprovider_share_with;
+			global::com.refractored.Resource.String.abc_shareactionprovider_share_with_application = global::NavDrawer.Resource.String.abc_shareactionprovider_share_with_application;
+			global::com.refractored.Resource.String.abc_toolbar_collapse_description = global::NavDrawer.Resource.String.abc_toolbar_collapse_description;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat = global::NavDrawer.Resource.Style.Base_TextAppearance_AppCompat;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::NavDrawer.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::NavDrawer.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Button = global::NavDrawer.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::NavDrawer.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::NavDrawer.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::NavDrawer.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::NavDrawer.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::NavDrawer.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::NavDrawer.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::NavDrawer.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Large = global::NavDrawer.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::NavDrawer.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::NavDrawer.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::NavDrawer.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::NavDrawer.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::NavDrawer.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::NavDrawer.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::NavDrawer.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::NavDrawer.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::NavDrawer.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Small = global::NavDrawer.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::NavDrawer.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::NavDrawer.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::NavDrawer.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Title = global::NavDrawer.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::NavDrawer.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::NavDrawer.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::NavDrawer.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::NavDrawer.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::NavDrawer.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::NavDrawer.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::NavDrawer.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::NavDrawer.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::NavDrawer.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::NavDrawer.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::NavDrawer.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::com.refractored.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::NavDrawer.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::com.refractored.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::NavDrawer.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::com.refractored.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::NavDrawer.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::com.refractored.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::NavDrawer.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat = global::NavDrawer.Resource.Style.Base_Theme_AppCompat;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::NavDrawer.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat_Dialog = global::NavDrawer.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::NavDrawer.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::NavDrawer.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat_Light = global::NavDrawer.Resource.Style.Base_Theme_AppCompat_Light;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::NavDrawer.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::NavDrawer.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::NavDrawer.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::com.refractored.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::NavDrawer.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::com.refractored.Resource.Style.Base_ThemeOverlay_AppCompat = global::NavDrawer.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::com.refractored.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::NavDrawer.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::com.refractored.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::NavDrawer.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::com.refractored.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::NavDrawer.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::com.refractored.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::NavDrawer.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::com.refractored.Resource.Style.Base_V11_Theme_AppCompat = global::NavDrawer.Resource.Style.Base_V11_Theme_AppCompat;
+			global::com.refractored.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::NavDrawer.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::com.refractored.Resource.Style.Base_V11_Theme_AppCompat_Light = global::NavDrawer.Resource.Style.Base_V11_Theme_AppCompat_Light;
+			global::com.refractored.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::NavDrawer.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::com.refractored.Resource.Style.Base_V14_Theme_AppCompat = global::NavDrawer.Resource.Style.Base_V14_Theme_AppCompat;
+			global::com.refractored.Resource.Style.Base_V14_Theme_AppCompat_Dialog = global::NavDrawer.Resource.Style.Base_V14_Theme_AppCompat_Dialog;
+			global::com.refractored.Resource.Style.Base_V14_Theme_AppCompat_Light = global::NavDrawer.Resource.Style.Base_V14_Theme_AppCompat_Light;
+			global::com.refractored.Resource.Style.Base_V14_Theme_AppCompat_Light_Dialog = global::NavDrawer.Resource.Style.Base_V14_Theme_AppCompat_Light_Dialog;
+			global::com.refractored.Resource.Style.Base_V21_Theme_AppCompat = global::NavDrawer.Resource.Style.Base_V21_Theme_AppCompat;
+			global::com.refractored.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::NavDrawer.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::com.refractored.Resource.Style.Base_V21_Theme_AppCompat_Light = global::NavDrawer.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::com.refractored.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::NavDrawer.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::com.refractored.Resource.Style.Base_V7_Theme_AppCompat = global::NavDrawer.Resource.Style.Base_V7_Theme_AppCompat;
+			global::com.refractored.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::NavDrawer.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::com.refractored.Resource.Style.Base_V7_Theme_AppCompat_Light = global::NavDrawer.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActionBar = global::NavDrawer.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::NavDrawer.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::NavDrawer.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::NavDrawer.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::NavDrawer.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActionButton = global::NavDrawer.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::NavDrawer.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::NavDrawer.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActionMode = global::NavDrawer.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::NavDrawer.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::NavDrawer.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::NavDrawer.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::NavDrawer.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::NavDrawer.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_EditText = global::NavDrawer.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::NavDrawer.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::NavDrawer.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::NavDrawer.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::NavDrawer.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::NavDrawer.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::NavDrawer.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Light_ActivityChooserView = global::NavDrawer.Resource.Style.Base_Widget_AppCompat_Light_ActivityChooserView;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Light_AutoCompleteTextView = global::NavDrawer.Resource.Style.Base_Widget_AppCompat_Light_AutoCompleteTextView;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::NavDrawer.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::NavDrawer.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::NavDrawer.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::NavDrawer.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::NavDrawer.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::NavDrawer.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::NavDrawer.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::NavDrawer.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::NavDrawer.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::NavDrawer.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_SearchView = global::NavDrawer.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Spinner = global::NavDrawer.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Spinner_DropDown_ActionBar = global::NavDrawer.Resource.Style.Base_Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Toolbar = global::NavDrawer.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::com.refractored.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::NavDrawer.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::com.refractored.Resource.Style.Platform_AppCompat = global::NavDrawer.Resource.Style.Platform_AppCompat;
+			global::com.refractored.Resource.Style.Platform_AppCompat_Dialog = global::NavDrawer.Resource.Style.Platform_AppCompat_Dialog;
+			global::com.refractored.Resource.Style.Platform_AppCompat_Light = global::NavDrawer.Resource.Style.Platform_AppCompat_Light;
+			global::com.refractored.Resource.Style.Platform_AppCompat_Light_Dialog = global::NavDrawer.Resource.Style.Platform_AppCompat_Light_Dialog;
+			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::NavDrawer.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_ActionButton_CloseMode = global::NavDrawer.Resource.Style.RtlOverlay_Widget_AppCompat_ActionButton_CloseMode;
+			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_ActionButton_Overflow = global::NavDrawer.Resource.Style.RtlOverlay_Widget_AppCompat_ActionButton_Overflow;
+			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::NavDrawer.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::NavDrawer.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::NavDrawer.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::NavDrawer.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::NavDrawer.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::NavDrawer.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::NavDrawer.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::NavDrawer.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::com.refractored.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::NavDrawer.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat = global::NavDrawer.Resource.Style.TextAppearance_AppCompat;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Body1 = global::NavDrawer.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Body2 = global::NavDrawer.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Button = global::NavDrawer.Resource.Style.TextAppearance_AppCompat_Button;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Caption = global::NavDrawer.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Display1 = global::NavDrawer.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Display2 = global::NavDrawer.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Display3 = global::NavDrawer.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Display4 = global::NavDrawer.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Headline = global::NavDrawer.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Inverse = global::NavDrawer.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Large = global::NavDrawer.Resource.Style.TextAppearance_AppCompat_Large;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::NavDrawer.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::NavDrawer.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::NavDrawer.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::NavDrawer.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::NavDrawer.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Medium = global::NavDrawer.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::NavDrawer.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Menu = global::NavDrawer.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::NavDrawer.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::NavDrawer.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Small = global::NavDrawer.Resource.Style.TextAppearance_AppCompat_Small;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::NavDrawer.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Subhead = global::NavDrawer.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::NavDrawer.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Title = global::NavDrawer.Resource.Style.TextAppearance_AppCompat_Title;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::NavDrawer.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::NavDrawer.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::NavDrawer.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::NavDrawer.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::NavDrawer.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::NavDrawer.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::NavDrawer.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::NavDrawer.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::NavDrawer.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::NavDrawer.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::NavDrawer.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::NavDrawer.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::NavDrawer.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::com.refractored.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::NavDrawer.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::com.refractored.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::NavDrawer.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::com.refractored.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::NavDrawer.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::com.refractored.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::NavDrawer.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::com.refractored.Resource.Style.Theme_AppCompat = global::NavDrawer.Resource.Style.Theme_AppCompat;
+			global::com.refractored.Resource.Style.Theme_AppCompat_CompactMenu = global::NavDrawer.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::com.refractored.Resource.Style.Theme_AppCompat_Dialog = global::NavDrawer.Resource.Style.Theme_AppCompat_Dialog;
+			global::com.refractored.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::NavDrawer.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::com.refractored.Resource.Style.Theme_AppCompat_Light = global::NavDrawer.Resource.Style.Theme_AppCompat_Light;
+			global::com.refractored.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::NavDrawer.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::com.refractored.Resource.Style.Theme_AppCompat_Light_Dialog = global::NavDrawer.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::com.refractored.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::NavDrawer.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::com.refractored.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::NavDrawer.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::com.refractored.Resource.Style.Theme_AppCompat_NoActionBar = global::NavDrawer.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::com.refractored.Resource.Style.ThemeOverlay_AppCompat = global::NavDrawer.Resource.Style.ThemeOverlay_AppCompat;
+			global::com.refractored.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::NavDrawer.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::com.refractored.Resource.Style.ThemeOverlay_AppCompat_Dark = global::NavDrawer.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::com.refractored.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::NavDrawer.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::com.refractored.Resource.Style.ThemeOverlay_AppCompat_Light = global::NavDrawer.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ActionBar = global::NavDrawer.Resource.Style.Widget_AppCompat_ActionBar;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::NavDrawer.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::NavDrawer.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::NavDrawer.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::NavDrawer.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ActionButton = global::NavDrawer.Resource.Style.Widget_AppCompat_ActionButton;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::NavDrawer.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::NavDrawer.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ActionMode = global::NavDrawer.Resource.Style.Widget_AppCompat_ActionMode;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ActivityChooserView = global::NavDrawer.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::com.refractored.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::NavDrawer.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::com.refractored.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::NavDrawer.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::com.refractored.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::NavDrawer.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::com.refractored.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::NavDrawer.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::com.refractored.Resource.Style.Widget_AppCompat_EditText = global::NavDrawer.Resource.Style.Widget_AppCompat_EditText;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionBar = global::NavDrawer.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::NavDrawer.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::NavDrawer.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::NavDrawer.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::NavDrawer.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::NavDrawer.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::NavDrawer.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::NavDrawer.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::NavDrawer.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionButton = global::NavDrawer.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::NavDrawer.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::NavDrawer.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::NavDrawer.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::NavDrawer.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::NavDrawer.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::NavDrawer.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::NavDrawer.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::NavDrawer.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::NavDrawer.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::NavDrawer.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_SearchView = global::NavDrawer.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::NavDrawer.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ListPopupWindow = global::NavDrawer.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ListView_DropDown = global::NavDrawer.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ListView_Menu = global::NavDrawer.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::com.refractored.Resource.Style.Widget_AppCompat_PopupMenu = global::NavDrawer.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::com.refractored.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::NavDrawer.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::com.refractored.Resource.Style.Widget_AppCompat_PopupWindow = global::NavDrawer.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ProgressBar = global::NavDrawer.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::com.refractored.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::NavDrawer.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::com.refractored.Resource.Style.Widget_AppCompat_SearchView = global::NavDrawer.Resource.Style.Widget_AppCompat_SearchView;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Spinner = global::NavDrawer.Resource.Style.Widget_AppCompat_Spinner;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::NavDrawer.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::NavDrawer.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Toolbar = global::NavDrawer.Resource.Style.Widget_AppCompat_Toolbar;
+			global::com.refractored.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::NavDrawer.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::com.refractored.Resource.Styleable.ActionBar = global::NavDrawer.Resource.Styleable.ActionBar;
+			global::com.refractored.Resource.Styleable.ActionBar_background = global::NavDrawer.Resource.Styleable.ActionBar_background;
+			global::com.refractored.Resource.Styleable.ActionBar_backgroundSplit = global::NavDrawer.Resource.Styleable.ActionBar_backgroundSplit;
+			global::com.refractored.Resource.Styleable.ActionBar_backgroundStacked = global::NavDrawer.Resource.Styleable.ActionBar_backgroundStacked;
+			global::com.refractored.Resource.Styleable.ActionBar_contentInsetEnd = global::NavDrawer.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::com.refractored.Resource.Styleable.ActionBar_contentInsetLeft = global::NavDrawer.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::com.refractored.Resource.Styleable.ActionBar_contentInsetRight = global::NavDrawer.Resource.Styleable.ActionBar_contentInsetRight;
+			global::com.refractored.Resource.Styleable.ActionBar_contentInsetStart = global::NavDrawer.Resource.Styleable.ActionBar_contentInsetStart;
+			global::com.refractored.Resource.Styleable.ActionBar_customNavigationLayout = global::NavDrawer.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::com.refractored.Resource.Styleable.ActionBar_displayOptions = global::NavDrawer.Resource.Styleable.ActionBar_displayOptions;
+			global::com.refractored.Resource.Styleable.ActionBar_divider = global::NavDrawer.Resource.Styleable.ActionBar_divider;
+			global::com.refractored.Resource.Styleable.ActionBar_elevation = global::NavDrawer.Resource.Styleable.ActionBar_elevation;
+			global::com.refractored.Resource.Styleable.ActionBar_height = global::NavDrawer.Resource.Styleable.ActionBar_height;
+			global::com.refractored.Resource.Styleable.ActionBar_hideOnContentScroll = global::NavDrawer.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::com.refractored.Resource.Styleable.ActionBar_homeAsUpIndicator = global::NavDrawer.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::com.refractored.Resource.Styleable.ActionBar_homeLayout = global::NavDrawer.Resource.Styleable.ActionBar_homeLayout;
+			global::com.refractored.Resource.Styleable.ActionBar_icon = global::NavDrawer.Resource.Styleable.ActionBar_icon;
+			global::com.refractored.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::NavDrawer.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::com.refractored.Resource.Styleable.ActionBar_itemPadding = global::NavDrawer.Resource.Styleable.ActionBar_itemPadding;
+			global::com.refractored.Resource.Styleable.ActionBar_logo = global::NavDrawer.Resource.Styleable.ActionBar_logo;
+			global::com.refractored.Resource.Styleable.ActionBar_navigationMode = global::NavDrawer.Resource.Styleable.ActionBar_navigationMode;
+			global::com.refractored.Resource.Styleable.ActionBar_popupTheme = global::NavDrawer.Resource.Styleable.ActionBar_popupTheme;
+			global::com.refractored.Resource.Styleable.ActionBar_progressBarPadding = global::NavDrawer.Resource.Styleable.ActionBar_progressBarPadding;
+			global::com.refractored.Resource.Styleable.ActionBar_progressBarStyle = global::NavDrawer.Resource.Styleable.ActionBar_progressBarStyle;
+			global::com.refractored.Resource.Styleable.ActionBar_subtitle = global::NavDrawer.Resource.Styleable.ActionBar_subtitle;
+			global::com.refractored.Resource.Styleable.ActionBar_subtitleTextStyle = global::NavDrawer.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::com.refractored.Resource.Styleable.ActionBar_title = global::NavDrawer.Resource.Styleable.ActionBar_title;
+			global::com.refractored.Resource.Styleable.ActionBar_titleTextStyle = global::NavDrawer.Resource.Styleable.ActionBar_titleTextStyle;
+			global::com.refractored.Resource.Styleable.ActionBarLayout = global::NavDrawer.Resource.Styleable.ActionBarLayout;
+			global::com.refractored.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::NavDrawer.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::com.refractored.Resource.Styleable.ActionMenuItemView = global::NavDrawer.Resource.Styleable.ActionMenuItemView;
+			global::com.refractored.Resource.Styleable.ActionMenuItemView_android_minWidth = global::NavDrawer.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::com.refractored.Resource.Styleable.ActionMenuView = global::NavDrawer.Resource.Styleable.ActionMenuView;
+			global::com.refractored.Resource.Styleable.ActionMode = global::NavDrawer.Resource.Styleable.ActionMode;
+			global::com.refractored.Resource.Styleable.ActionMode_background = global::NavDrawer.Resource.Styleable.ActionMode_background;
+			global::com.refractored.Resource.Styleable.ActionMode_backgroundSplit = global::NavDrawer.Resource.Styleable.ActionMode_backgroundSplit;
+			global::com.refractored.Resource.Styleable.ActionMode_closeItemLayout = global::NavDrawer.Resource.Styleable.ActionMode_closeItemLayout;
+			global::com.refractored.Resource.Styleable.ActionMode_height = global::NavDrawer.Resource.Styleable.ActionMode_height;
+			global::com.refractored.Resource.Styleable.ActionMode_subtitleTextStyle = global::NavDrawer.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::com.refractored.Resource.Styleable.ActionMode_titleTextStyle = global::NavDrawer.Resource.Styleable.ActionMode_titleTextStyle;
+			global::com.refractored.Resource.Styleable.ActivityChooserView = global::NavDrawer.Resource.Styleable.ActivityChooserView;
+			global::com.refractored.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::NavDrawer.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::com.refractored.Resource.Styleable.ActivityChooserView_initialActivityCount = global::NavDrawer.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::com.refractored.Resource.Styleable.CompatTextView = global::NavDrawer.Resource.Styleable.CompatTextView;
+			global::com.refractored.Resource.Styleable.CompatTextView_textAllCaps = global::NavDrawer.Resource.Styleable.CompatTextView_textAllCaps;
+			global::com.refractored.Resource.Styleable.DrawerArrowToggle = global::NavDrawer.Resource.Styleable.DrawerArrowToggle;
+			global::com.refractored.Resource.Styleable.DrawerArrowToggle_barSize = global::NavDrawer.Resource.Styleable.DrawerArrowToggle_barSize;
+			global::com.refractored.Resource.Styleable.DrawerArrowToggle_color = global::NavDrawer.Resource.Styleable.DrawerArrowToggle_color;
+			global::com.refractored.Resource.Styleable.DrawerArrowToggle_drawableSize = global::NavDrawer.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::com.refractored.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::NavDrawer.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::com.refractored.Resource.Styleable.DrawerArrowToggle_middleBarArrowSize = global::NavDrawer.Resource.Styleable.DrawerArrowToggle_middleBarArrowSize;
+			global::com.refractored.Resource.Styleable.DrawerArrowToggle_spinBars = global::NavDrawer.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::com.refractored.Resource.Styleable.DrawerArrowToggle_thickness = global::NavDrawer.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::com.refractored.Resource.Styleable.DrawerArrowToggle_topBottomBarArrowSize = global::NavDrawer.Resource.Styleable.DrawerArrowToggle_topBottomBarArrowSize;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat = global::NavDrawer.Resource.Styleable.LinearLayoutCompat;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::NavDrawer.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::NavDrawer.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_android_gravity = global::NavDrawer.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_android_orientation = global::NavDrawer.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::NavDrawer.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_divider = global::NavDrawer.Resource.Styleable.LinearLayoutCompat_divider;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::NavDrawer.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::NavDrawer.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_showDividers = global::NavDrawer.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_Layout = global::NavDrawer.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::NavDrawer.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::NavDrawer.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::NavDrawer.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::com.refractored.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::NavDrawer.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::com.refractored.Resource.Styleable.ListPopupWindow = global::NavDrawer.Resource.Styleable.ListPopupWindow;
+			global::com.refractored.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::NavDrawer.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::com.refractored.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::NavDrawer.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::com.refractored.Resource.Styleable.MenuGroup = global::NavDrawer.Resource.Styleable.MenuGroup;
+			global::com.refractored.Resource.Styleable.MenuGroup_android_checkableBehavior = global::NavDrawer.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::com.refractored.Resource.Styleable.MenuGroup_android_enabled = global::NavDrawer.Resource.Styleable.MenuGroup_android_enabled;
+			global::com.refractored.Resource.Styleable.MenuGroup_android_id = global::NavDrawer.Resource.Styleable.MenuGroup_android_id;
+			global::com.refractored.Resource.Styleable.MenuGroup_android_menuCategory = global::NavDrawer.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::com.refractored.Resource.Styleable.MenuGroup_android_orderInCategory = global::NavDrawer.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::com.refractored.Resource.Styleable.MenuGroup_android_visible = global::NavDrawer.Resource.Styleable.MenuGroup_android_visible;
+			global::com.refractored.Resource.Styleable.MenuItem = global::NavDrawer.Resource.Styleable.MenuItem;
+			global::com.refractored.Resource.Styleable.MenuItem_actionLayout = global::NavDrawer.Resource.Styleable.MenuItem_actionLayout;
+			global::com.refractored.Resource.Styleable.MenuItem_actionProviderClass = global::NavDrawer.Resource.Styleable.MenuItem_actionProviderClass;
+			global::com.refractored.Resource.Styleable.MenuItem_actionViewClass = global::NavDrawer.Resource.Styleable.MenuItem_actionViewClass;
+			global::com.refractored.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::NavDrawer.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::com.refractored.Resource.Styleable.MenuItem_android_checkable = global::NavDrawer.Resource.Styleable.MenuItem_android_checkable;
+			global::com.refractored.Resource.Styleable.MenuItem_android_checked = global::NavDrawer.Resource.Styleable.MenuItem_android_checked;
+			global::com.refractored.Resource.Styleable.MenuItem_android_enabled = global::NavDrawer.Resource.Styleable.MenuItem_android_enabled;
+			global::com.refractored.Resource.Styleable.MenuItem_android_icon = global::NavDrawer.Resource.Styleable.MenuItem_android_icon;
+			global::com.refractored.Resource.Styleable.MenuItem_android_id = global::NavDrawer.Resource.Styleable.MenuItem_android_id;
+			global::com.refractored.Resource.Styleable.MenuItem_android_menuCategory = global::NavDrawer.Resource.Styleable.MenuItem_android_menuCategory;
+			global::com.refractored.Resource.Styleable.MenuItem_android_numericShortcut = global::NavDrawer.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::com.refractored.Resource.Styleable.MenuItem_android_onClick = global::NavDrawer.Resource.Styleable.MenuItem_android_onClick;
+			global::com.refractored.Resource.Styleable.MenuItem_android_orderInCategory = global::NavDrawer.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::com.refractored.Resource.Styleable.MenuItem_android_title = global::NavDrawer.Resource.Styleable.MenuItem_android_title;
+			global::com.refractored.Resource.Styleable.MenuItem_android_titleCondensed = global::NavDrawer.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::com.refractored.Resource.Styleable.MenuItem_android_visible = global::NavDrawer.Resource.Styleable.MenuItem_android_visible;
+			global::com.refractored.Resource.Styleable.MenuItem_showAsAction = global::NavDrawer.Resource.Styleable.MenuItem_showAsAction;
+			global::com.refractored.Resource.Styleable.MenuView = global::NavDrawer.Resource.Styleable.MenuView;
+			global::com.refractored.Resource.Styleable.MenuView_android_headerBackground = global::NavDrawer.Resource.Styleable.MenuView_android_headerBackground;
+			global::com.refractored.Resource.Styleable.MenuView_android_horizontalDivider = global::NavDrawer.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::com.refractored.Resource.Styleable.MenuView_android_itemBackground = global::NavDrawer.Resource.Styleable.MenuView_android_itemBackground;
+			global::com.refractored.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::NavDrawer.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::com.refractored.Resource.Styleable.MenuView_android_itemTextAppearance = global::NavDrawer.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::com.refractored.Resource.Styleable.MenuView_android_verticalDivider = global::NavDrawer.Resource.Styleable.MenuView_android_verticalDivider;
+			global::com.refractored.Resource.Styleable.MenuView_android_windowAnimationStyle = global::NavDrawer.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::com.refractored.Resource.Styleable.MenuView_preserveIconSpacing = global::NavDrawer.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip = global::NavDrawer.Resource.Styleable.PagerSlidingTabStrip;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsDividerColor = global::NavDrawer.Resource.Styleable.PagerSlidingTabStrip_pstsDividerColor;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsDividerPadding = global::NavDrawer.Resource.Styleable.PagerSlidingTabStrip_pstsDividerPadding;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsDividerWidth = global::NavDrawer.Resource.Styleable.PagerSlidingTabStrip_pstsDividerWidth;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsIndicatorColor = global::NavDrawer.Resource.Styleable.PagerSlidingTabStrip_pstsIndicatorColor;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsIndicatorHeight = global::NavDrawer.Resource.Styleable.PagerSlidingTabStrip_pstsIndicatorHeight;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsPaddingMiddle = global::NavDrawer.Resource.Styleable.PagerSlidingTabStrip_pstsPaddingMiddle;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsScrollOffset = global::NavDrawer.Resource.Styleable.PagerSlidingTabStrip_pstsScrollOffset;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsShouldExpand = global::NavDrawer.Resource.Styleable.PagerSlidingTabStrip_pstsShouldExpand;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsTabBackground = global::NavDrawer.Resource.Styleable.PagerSlidingTabStrip_pstsTabBackground;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsTabPaddingLeftRight = global::NavDrawer.Resource.Styleable.PagerSlidingTabStrip_pstsTabPaddingLeftRight;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsTextAllCaps = global::NavDrawer.Resource.Styleable.PagerSlidingTabStrip_pstsTextAllCaps;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsTextAlpha = global::NavDrawer.Resource.Styleable.PagerSlidingTabStrip_pstsTextAlpha;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsTextSelectedAlpha = global::NavDrawer.Resource.Styleable.PagerSlidingTabStrip_pstsTextSelectedAlpha;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsTextSelectedStyle = global::NavDrawer.Resource.Styleable.PagerSlidingTabStrip_pstsTextSelectedStyle;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsTextStyle = global::NavDrawer.Resource.Styleable.PagerSlidingTabStrip_pstsTextStyle;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsUnderlineColor = global::NavDrawer.Resource.Styleable.PagerSlidingTabStrip_pstsUnderlineColor;
+			global::com.refractored.Resource.Styleable.PagerSlidingTabStrip_pstsUnderlineHeight = global::NavDrawer.Resource.Styleable.PagerSlidingTabStrip_pstsUnderlineHeight;
+			global::com.refractored.Resource.Styleable.PopupWindow = global::NavDrawer.Resource.Styleable.PopupWindow;
+			global::com.refractored.Resource.Styleable.PopupWindow_android_popupBackground = global::NavDrawer.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::com.refractored.Resource.Styleable.PopupWindow_overlapAnchor = global::NavDrawer.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::com.refractored.Resource.Styleable.PopupWindowBackgroundState = global::NavDrawer.Resource.Styleable.PopupWindowBackgroundState;
+			global::com.refractored.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::NavDrawer.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::com.refractored.Resource.Styleable.SearchView = global::NavDrawer.Resource.Styleable.SearchView;
+			global::com.refractored.Resource.Styleable.SearchView_android_focusable = global::NavDrawer.Resource.Styleable.SearchView_android_focusable;
+			global::com.refractored.Resource.Styleable.SearchView_android_imeOptions = global::NavDrawer.Resource.Styleable.SearchView_android_imeOptions;
+			global::com.refractored.Resource.Styleable.SearchView_android_inputType = global::NavDrawer.Resource.Styleable.SearchView_android_inputType;
+			global::com.refractored.Resource.Styleable.SearchView_android_maxWidth = global::NavDrawer.Resource.Styleable.SearchView_android_maxWidth;
+			global::com.refractored.Resource.Styleable.SearchView_closeIcon = global::NavDrawer.Resource.Styleable.SearchView_closeIcon;
+			global::com.refractored.Resource.Styleable.SearchView_commitIcon = global::NavDrawer.Resource.Styleable.SearchView_commitIcon;
+			global::com.refractored.Resource.Styleable.SearchView_goIcon = global::NavDrawer.Resource.Styleable.SearchView_goIcon;
+			global::com.refractored.Resource.Styleable.SearchView_iconifiedByDefault = global::NavDrawer.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::com.refractored.Resource.Styleable.SearchView_layout = global::NavDrawer.Resource.Styleable.SearchView_layout;
+			global::com.refractored.Resource.Styleable.SearchView_queryBackground = global::NavDrawer.Resource.Styleable.SearchView_queryBackground;
+			global::com.refractored.Resource.Styleable.SearchView_queryHint = global::NavDrawer.Resource.Styleable.SearchView_queryHint;
+			global::com.refractored.Resource.Styleable.SearchView_searchIcon = global::NavDrawer.Resource.Styleable.SearchView_searchIcon;
+			global::com.refractored.Resource.Styleable.SearchView_submitBackground = global::NavDrawer.Resource.Styleable.SearchView_submitBackground;
+			global::com.refractored.Resource.Styleable.SearchView_suggestionRowLayout = global::NavDrawer.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::com.refractored.Resource.Styleable.SearchView_voiceIcon = global::NavDrawer.Resource.Styleable.SearchView_voiceIcon;
+			global::com.refractored.Resource.Styleable.Spinner = global::NavDrawer.Resource.Styleable.Spinner;
+			global::com.refractored.Resource.Styleable.Spinner_android_background = global::NavDrawer.Resource.Styleable.Spinner_android_background;
+			global::com.refractored.Resource.Styleable.Spinner_android_dropDownHorizontalOffset = global::NavDrawer.Resource.Styleable.Spinner_android_dropDownHorizontalOffset;
+			global::com.refractored.Resource.Styleable.Spinner_android_dropDownSelector = global::NavDrawer.Resource.Styleable.Spinner_android_dropDownSelector;
+			global::com.refractored.Resource.Styleable.Spinner_android_dropDownVerticalOffset = global::NavDrawer.Resource.Styleable.Spinner_android_dropDownVerticalOffset;
+			global::com.refractored.Resource.Styleable.Spinner_android_dropDownWidth = global::NavDrawer.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::com.refractored.Resource.Styleable.Spinner_android_gravity = global::NavDrawer.Resource.Styleable.Spinner_android_gravity;
+			global::com.refractored.Resource.Styleable.Spinner_android_popupBackground = global::NavDrawer.Resource.Styleable.Spinner_android_popupBackground;
+			global::com.refractored.Resource.Styleable.Spinner_disableChildrenWhenDisabled = global::NavDrawer.Resource.Styleable.Spinner_disableChildrenWhenDisabled;
+			global::com.refractored.Resource.Styleable.Spinner_popupPromptView = global::NavDrawer.Resource.Styleable.Spinner_popupPromptView;
+			global::com.refractored.Resource.Styleable.Spinner_prompt = global::NavDrawer.Resource.Styleable.Spinner_prompt;
+			global::com.refractored.Resource.Styleable.Spinner_spinnerMode = global::NavDrawer.Resource.Styleable.Spinner_spinnerMode;
+			global::com.refractored.Resource.Styleable.SwitchCompat = global::NavDrawer.Resource.Styleable.SwitchCompat;
+			global::com.refractored.Resource.Styleable.SwitchCompat_android_textOff = global::NavDrawer.Resource.Styleable.SwitchCompat_android_textOff;
+			global::com.refractored.Resource.Styleable.SwitchCompat_android_textOn = global::NavDrawer.Resource.Styleable.SwitchCompat_android_textOn;
+			global::com.refractored.Resource.Styleable.SwitchCompat_android_thumb = global::NavDrawer.Resource.Styleable.SwitchCompat_android_thumb;
+			global::com.refractored.Resource.Styleable.SwitchCompat_showText = global::NavDrawer.Resource.Styleable.SwitchCompat_showText;
+			global::com.refractored.Resource.Styleable.SwitchCompat_splitTrack = global::NavDrawer.Resource.Styleable.SwitchCompat_splitTrack;
+			global::com.refractored.Resource.Styleable.SwitchCompat_switchMinWidth = global::NavDrawer.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::com.refractored.Resource.Styleable.SwitchCompat_switchPadding = global::NavDrawer.Resource.Styleable.SwitchCompat_switchPadding;
+			global::com.refractored.Resource.Styleable.SwitchCompat_switchTextAppearance = global::NavDrawer.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::com.refractored.Resource.Styleable.SwitchCompat_thumbTextPadding = global::NavDrawer.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::com.refractored.Resource.Styleable.SwitchCompat_track = global::NavDrawer.Resource.Styleable.SwitchCompat_track;
+			global::com.refractored.Resource.Styleable.Theme = global::NavDrawer.Resource.Styleable.Theme;
+			global::com.refractored.Resource.Styleable.Theme_actionBarDivider = global::NavDrawer.Resource.Styleable.Theme_actionBarDivider;
+			global::com.refractored.Resource.Styleable.Theme_actionBarItemBackground = global::NavDrawer.Resource.Styleable.Theme_actionBarItemBackground;
+			global::com.refractored.Resource.Styleable.Theme_actionBarPopupTheme = global::NavDrawer.Resource.Styleable.Theme_actionBarPopupTheme;
+			global::com.refractored.Resource.Styleable.Theme_actionBarSize = global::NavDrawer.Resource.Styleable.Theme_actionBarSize;
+			global::com.refractored.Resource.Styleable.Theme_actionBarSplitStyle = global::NavDrawer.Resource.Styleable.Theme_actionBarSplitStyle;
+			global::com.refractored.Resource.Styleable.Theme_actionBarStyle = global::NavDrawer.Resource.Styleable.Theme_actionBarStyle;
+			global::com.refractored.Resource.Styleable.Theme_actionBarTabBarStyle = global::NavDrawer.Resource.Styleable.Theme_actionBarTabBarStyle;
+			global::com.refractored.Resource.Styleable.Theme_actionBarTabStyle = global::NavDrawer.Resource.Styleable.Theme_actionBarTabStyle;
+			global::com.refractored.Resource.Styleable.Theme_actionBarTabTextStyle = global::NavDrawer.Resource.Styleable.Theme_actionBarTabTextStyle;
+			global::com.refractored.Resource.Styleable.Theme_actionBarTheme = global::NavDrawer.Resource.Styleable.Theme_actionBarTheme;
+			global::com.refractored.Resource.Styleable.Theme_actionBarWidgetTheme = global::NavDrawer.Resource.Styleable.Theme_actionBarWidgetTheme;
+			global::com.refractored.Resource.Styleable.Theme_actionButtonStyle = global::NavDrawer.Resource.Styleable.Theme_actionButtonStyle;
+			global::com.refractored.Resource.Styleable.Theme_actionDropDownStyle = global::NavDrawer.Resource.Styleable.Theme_actionDropDownStyle;
+			global::com.refractored.Resource.Styleable.Theme_actionMenuTextAppearance = global::NavDrawer.Resource.Styleable.Theme_actionMenuTextAppearance;
+			global::com.refractored.Resource.Styleable.Theme_actionMenuTextColor = global::NavDrawer.Resource.Styleable.Theme_actionMenuTextColor;
+			global::com.refractored.Resource.Styleable.Theme_actionModeBackground = global::NavDrawer.Resource.Styleable.Theme_actionModeBackground;
+			global::com.refractored.Resource.Styleable.Theme_actionModeCloseButtonStyle = global::NavDrawer.Resource.Styleable.Theme_actionModeCloseButtonStyle;
+			global::com.refractored.Resource.Styleable.Theme_actionModeCloseDrawable = global::NavDrawer.Resource.Styleable.Theme_actionModeCloseDrawable;
+			global::com.refractored.Resource.Styleable.Theme_actionModeCopyDrawable = global::NavDrawer.Resource.Styleable.Theme_actionModeCopyDrawable;
+			global::com.refractored.Resource.Styleable.Theme_actionModeCutDrawable = global::NavDrawer.Resource.Styleable.Theme_actionModeCutDrawable;
+			global::com.refractored.Resource.Styleable.Theme_actionModeFindDrawable = global::NavDrawer.Resource.Styleable.Theme_actionModeFindDrawable;
+			global::com.refractored.Resource.Styleable.Theme_actionModePasteDrawable = global::NavDrawer.Resource.Styleable.Theme_actionModePasteDrawable;
+			global::com.refractored.Resource.Styleable.Theme_actionModePopupWindowStyle = global::NavDrawer.Resource.Styleable.Theme_actionModePopupWindowStyle;
+			global::com.refractored.Resource.Styleable.Theme_actionModeSelectAllDrawable = global::NavDrawer.Resource.Styleable.Theme_actionModeSelectAllDrawable;
+			global::com.refractored.Resource.Styleable.Theme_actionModeShareDrawable = global::NavDrawer.Resource.Styleable.Theme_actionModeShareDrawable;
+			global::com.refractored.Resource.Styleable.Theme_actionModeSplitBackground = global::NavDrawer.Resource.Styleable.Theme_actionModeSplitBackground;
+			global::com.refractored.Resource.Styleable.Theme_actionModeStyle = global::NavDrawer.Resource.Styleable.Theme_actionModeStyle;
+			global::com.refractored.Resource.Styleable.Theme_actionModeWebSearchDrawable = global::NavDrawer.Resource.Styleable.Theme_actionModeWebSearchDrawable;
+			global::com.refractored.Resource.Styleable.Theme_actionOverflowButtonStyle = global::NavDrawer.Resource.Styleable.Theme_actionOverflowButtonStyle;
+			global::com.refractored.Resource.Styleable.Theme_actionOverflowMenuStyle = global::NavDrawer.Resource.Styleable.Theme_actionOverflowMenuStyle;
+			global::com.refractored.Resource.Styleable.Theme_activityChooserViewStyle = global::NavDrawer.Resource.Styleable.Theme_activityChooserViewStyle;
+			global::com.refractored.Resource.Styleable.Theme_android_windowIsFloating = global::NavDrawer.Resource.Styleable.Theme_android_windowIsFloating;
+			global::com.refractored.Resource.Styleable.Theme_buttonBarButtonStyle = global::NavDrawer.Resource.Styleable.Theme_buttonBarButtonStyle;
+			global::com.refractored.Resource.Styleable.Theme_buttonBarStyle = global::NavDrawer.Resource.Styleable.Theme_buttonBarStyle;
+			global::com.refractored.Resource.Styleable.Theme_colorAccent = global::NavDrawer.Resource.Styleable.Theme_colorAccent;
+			global::com.refractored.Resource.Styleable.Theme_colorButtonNormal = global::NavDrawer.Resource.Styleable.Theme_colorButtonNormal;
+			global::com.refractored.Resource.Styleable.Theme_colorControlActivated = global::NavDrawer.Resource.Styleable.Theme_colorControlActivated;
+			global::com.refractored.Resource.Styleable.Theme_colorControlHighlight = global::NavDrawer.Resource.Styleable.Theme_colorControlHighlight;
+			global::com.refractored.Resource.Styleable.Theme_colorControlNormal = global::NavDrawer.Resource.Styleable.Theme_colorControlNormal;
+			global::com.refractored.Resource.Styleable.Theme_colorPrimary = global::NavDrawer.Resource.Styleable.Theme_colorPrimary;
+			global::com.refractored.Resource.Styleable.Theme_colorPrimaryDark = global::NavDrawer.Resource.Styleable.Theme_colorPrimaryDark;
+			global::com.refractored.Resource.Styleable.Theme_colorSwitchThumbNormal = global::NavDrawer.Resource.Styleable.Theme_colorSwitchThumbNormal;
+			global::com.refractored.Resource.Styleable.Theme_dividerHorizontal = global::NavDrawer.Resource.Styleable.Theme_dividerHorizontal;
+			global::com.refractored.Resource.Styleable.Theme_dividerVertical = global::NavDrawer.Resource.Styleable.Theme_dividerVertical;
+			global::com.refractored.Resource.Styleable.Theme_dropDownListViewStyle = global::NavDrawer.Resource.Styleable.Theme_dropDownListViewStyle;
+			global::com.refractored.Resource.Styleable.Theme_dropdownListPreferredItemHeight = global::NavDrawer.Resource.Styleable.Theme_dropdownListPreferredItemHeight;
+			global::com.refractored.Resource.Styleable.Theme_editTextBackground = global::NavDrawer.Resource.Styleable.Theme_editTextBackground;
+			global::com.refractored.Resource.Styleable.Theme_editTextColor = global::NavDrawer.Resource.Styleable.Theme_editTextColor;
+			global::com.refractored.Resource.Styleable.Theme_homeAsUpIndicator = global::NavDrawer.Resource.Styleable.Theme_homeAsUpIndicator;
+			global::com.refractored.Resource.Styleable.Theme_listChoiceBackgroundIndicator = global::NavDrawer.Resource.Styleable.Theme_listChoiceBackgroundIndicator;
+			global::com.refractored.Resource.Styleable.Theme_listPopupWindowStyle = global::NavDrawer.Resource.Styleable.Theme_listPopupWindowStyle;
+			global::com.refractored.Resource.Styleable.Theme_listPreferredItemHeight = global::NavDrawer.Resource.Styleable.Theme_listPreferredItemHeight;
+			global::com.refractored.Resource.Styleable.Theme_listPreferredItemHeightLarge = global::NavDrawer.Resource.Styleable.Theme_listPreferredItemHeightLarge;
+			global::com.refractored.Resource.Styleable.Theme_listPreferredItemHeightSmall = global::NavDrawer.Resource.Styleable.Theme_listPreferredItemHeightSmall;
+			global::com.refractored.Resource.Styleable.Theme_listPreferredItemPaddingLeft = global::NavDrawer.Resource.Styleable.Theme_listPreferredItemPaddingLeft;
+			global::com.refractored.Resource.Styleable.Theme_listPreferredItemPaddingRight = global::NavDrawer.Resource.Styleable.Theme_listPreferredItemPaddingRight;
+			global::com.refractored.Resource.Styleable.Theme_panelBackground = global::NavDrawer.Resource.Styleable.Theme_panelBackground;
+			global::com.refractored.Resource.Styleable.Theme_panelMenuListTheme = global::NavDrawer.Resource.Styleable.Theme_panelMenuListTheme;
+			global::com.refractored.Resource.Styleable.Theme_panelMenuListWidth = global::NavDrawer.Resource.Styleable.Theme_panelMenuListWidth;
+			global::com.refractored.Resource.Styleable.Theme_popupMenuStyle = global::NavDrawer.Resource.Styleable.Theme_popupMenuStyle;
+			global::com.refractored.Resource.Styleable.Theme_popupWindowStyle = global::NavDrawer.Resource.Styleable.Theme_popupWindowStyle;
+			global::com.refractored.Resource.Styleable.Theme_searchViewStyle = global::NavDrawer.Resource.Styleable.Theme_searchViewStyle;
+			global::com.refractored.Resource.Styleable.Theme_selectableItemBackground = global::NavDrawer.Resource.Styleable.Theme_selectableItemBackground;
+			global::com.refractored.Resource.Styleable.Theme_selectableItemBackgroundBorderless = global::NavDrawer.Resource.Styleable.Theme_selectableItemBackgroundBorderless;
+			global::com.refractored.Resource.Styleable.Theme_spinnerDropDownItemStyle = global::NavDrawer.Resource.Styleable.Theme_spinnerDropDownItemStyle;
+			global::com.refractored.Resource.Styleable.Theme_spinnerStyle = global::NavDrawer.Resource.Styleable.Theme_spinnerStyle;
+			global::com.refractored.Resource.Styleable.Theme_switchStyle = global::NavDrawer.Resource.Styleable.Theme_switchStyle;
+			global::com.refractored.Resource.Styleable.Theme_textAppearanceLargePopupMenu = global::NavDrawer.Resource.Styleable.Theme_textAppearanceLargePopupMenu;
+			global::com.refractored.Resource.Styleable.Theme_textAppearanceListItem = global::NavDrawer.Resource.Styleable.Theme_textAppearanceListItem;
+			global::com.refractored.Resource.Styleable.Theme_textAppearanceListItemSmall = global::NavDrawer.Resource.Styleable.Theme_textAppearanceListItemSmall;
+			global::com.refractored.Resource.Styleable.Theme_textAppearanceSearchResultSubtitle = global::NavDrawer.Resource.Styleable.Theme_textAppearanceSearchResultSubtitle;
+			global::com.refractored.Resource.Styleable.Theme_textAppearanceSearchResultTitle = global::NavDrawer.Resource.Styleable.Theme_textAppearanceSearchResultTitle;
+			global::com.refractored.Resource.Styleable.Theme_textAppearanceSmallPopupMenu = global::NavDrawer.Resource.Styleable.Theme_textAppearanceSmallPopupMenu;
+			global::com.refractored.Resource.Styleable.Theme_textColorSearchUrl = global::NavDrawer.Resource.Styleable.Theme_textColorSearchUrl;
+			global::com.refractored.Resource.Styleable.Theme_toolbarNavigationButtonStyle = global::NavDrawer.Resource.Styleable.Theme_toolbarNavigationButtonStyle;
+			global::com.refractored.Resource.Styleable.Theme_toolbarStyle = global::NavDrawer.Resource.Styleable.Theme_toolbarStyle;
+			global::com.refractored.Resource.Styleable.Theme_windowActionBar = global::NavDrawer.Resource.Styleable.Theme_windowActionBar;
+			global::com.refractored.Resource.Styleable.Theme_windowActionBarOverlay = global::NavDrawer.Resource.Styleable.Theme_windowActionBarOverlay;
+			global::com.refractored.Resource.Styleable.Theme_windowActionModeOverlay = global::NavDrawer.Resource.Styleable.Theme_windowActionModeOverlay;
+			global::com.refractored.Resource.Styleable.Theme_windowFixedHeightMajor = global::NavDrawer.Resource.Styleable.Theme_windowFixedHeightMajor;
+			global::com.refractored.Resource.Styleable.Theme_windowFixedHeightMinor = global::NavDrawer.Resource.Styleable.Theme_windowFixedHeightMinor;
+			global::com.refractored.Resource.Styleable.Theme_windowFixedWidthMajor = global::NavDrawer.Resource.Styleable.Theme_windowFixedWidthMajor;
+			global::com.refractored.Resource.Styleable.Theme_windowFixedWidthMinor = global::NavDrawer.Resource.Styleable.Theme_windowFixedWidthMinor;
+			global::com.refractored.Resource.Styleable.Toolbar = global::NavDrawer.Resource.Styleable.Toolbar;
+			global::com.refractored.Resource.Styleable.Toolbar_android_gravity = global::NavDrawer.Resource.Styleable.Toolbar_android_gravity;
+			global::com.refractored.Resource.Styleable.Toolbar_android_minHeight = global::NavDrawer.Resource.Styleable.Toolbar_android_minHeight;
+			global::com.refractored.Resource.Styleable.Toolbar_collapseContentDescription = global::NavDrawer.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::com.refractored.Resource.Styleable.Toolbar_collapseIcon = global::NavDrawer.Resource.Styleable.Toolbar_collapseIcon;
+			global::com.refractored.Resource.Styleable.Toolbar_contentInsetEnd = global::NavDrawer.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::com.refractored.Resource.Styleable.Toolbar_contentInsetLeft = global::NavDrawer.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::com.refractored.Resource.Styleable.Toolbar_contentInsetRight = global::NavDrawer.Resource.Styleable.Toolbar_contentInsetRight;
+			global::com.refractored.Resource.Styleable.Toolbar_contentInsetStart = global::NavDrawer.Resource.Styleable.Toolbar_contentInsetStart;
+			global::com.refractored.Resource.Styleable.Toolbar_maxButtonHeight = global::NavDrawer.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::com.refractored.Resource.Styleable.Toolbar_navigationContentDescription = global::NavDrawer.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::com.refractored.Resource.Styleable.Toolbar_navigationIcon = global::NavDrawer.Resource.Styleable.Toolbar_navigationIcon;
+			global::com.refractored.Resource.Styleable.Toolbar_popupTheme = global::NavDrawer.Resource.Styleable.Toolbar_popupTheme;
+			global::com.refractored.Resource.Styleable.Toolbar_subtitle = global::NavDrawer.Resource.Styleable.Toolbar_subtitle;
+			global::com.refractored.Resource.Styleable.Toolbar_subtitleTextAppearance = global::NavDrawer.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::com.refractored.Resource.Styleable.Toolbar_theme = global::NavDrawer.Resource.Styleable.Toolbar_theme;
+			global::com.refractored.Resource.Styleable.Toolbar_title = global::NavDrawer.Resource.Styleable.Toolbar_title;
+			global::com.refractored.Resource.Styleable.Toolbar_titleMarginBottom = global::NavDrawer.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::com.refractored.Resource.Styleable.Toolbar_titleMarginEnd = global::NavDrawer.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::com.refractored.Resource.Styleable.Toolbar_titleMarginStart = global::NavDrawer.Resource.Styleable.Toolbar_titleMarginStart;
+			global::com.refractored.Resource.Styleable.Toolbar_titleMarginTop = global::NavDrawer.Resource.Styleable.Toolbar_titleMarginTop;
+			global::com.refractored.Resource.Styleable.Toolbar_titleMargins = global::NavDrawer.Resource.Styleable.Toolbar_titleMargins;
+			global::com.refractored.Resource.Styleable.Toolbar_titleTextAppearance = global::NavDrawer.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::com.refractored.Resource.Styleable.View = global::NavDrawer.Resource.Styleable.View;
+			global::com.refractored.Resource.Styleable.View_android_focusable = global::NavDrawer.Resource.Styleable.View_android_focusable;
+			global::com.refractored.Resource.Styleable.View_paddingEnd = global::NavDrawer.Resource.Styleable.View_paddingEnd;
+			global::com.refractored.Resource.Styleable.View_paddingStart = global::NavDrawer.Resource.Styleable.View_paddingStart;
+			global::com.refractored.Resource.Styleable.ViewStubCompat = global::NavDrawer.Resource.Styleable.ViewStubCompat;
+			global::com.refractored.Resource.Styleable.ViewStubCompat_android_id = global::NavDrawer.Resource.Styleable.ViewStubCompat_android_id;
+			global::com.refractored.Resource.Styleable.ViewStubCompat_android_inflatedId = global::NavDrawer.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::com.refractored.Resource.Styleable.ViewStubCompat_android_layout = global::NavDrawer.Resource.Styleable.ViewStubCompat_android_layout;
 		}
 		
 		public partial class Animation
@@ -442,41 +1283,35 @@ namespace NavDrawer
 			// aapt resource value: 0x7f0100ad
 			public const int cardUseCompatPadding = 2130772141;
 			
-			// aapt resource value: 0x7f0100ba
-			public const int centered = 2130772154;
+			// aapt resource value: 0x7f0100c8
+			public const int circleColor = 2130772168;
+			
+			// aapt resource value: 0x7f0100d9
+			public const int circularProgressBarStyle = 2130772185;
+			
+			// aapt resource value: 0x7f0100d1
+			public const int circular_gravity = 2130772177;
+			
+			// aapt resource value: 0x7f0100d7
+			public const int circular_indeterminate = 2130772183;
+			
+			// aapt resource value: 0x7f0100d8
+			public const int circular_indeterminate_interval = 2130772184;
+			
+			// aapt resource value: 0x7f0100d4
+			public const int circular_marker_progress = 2130772180;
+			
+			// aapt resource value: 0x7f0100d3
+			public const int circular_progress = 2130772179;
 			
 			// aapt resource value: 0x7f0100d6
-			public const int circleColor = 2130772182;
+			public const int circular_progress_background_color = 2130772182;
 			
-			// aapt resource value: 0x7f0100e7
-			public const int circularProgressBarStyle = 2130772199;
+			// aapt resource value: 0x7f0100d5
+			public const int circular_progress_color = 2130772181;
 			
-			// aapt resource value: 0x7f0100df
-			public const int circular_gravity = 2130772191;
-			
-			// aapt resource value: 0x7f0100e5
-			public const int circular_indeterminate = 2130772197;
-			
-			// aapt resource value: 0x7f0100e6
-			public const int circular_indeterminate_interval = 2130772198;
-			
-			// aapt resource value: 0x7f0100e2
-			public const int circular_marker_progress = 2130772194;
-			
-			// aapt resource value: 0x7f0100e1
-			public const int circular_progress = 2130772193;
-			
-			// aapt resource value: 0x7f0100e4
-			public const int circular_progress_background_color = 2130772196;
-			
-			// aapt resource value: 0x7f0100e3
-			public const int circular_progress_color = 2130772195;
-			
-			// aapt resource value: 0x7f0100e0
-			public const int circular_stroke_width = 2130772192;
-			
-			// aapt resource value: 0x7f0100c5
-			public const int clipPadding = 2130772165;
+			// aapt resource value: 0x7f0100d2
+			public const int circular_stroke_width = 2130772178;
 			
 			// aapt resource value: 0x7f010035
 			public const int closeIcon = 2130772021;
@@ -592,41 +1427,8 @@ namespace NavDrawer
 			// aapt resource value: 0x7f01001e
 			public const int expandActivityOverflowButtonDrawable = 2130771998;
 			
-			// aapt resource value: 0x7f0100d1
-			public const int fadeDelay = 2130772177;
-			
-			// aapt resource value: 0x7f0100d2
-			public const int fadeLength = 2130772178;
-			
-			// aapt resource value: 0x7f0100d0
-			public const int fades = 2130772176;
-			
-			// aapt resource value: 0x7f0100be
-			public const int fillColor = 2130772158;
-			
-			// aapt resource value: 0x7f0100c6
-			public const int footerColor = 2130772166;
-			
-			// aapt resource value: 0x7f0100c9
-			public const int footerIndicatorHeight = 2130772169;
-			
-			// aapt resource value: 0x7f0100c8
-			public const int footerIndicatorStyle = 2130772168;
-			
-			// aapt resource value: 0x7f0100ca
-			public const int footerIndicatorUnderlinePadding = 2130772170;
-			
-			// aapt resource value: 0x7f0100c7
-			public const int footerLineHeight = 2130772167;
-			
-			// aapt resource value: 0x7f0100cb
-			public const int footerPadding = 2130772171;
-			
 			// aapt resource value: 0x7f010023
 			public const int gapBetweenBars = 2130772003;
-			
-			// aapt resource value: 0x7f0100c4
-			public const int gapWidth = 2130772164;
 			
 			// aapt resource value: 0x7f010036
 			public const int goIcon = 2130772022;
@@ -649,20 +1451,20 @@ namespace NavDrawer
 			// aapt resource value: 0x7f010033
 			public const int iconifiedByDefault = 2130772019;
 			
-			// aapt resource value: 0x7f0100dd
-			public const int indeterminate = 2130772189;
+			// aapt resource value: 0x7f0100cf
+			public const int indeterminate = 2130772175;
 			
 			// aapt resource value: 0x7f010012
 			public const int indeterminateProgressStyle = 2130771986;
 			
-			// aapt resource value: 0x7f0100de
-			public const int indeterminate_interval = 2130772190;
+			// aapt resource value: 0x7f0100d0
+			public const int indeterminate_interval = 2130772176;
 			
 			// aapt resource value: 0x7f01001d
 			public const int initialActivityCount = 2130771997;
 			
-			// aapt resource value: 0x7f0100db
-			public const int innerSize = 2130772187;
+			// aapt resource value: 0x7f0100cd
+			public const int innerSize = 2130772173;
 			
 			// aapt resource value: 0x7f010002
 			public const int isLightTheme = 2130771970;
@@ -672,12 +1474,6 @@ namespace NavDrawer
 			
 			// aapt resource value: 0x7f010032
 			public const int layout = 2130772018;
-			
-			// aapt resource value: 0x7f0100cc
-			public const int linePosition = 2130772172;
-			
-			// aapt resource value: 0x7f0100c3
-			public const int lineWidth = 2130772163;
 			
 			// aapt resource value: 0x7f010091
 			public const int listChoiceBackgroundIndicator = 2130772113;
@@ -703,8 +1499,8 @@ namespace NavDrawer
 			// aapt resource value: 0x7f01000a
 			public const int logo = 2130771978;
 			
-			// aapt resource value: 0x7f0100d5
-			public const int max = 2130772181;
+			// aapt resource value: 0x7f0100c7
+			public const int max = 2130772167;
 			
 			// aapt resource value: 0x7f0100a1
 			public const int maxButtonHeight = 2130772129;
@@ -733,9 +1529,6 @@ namespace NavDrawer
 			// aapt resource value: 0x7f0100a7
 			public const int paddingStart = 2130772135;
 			
-			// aapt resource value: 0x7f0100bf
-			public const int pageColor = 2130772159;
-			
 			// aapt resource value: 0x7f01008e
 			public const int panelBackground = 2130772110;
 			
@@ -745,11 +1538,11 @@ namespace NavDrawer
 			// aapt resource value: 0x7f01008f
 			public const int panelMenuListWidth = 2130772111;
 			
-			// aapt resource value: 0x7f0100dc
-			public const int pinned = 2130772188;
+			// aapt resource value: 0x7f0100ce
+			public const int pinned = 2130772174;
 			
-			// aapt resource value: 0x7f0100d8
-			public const int pinnedDrawable = 2130772184;
+			// aapt resource value: 0x7f0100ca
+			public const int pinnedDrawable = 2130772170;
 			
 			// aapt resource value: 0x7f01007c
 			public const int popupMenuStyle = 2130772092;
@@ -766,8 +1559,8 @@ namespace NavDrawer
 			// aapt resource value: 0x7f01002f
 			public const int preserveIconSpacing = 2130772015;
 			
-			// aapt resource value: 0x7f0100d4
-			public const int progress = 2130772180;
+			// aapt resource value: 0x7f0100c6
+			public const int progress = 2130772166;
 			
 			// aapt resource value: 0x7f010013
 			public const int progressBarPadding = 2130771987;
@@ -775,23 +1568,71 @@ namespace NavDrawer
 			// aapt resource value: 0x7f010011
 			public const int progressBarStyle = 2130771985;
 			
-			// aapt resource value: 0x7f0100d3
-			public const int progressButtonStyle = 2130772179;
+			// aapt resource value: 0x7f0100c5
+			public const int progressButtonStyle = 2130772165;
 			
-			// aapt resource value: 0x7f0100d7
-			public const int progressColor = 2130772183;
+			// aapt resource value: 0x7f0100c9
+			public const int progressColor = 2130772169;
 			
 			// aapt resource value: 0x7f01003d
 			public const int prompt = 2130772029;
+			
+			// aapt resource value: 0x7f0100b6
+			public const int pstsDividerColor = 2130772150;
+			
+			// aapt resource value: 0x7f0100ba
+			public const int pstsDividerPadding = 2130772154;
+			
+			// aapt resource value: 0x7f0100b7
+			public const int pstsDividerWidth = 2130772151;
+			
+			// aapt resource value: 0x7f0100b4
+			public const int pstsIndicatorColor = 2130772148;
+			
+			// aapt resource value: 0x7f0100b8
+			public const int pstsIndicatorHeight = 2130772152;
+			
+			// aapt resource value: 0x7f0100c0
+			public const int pstsPaddingMiddle = 2130772160;
+			
+			// aapt resource value: 0x7f0100bc
+			public const int pstsScrollOffset = 2130772156;
+			
+			// aapt resource value: 0x7f0100be
+			public const int pstsShouldExpand = 2130772158;
+			
+			// aapt resource value: 0x7f0100bd
+			public const int pstsTabBackground = 2130772157;
+			
+			// aapt resource value: 0x7f0100bb
+			public const int pstsTabPaddingLeftRight = 2130772155;
+			
+			// aapt resource value: 0x7f0100bf
+			public const int pstsTextAllCaps = 2130772159;
+			
+			// aapt resource value: 0x7f0100c3
+			public const int pstsTextAlpha = 2130772163;
+			
+			// aapt resource value: 0x7f0100c4
+			public const int pstsTextSelectedAlpha = 2130772164;
+			
+			// aapt resource value: 0x7f0100c2
+			public const int pstsTextSelectedStyle = 2130772162;
+			
+			// aapt resource value: 0x7f0100c1
+			public const int pstsTextStyle = 2130772161;
+			
+			// aapt resource value: 0x7f0100b5
+			public const int pstsUnderlineColor = 2130772149;
+			
+			// aapt resource value: 0x7f0100b9
+			public const int pstsUnderlineHeight = 2130772153;
 			
 			// aapt resource value: 0x7f01003b
 			public const int queryBackground = 2130772027;
 			
 			// aapt resource value: 0x7f010034
 			public const int queryHint = 2130772020;
-			
-			// aapt resource value: 0x7f0100c0
-			public const int radius = 2130772160;
 			
 			// aapt resource value: 0x7f010037
 			public const int searchIcon = 2130772023;
@@ -805,14 +1646,8 @@ namespace NavDrawer
 			// aapt resource value: 0x7f010076
 			public const int selectableItemBackgroundBorderless = 2130772086;
 			
-			// aapt resource value: 0x7f0100cd
-			public const int selectedBold = 2130772173;
-			
-			// aapt resource value: 0x7f0100bb
-			public const int selectedColor = 2130772155;
-			
-			// aapt resource value: 0x7f0100da
-			public const int shadowDrawable = 2130772186;
+			// aapt resource value: 0x7f0100cc
+			public const int shadowDrawable = 2130772172;
 			
 			// aapt resource value: 0x7f01002b
 			public const int showAsAction = 2130772011;
@@ -822,9 +1657,6 @@ namespace NavDrawer
 			
 			// aapt resource value: 0x7f010047
 			public const int showText = 2130772039;
-			
-			// aapt resource value: 0x7f0100c1
-			public const int snap = 2130772161;
 			
 			// aapt resource value: 0x7f010021
 			public const int spinBars = 2130772001;
@@ -843,12 +1675,6 @@ namespace NavDrawer
 			
 			// aapt resource value: 0x7f010031
 			public const int state_above_anchor = 2130772017;
-			
-			// aapt resource value: 0x7f0100c2
-			public const int strokeColor = 2130772162;
-			
-			// aapt resource value: 0x7f0100bc
-			public const int strokeWidth = 2130772156;
 			
 			// aapt resource value: 0x7f01003c
 			public const int submitBackground = 2130772028;
@@ -928,9 +1754,6 @@ namespace NavDrawer
 			// aapt resource value: 0x7f01009c
 			public const int titleMargins = 2130772124;
 			
-			// aapt resource value: 0x7f0100ce
-			public const int titlePadding = 2130772174;
-			
 			// aapt resource value: 0x7f01009a
 			public const int titleTextAppearance = 2130772122;
 			
@@ -946,38 +1769,14 @@ namespace NavDrawer
 			// aapt resource value: 0x7f010024
 			public const int topBottomBarArrowSize = 2130772004;
 			
-			// aapt resource value: 0x7f0100cf
-			public const int topPadding = 2130772175;
-			
 			// aapt resource value: 0x7f010041
 			public const int track = 2130772033;
 			
-			// aapt resource value: 0x7f0100d9
-			public const int unpinnedDrawable = 2130772185;
-			
-			// aapt resource value: 0x7f0100bd
-			public const int unselectedColor = 2130772157;
+			// aapt resource value: 0x7f0100cb
+			public const int unpinnedDrawable = 2130772171;
 			
 			// aapt resource value: 0x7f010038
 			public const int voiceIcon = 2130772024;
-			
-			// aapt resource value: 0x7f0100b4
-			public const int vpiCirclePageIndicatorStyle = 2130772148;
-			
-			// aapt resource value: 0x7f0100b5
-			public const int vpiIconPageIndicatorStyle = 2130772149;
-			
-			// aapt resource value: 0x7f0100b6
-			public const int vpiLinePageIndicatorStyle = 2130772150;
-			
-			// aapt resource value: 0x7f0100b8
-			public const int vpiTabPageIndicatorStyle = 2130772152;
-			
-			// aapt resource value: 0x7f0100b7
-			public const int vpiTitlePageIndicatorStyle = 2130772151;
-			
-			// aapt resource value: 0x7f0100b9
-			public const int vpiUnderlinePageIndicatorStyle = 2130772153;
 			
 			// aapt resource value: 0x7f010048
 			public const int windowActionBar = 2130772040;
@@ -1031,21 +1830,6 @@ namespace NavDrawer
 			// aapt resource value: 0x7f050005
 			public const int abc_config_showMenuShortcutsWhenKeyboardPresent = 2131034117;
 			
-			// aapt resource value: 0x7f050006
-			public const int default_circle_indicator_centered = 2131034118;
-			
-			// aapt resource value: 0x7f050007
-			public const int default_circle_indicator_snap = 2131034119;
-			
-			// aapt resource value: 0x7f050008
-			public const int default_line_indicator_centered = 2131034120;
-			
-			// aapt resource value: 0x7f050009
-			public const int default_title_indicator_selected_bold = 2131034121;
-			
-			// aapt resource value: 0x7f05000a
-			public const int default_underline_indicator_fades = 2131034122;
-			
 			static Boolean()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -1059,29 +1843,29 @@ namespace NavDrawer
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f060068
-			public const int abc_background_cache_hint_selector_material_dark = 2131099752;
+			// aapt resource value: 0x7f060058
+			public const int abc_background_cache_hint_selector_material_dark = 2131099736;
 			
-			// aapt resource value: 0x7f060069
-			public const int abc_background_cache_hint_selector_material_light = 2131099753;
+			// aapt resource value: 0x7f060059
+			public const int abc_background_cache_hint_selector_material_light = 2131099737;
 			
 			// aapt resource value: 0x7f060000
 			public const int abc_input_method_navigation_guard = 2131099648;
 			
-			// aapt resource value: 0x7f06006a
-			public const int abc_primary_text_disable_only_material_dark = 2131099754;
+			// aapt resource value: 0x7f06005a
+			public const int abc_primary_text_disable_only_material_dark = 2131099738;
 			
-			// aapt resource value: 0x7f06006b
-			public const int abc_primary_text_disable_only_material_light = 2131099755;
+			// aapt resource value: 0x7f06005b
+			public const int abc_primary_text_disable_only_material_light = 2131099739;
 			
-			// aapt resource value: 0x7f06006c
-			public const int abc_primary_text_material_dark = 2131099756;
+			// aapt resource value: 0x7f06005c
+			public const int abc_primary_text_material_dark = 2131099740;
 			
-			// aapt resource value: 0x7f06006d
-			public const int abc_primary_text_material_light = 2131099757;
+			// aapt resource value: 0x7f06005d
+			public const int abc_primary_text_material_light = 2131099741;
 			
-			// aapt resource value: 0x7f06006e
-			public const int abc_search_url_text = 2131099758;
+			// aapt resource value: 0x7f06005e
+			public const int abc_search_url_text = 2131099742;
 			
 			// aapt resource value: 0x7f060001
 			public const int abc_search_url_text_normal = 2131099649;
@@ -1092,11 +1876,11 @@ namespace NavDrawer
 			// aapt resource value: 0x7f060003
 			public const int abc_search_url_text_selected = 2131099651;
 			
-			// aapt resource value: 0x7f06006f
-			public const int abc_secondary_text_material_dark = 2131099759;
+			// aapt resource value: 0x7f06005f
+			public const int abc_secondary_text_material_dark = 2131099743;
 			
-			// aapt resource value: 0x7f060070
-			public const int abc_secondary_text_material_light = 2131099760;
+			// aapt resource value: 0x7f060060
+			public const int abc_secondary_text_material_light = 2131099744;
 			
 			// aapt resource value: 0x7f060004
 			public const int accent_material_dark = 2131099652;
@@ -1115,6 +1899,9 @@ namespace NavDrawer
 			
 			// aapt resource value: 0x7f060009
 			public const int background_material_light = 2131099657;
+			
+			// aapt resource value: 0x7f060035
+			public const int background_tab_pressed = 2131099701;
 			
 			// aapt resource value: 0x7f06000a
 			public const int bright_foreground_disabled_material_dark = 2131099658;
@@ -1152,33 +1939,6 @@ namespace NavDrawer
 			// aapt resource value: 0x7f060034
 			public const int cardview_shadow_start_color = 2131099700;
 			
-			// aapt resource value: 0x7f06003d
-			public const int default_circle_indicator_fill_color = 2131099709;
-			
-			// aapt resource value: 0x7f06003e
-			public const int default_circle_indicator_page_color = 2131099710;
-			
-			// aapt resource value: 0x7f06003f
-			public const int default_circle_indicator_stroke_color = 2131099711;
-			
-			// aapt resource value: 0x7f060040
-			public const int default_line_indicator_selected_color = 2131099712;
-			
-			// aapt resource value: 0x7f060041
-			public const int default_line_indicator_unselected_color = 2131099713;
-			
-			// aapt resource value: 0x7f060042
-			public const int default_title_indicator_footer_color = 2131099714;
-			
-			// aapt resource value: 0x7f060043
-			public const int default_title_indicator_selected_color = 2131099715;
-			
-			// aapt resource value: 0x7f060044
-			public const int default_title_indicator_text_color = 2131099716;
-			
-			// aapt resource value: 0x7f060045
-			public const int default_underline_indicator_selected_color = 2131099717;
-			
 			// aapt resource value: 0x7f060012
 			public const int dim_foreground_disabled_material_dark = 2131099666;
 			
@@ -1209,11 +1969,11 @@ namespace NavDrawer
 			// aapt resource value: 0x7f06001b
 			public const int link_text_material_light = 2131099675;
 			
-			// aapt resource value: 0x7f060065
-			public const int material_blue_500 = 2131099749;
+			// aapt resource value: 0x7f060055
+			public const int material_blue_500 = 2131099733;
 			
-			// aapt resource value: 0x7f060066
-			public const int material_blue_700 = 2131099750;
+			// aapt resource value: 0x7f060056
+			public const int material_blue_700 = 2131099734;
 			
 			// aapt resource value: 0x7f06001c
 			public const int material_blue_grey_800 = 2131099676;
@@ -1230,8 +1990,8 @@ namespace NavDrawer
 			// aapt resource value: 0x7f060020
 			public const int material_deep_teal_500 = 2131099680;
 			
-			// aapt resource value: 0x7f060067
-			public const int material_green_A200 = 2131099751;
+			// aapt resource value: 0x7f060057
+			public const int material_green_A200 = 2131099735;
 			
 			// aapt resource value: 0x7f060021
 			public const int primary_dark_material_dark = 2131099681;
@@ -1257,98 +2017,98 @@ namespace NavDrawer
 			// aapt resource value: 0x7f060028
 			public const int primary_text_disabled_material_light = 2131099688;
 			
-			// aapt resource value: 0x7f060046
-			public const int progress_default_circle_color = 2131099718;
+			// aapt resource value: 0x7f060036
+			public const int progress_default_circle_color = 2131099702;
+			
+			// aapt resource value: 0x7f060037
+			public const int progress_default_progress_color = 2131099703;
+			
+			// aapt resource value: 0x7f060038
+			public const int refractored_background_dark = 2131099704;
+			
+			// aapt resource value: 0x7f06003d
+			public const int refractored_background_holo_dark = 2131099709;
+			
+			// aapt resource value: 0x7f06003e
+			public const int refractored_background_holo_light = 2131099710;
+			
+			// aapt resource value: 0x7f060039
+			public const int refractored_background_light = 2131099705;
+			
+			// aapt resource value: 0x7f06003a
+			public const int refractored_bright_foreground_dark = 2131099706;
+			
+			// aapt resource value: 0x7f06003c
+			public const int refractored_bright_foreground_dark_disabled = 2131099708;
+			
+			// aapt resource value: 0x7f060041
+			public const int refractored_bright_foreground_disabled_holo_dark = 2131099713;
+			
+			// aapt resource value: 0x7f060042
+			public const int refractored_bright_foreground_disabled_holo_light = 2131099714;
+			
+			// aapt resource value: 0x7f06003f
+			public const int refractored_bright_foreground_holo_dark = 2131099711;
+			
+			// aapt resource value: 0x7f060040
+			public const int refractored_bright_foreground_holo_light = 2131099712;
+			
+			// aapt resource value: 0x7f06003b
+			public const int refractored_bright_foreground_light = 2131099707;
+			
+			// aapt resource value: 0x7f060044
+			public const int refractored_dim_foreground_disabled_holo_dark = 2131099716;
 			
 			// aapt resource value: 0x7f060047
-			public const int progress_default_progress_color = 2131099719;
+			public const int refractored_dim_foreground_disabled_holo_light = 2131099719;
 			
-			// aapt resource value: 0x7f060048
-			public const int refractored_background_dark = 2131099720;
+			// aapt resource value: 0x7f060043
+			public const int refractored_dim_foreground_holo_dark = 2131099715;
 			
-			// aapt resource value: 0x7f06004d
-			public const int refractored_background_holo_dark = 2131099725;
-			
-			// aapt resource value: 0x7f06004e
-			public const int refractored_background_holo_light = 2131099726;
+			// aapt resource value: 0x7f060046
+			public const int refractored_dim_foreground_holo_light = 2131099718;
 			
 			// aapt resource value: 0x7f060049
-			public const int refractored_background_light = 2131099721;
+			public const int refractored_highlighted_text_holo_dark = 2131099721;
 			
 			// aapt resource value: 0x7f06004a
-			public const int refractored_bright_foreground_dark = 2131099722;
+			public const int refractored_highlighted_text_holo_light = 2131099722;
 			
-			// aapt resource value: 0x7f06004c
-			public const int refractored_bright_foreground_dark_disabled = 2131099724;
+			// aapt resource value: 0x7f060045
+			public const int refractored_hint_foreground_holo_dark = 2131099717;
 			
-			// aapt resource value: 0x7f060051
-			public const int refractored_bright_foreground_disabled_holo_dark = 2131099729;
-			
-			// aapt resource value: 0x7f060052
-			public const int refractored_bright_foreground_disabled_holo_light = 2131099730;
-			
-			// aapt resource value: 0x7f06004f
-			public const int refractored_bright_foreground_holo_dark = 2131099727;
-			
-			// aapt resource value: 0x7f060050
-			public const int refractored_bright_foreground_holo_light = 2131099728;
-			
-			// aapt resource value: 0x7f06004b
-			public const int refractored_bright_foreground_light = 2131099723;
+			// aapt resource value: 0x7f060048
+			public const int refractored_hint_foreground_holo_light = 2131099720;
 			
 			// aapt resource value: 0x7f060054
-			public const int refractored_dim_foreground_disabled_holo_dark = 2131099732;
+			public const int refractored_holo_blue_bright = 2131099732;
 			
-			// aapt resource value: 0x7f060057
-			public const int refractored_dim_foreground_disabled_holo_light = 2131099735;
+			// aapt resource value: 0x7f06004e
+			public const int refractored_holo_blue_dark = 2131099726;
+			
+			// aapt resource value: 0x7f06004b
+			public const int refractored_holo_blue_light = 2131099723;
+			
+			// aapt resource value: 0x7f06004f
+			public const int refractored_holo_green_dark = 2131099727;
+			
+			// aapt resource value: 0x7f06004c
+			public const int refractored_holo_green_light = 2131099724;
 			
 			// aapt resource value: 0x7f060053
-			public const int refractored_dim_foreground_holo_dark = 2131099731;
+			public const int refractored_holo_orange_dark = 2131099731;
 			
-			// aapt resource value: 0x7f060056
-			public const int refractored_dim_foreground_holo_light = 2131099734;
+			// aapt resource value: 0x7f060052
+			public const int refractored_holo_orange_light = 2131099730;
 			
-			// aapt resource value: 0x7f060059
-			public const int refractored_highlighted_text_holo_dark = 2131099737;
+			// aapt resource value: 0x7f060051
+			public const int refractored_holo_purple = 2131099729;
 			
-			// aapt resource value: 0x7f06005a
-			public const int refractored_highlighted_text_holo_light = 2131099738;
+			// aapt resource value: 0x7f060050
+			public const int refractored_holo_red_dark = 2131099728;
 			
-			// aapt resource value: 0x7f060055
-			public const int refractored_hint_foreground_holo_dark = 2131099733;
-			
-			// aapt resource value: 0x7f060058
-			public const int refractored_hint_foreground_holo_light = 2131099736;
-			
-			// aapt resource value: 0x7f060064
-			public const int refractored_holo_blue_bright = 2131099748;
-			
-			// aapt resource value: 0x7f06005e
-			public const int refractored_holo_blue_dark = 2131099742;
-			
-			// aapt resource value: 0x7f06005b
-			public const int refractored_holo_blue_light = 2131099739;
-			
-			// aapt resource value: 0x7f06005f
-			public const int refractored_holo_green_dark = 2131099743;
-			
-			// aapt resource value: 0x7f06005c
-			public const int refractored_holo_green_light = 2131099740;
-			
-			// aapt resource value: 0x7f060063
-			public const int refractored_holo_orange_dark = 2131099747;
-			
-			// aapt resource value: 0x7f060062
-			public const int refractored_holo_orange_light = 2131099746;
-			
-			// aapt resource value: 0x7f060061
-			public const int refractored_holo_purple = 2131099745;
-			
-			// aapt resource value: 0x7f060060
-			public const int refractored_holo_red_dark = 2131099744;
-			
-			// aapt resource value: 0x7f06005d
-			public const int refractored_holo_red_light = 2131099741;
+			// aapt resource value: 0x7f06004d
+			public const int refractored_holo_red_light = 2131099725;
 			
 			// aapt resource value: 0x7f060029
 			public const int ripple_material_dark = 2131099689;
@@ -1373,36 +2133,6 @@ namespace NavDrawer
 			
 			// aapt resource value: 0x7f060030
 			public const int switch_thumb_normal_material_light = 2131099696;
-			
-			// aapt resource value: 0x7f060035
-			public const int vpi__background_holo_dark = 2131099701;
-			
-			// aapt resource value: 0x7f060036
-			public const int vpi__background_holo_light = 2131099702;
-			
-			// aapt resource value: 0x7f060039
-			public const int vpi__bright_foreground_disabled_holo_dark = 2131099705;
-			
-			// aapt resource value: 0x7f06003a
-			public const int vpi__bright_foreground_disabled_holo_light = 2131099706;
-			
-			// aapt resource value: 0x7f060037
-			public const int vpi__bright_foreground_holo_dark = 2131099703;
-			
-			// aapt resource value: 0x7f060038
-			public const int vpi__bright_foreground_holo_light = 2131099704;
-			
-			// aapt resource value: 0x7f06003b
-			public const int vpi__bright_foreground_inverse_holo_dark = 2131099707;
-			
-			// aapt resource value: 0x7f06003c
-			public const int vpi__bright_foreground_inverse_holo_light = 2131099708;
-			
-			// aapt resource value: 0x7f060071
-			public const int vpi__dark_theme = 2131099761;
-			
-			// aapt resource value: 0x7f060072
-			public const int vpi__light_theme = 2131099762;
 			
 			static Color()
 			{
@@ -1537,45 +2267,6 @@ namespace NavDrawer
 			// aapt resource value: 0x7f07002d
 			public const int cardview_default_radius = 2131165229;
 			
-			// aapt resource value: 0x7f07002e
-			public const int default_circle_indicator_radius = 2131165230;
-			
-			// aapt resource value: 0x7f07002f
-			public const int default_circle_indicator_stroke_width = 2131165231;
-			
-			// aapt resource value: 0x7f070031
-			public const int default_line_indicator_gap_width = 2131165233;
-			
-			// aapt resource value: 0x7f070030
-			public const int default_line_indicator_line_width = 2131165232;
-			
-			// aapt resource value: 0x7f070032
-			public const int default_line_indicator_stroke_width = 2131165234;
-			
-			// aapt resource value: 0x7f070033
-			public const int default_title_indicator_clip_padding = 2131165235;
-			
-			// aapt resource value: 0x7f070035
-			public const int default_title_indicator_footer_indicator_height = 2131165237;
-			
-			// aapt resource value: 0x7f070036
-			public const int default_title_indicator_footer_indicator_underline_padding = 2131165238;
-			
-			// aapt resource value: 0x7f070034
-			public const int default_title_indicator_footer_line_height = 2131165236;
-			
-			// aapt resource value: 0x7f070037
-			public const int default_title_indicator_footer_padding = 2131165239;
-			
-			// aapt resource value: 0x7f070038
-			public const int default_title_indicator_text_size = 2131165240;
-			
-			// aapt resource value: 0x7f070039
-			public const int default_title_indicator_title_padding = 2131165241;
-			
-			// aapt resource value: 0x7f07003a
-			public const int default_title_indicator_top_padding = 2131165242;
-			
 			// aapt resource value: 0x7f070025
 			public const int dialog_fixed_height_major = 2131165221;
 			
@@ -1594,11 +2285,11 @@ namespace NavDrawer
 			// aapt resource value: 0x7f07002a
 			public const int disabled_alpha_material_light = 2131165226;
 			
-			// aapt resource value: 0x7f07003c
-			public const int drawer_width = 2131165244;
+			// aapt resource value: 0x7f07002f
+			public const int drawer_width = 2131165231;
 			
-			// aapt resource value: 0x7f07003b
-			public const int progress_inner_size = 2131165243;
+			// aapt resource value: 0x7f07002e
+			public const int progress_inner_size = 2131165230;
 			
 			static Dimension()
 			{
@@ -1767,52 +2458,34 @@ namespace NavDrawer
 			public const int abc_textfield_search_material = 2130837554;
 			
 			// aapt resource value: 0x7f020033
-			public const int drawer_shadow_dark = 2130837555;
+			public const int background_tab = 2130837555;
 			
 			// aapt resource value: 0x7f020034
-			public const int drawer_shadow_light = 2130837556;
+			public const int drawer_shadow_dark = 2130837556;
 			
 			// aapt resource value: 0x7f020035
-			public const int ic_launcher = 2130837557;
+			public const int drawer_shadow_light = 2130837557;
 			
 			// aapt resource value: 0x7f020036
-			public const int ic_menu_refresh = 2130837558;
+			public const int ic_launcher = 2130837558;
 			
 			// aapt resource value: 0x7f020037
-			public const int pin_progress_pinned = 2130837559;
+			public const int ic_menu_refresh = 2130837559;
 			
 			// aapt resource value: 0x7f020038
-			public const int pin_progress_shadow = 2130837560;
+			public const int pin_progress_pinned = 2130837560;
 			
 			// aapt resource value: 0x7f020039
-			public const int pin_progress_unpinned = 2130837561;
+			public const int pin_progress_shadow = 2130837561;
 			
 			// aapt resource value: 0x7f02003a
-			public const int scrubber_control_normal_holo = 2130837562;
+			public const int pin_progress_unpinned = 2130837562;
 			
 			// aapt resource value: 0x7f02003b
-			public const int scrubber_control_pressed_holo = 2130837563;
+			public const int scrubber_control_normal_holo = 2130837563;
 			
 			// aapt resource value: 0x7f02003c
-			public const int vpi__tab_indicator = 2130837564;
-			
-			// aapt resource value: 0x7f02003d
-			public const int vpi__tab_selected_focused_holo = 2130837565;
-			
-			// aapt resource value: 0x7f02003e
-			public const int vpi__tab_selected_holo = 2130837566;
-			
-			// aapt resource value: 0x7f02003f
-			public const int vpi__tab_selected_pressed_holo = 2130837567;
-			
-			// aapt resource value: 0x7f020040
-			public const int vpi__tab_unselected_focused_holo = 2130837568;
-			
-			// aapt resource value: 0x7f020041
-			public const int vpi__tab_unselected_holo = 2130837569;
-			
-			// aapt resource value: 0x7f020042
-			public const int vpi__tab_unselected_pressed_holo = 2130837570;
+			public const int scrubber_control_pressed_holo = 2130837564;
 			
 			static Drawable()
 			{
@@ -1875,29 +2548,32 @@ namespace NavDrawer
 			// aapt resource value: 0x7f080013
 			public const int beginning = 2131230739;
 			
+			// aapt resource value: 0x7f08001e
+			public const int bold = 2131230750;
+			
 			// aapt resource value: 0x7f080020
 			public const int bottom = 2131230752;
 			
+			// aapt resource value: 0x7f080021
+			public const int center = 2131230753;
+			
 			// aapt resource value: 0x7f080022
-			public const int center = 2131230754;
+			public const int center_horizontal = 2131230754;
 			
 			// aapt resource value: 0x7f080023
-			public const int center_horizontal = 2131230755;
-			
-			// aapt resource value: 0x7f080024
-			public const int center_vertical = 2131230756;
+			public const int center_vertical = 2131230755;
 			
 			// aapt resource value: 0x7f080039
 			public const int checkbox = 2131230777;
 			
+			// aapt resource value: 0x7f080024
+			public const int clip = 2131230756;
+			
 			// aapt resource value: 0x7f080025
-			public const int clip = 2131230757;
+			public const int clip_horizontal = 2131230757;
 			
 			// aapt resource value: 0x7f080026
-			public const int clip_horizontal = 2131230758;
-			
-			// aapt resource value: 0x7f080027
-			public const int clip_vertical = 2131230759;
+			public const int clip_vertical = 2131230758;
 			
 			// aapt resource value: 0x7f080017
 			public const int collapseActionView = 2131230743;
@@ -1935,14 +2611,14 @@ namespace NavDrawer
 			// aapt resource value: 0x7f080038
 			public const int expanded_menu = 2131230776;
 			
+			// aapt resource value: 0x7f080027
+			public const int fill = 2131230759;
+			
 			// aapt resource value: 0x7f080028
-			public const int fill = 2131230760;
+			public const int fill_horizontal = 2131230760;
 			
 			// aapt resource value: 0x7f080029
-			public const int fill_horizontal = 2131230761;
-			
-			// aapt resource value: 0x7f08002a
-			public const int fill_vertical = 2131230762;
+			public const int fill_vertical = 2131230761;
 			
 			// aapt resource value: 0x7f080059
 			public const int friend_description = 2131230809;
@@ -1968,14 +2644,17 @@ namespace NavDrawer
 			// aapt resource value: 0x7f080033
 			public const int image = 2131230771;
 			
+			// aapt resource value: 0x7f08001f
+			public const int italic = 2131230751;
+			
 			// aapt resource value: 0x7f080055
 			public const int item_image = 2131230805;
 			
 			// aapt resource value: 0x7f080056
 			public const int item_title = 2131230806;
 			
-			// aapt resource value: 0x7f08002b
-			public const int left = 2131230763;
+			// aapt resource value: 0x7f08002a
+			public const int left = 2131230762;
 			
 			// aapt resource value: 0x7f08005c
 			public const int left_drawer = 2131230812;
@@ -1986,8 +2665,8 @@ namespace NavDrawer
 			// aapt resource value: 0x7f080035
 			public const int list_item = 2131230773;
 			
-			// aapt resource value: 0x7f08005d
-			public const int menu_refresh = 2131230813;
+			// aapt resource value: 0x7f08005e
+			public const int menu_refresh = 2131230814;
 			
 			// aapt resource value: 0x7f080015
 			public const int middle = 2131230741;
@@ -2019,8 +2698,8 @@ namespace NavDrawer
 			// aapt resource value: 0x7f08003b
 			public const int radio = 2131230779;
 			
-			// aapt resource value: 0x7f08002c
-			public const int right = 2131230764;
+			// aapt resource value: 0x7f08002b
+			public const int right = 2131230763;
 			
 			// aapt resource value: 0x7f080045
 			public const int search_badge = 2131230789;
@@ -2067,8 +2746,8 @@ namespace NavDrawer
 			// aapt resource value: 0x7f080007
 			public const int split_action_bar = 2131230727;
 			
-			// aapt resource value: 0x7f08002d
-			public const int start = 2131230765;
+			// aapt resource value: 0x7f08002c
+			public const int start = 2131230764;
 			
 			// aapt resource value: 0x7f08004c
 			public const int submit_area = 2131230796;
@@ -2076,20 +2755,20 @@ namespace NavDrawer
 			// aapt resource value: 0x7f08000b
 			public const int tabMode = 2131230731;
 			
+			// aapt resource value: 0x7f08005d
+			public const int tab_title = 2131230813;
+			
+			// aapt resource value: 0x7f080050
+			public const int tabs = 2131230800;
+			
 			// aapt resource value: 0x7f080037
 			public const int title = 2131230775;
 			
 			// aapt resource value: 0x7f080057
 			public const int toolbar = 2131230807;
 			
-			// aapt resource value: 0x7f080021
-			public const int top = 2131230753;
-			
-			// aapt resource value: 0x7f08001e
-			public const int triangle = 2131230750;
-			
-			// aapt resource value: 0x7f08001f
-			public const int underline = 2131230751;
+			// aapt resource value: 0x7f08002d
+			public const int top = 2131230765;
 			
 			// aapt resource value: 0x7f080008
 			public const int up = 2131230728;
@@ -2099,9 +2778,6 @@ namespace NavDrawer
 			
 			// aapt resource value: 0x7f080051
 			public const int viewPager = 2131230801;
-			
-			// aapt resource value: 0x7f080050
-			public const int viewPagerIndicator = 2131230800;
 			
 			// aapt resource value: 0x7f08001a
 			public const int withText = 2131230746;
@@ -2125,29 +2801,14 @@ namespace NavDrawer
 			// aapt resource value: 0x7f090000
 			public const int abc_max_action_buttons = 2131296256;
 			
-			// aapt resource value: 0x7f090007
-			public const int circular_indeterminent_interval = 2131296263;
-			
-			// aapt resource value: 0x7f090001
-			public const int default_circle_indicator_orientation = 2131296257;
-			
 			// aapt resource value: 0x7f090002
-			public const int default_title_indicator_footer_indicator_style = 2131296258;
+			public const int circular_indeterminent_interval = 2131296258;
 			
 			// aapt resource value: 0x7f090003
-			public const int default_title_indicator_line_position = 2131296259;
+			public const int item_columns = 2131296259;
 			
-			// aapt resource value: 0x7f090004
-			public const int default_underline_indicator_fade_delay = 2131296260;
-			
-			// aapt resource value: 0x7f090005
-			public const int default_underline_indicator_fade_length = 2131296261;
-			
-			// aapt resource value: 0x7f090008
-			public const int item_columns = 2131296264;
-			
-			// aapt resource value: 0x7f090006
-			public const int progressbutton_indeterminent_interval = 2131296262;
+			// aapt resource value: 0x7f090001
+			public const int progressbutton_indeterminent_interval = 2131296257;
 			
 			static Integer()
 			{
@@ -2262,7 +2923,10 @@ namespace NavDrawer
 			public const int support_simple_spinner_dropdown_item = 2130903072;
 			
 			// aapt resource value: 0x7f030021
-			public const int toolbar = 2130903073;
+			public const int tab = 2130903073;
+			
+			// aapt resource value: 0x7f030022
+			public const int toolbar = 2130903074;
 			
 			static Layout()
 			{
@@ -2705,17 +3369,17 @@ namespace NavDrawer
 			// aapt resource value: 0x7f0b00ed
 			public const int CardView_Light = 2131427565;
 			
-			// aapt resource value: 0x7f0b00f5
-			public const int CircularProgressBar = 2131427573;
+			// aapt resource value: 0x7f0b00f0
+			public const int CircularProgressBar = 2131427568;
 			
-			// aapt resource value: 0x7f0b00f6
-			public const int CircularProgressBarLight = 2131427574;
+			// aapt resource value: 0x7f0b00f1
+			public const int CircularProgressBarLight = 2131427569;
 			
-			// aapt resource value: 0x7f0b00f8
-			public const int MyTheme = 2131427576;
+			// aapt resource value: 0x7f0b00f3
+			public const int MyTheme = 2131427571;
 			
-			// aapt resource value: 0x7f0b00f7
-			public const int MyTheme_Base = 2131427575;
+			// aapt resource value: 0x7f0b00f2
+			public const int MyTheme_Base = 2131427570;
 			
 			// aapt resource value: 0x7f0b0061
 			public const int Platform_AppCompat = 2131427425;
@@ -2729,11 +3393,11 @@ namespace NavDrawer
 			// aapt resource value: 0x7f0b0064
 			public const int Platform_AppCompat_Light_Dialog = 2131427428;
 			
-			// aapt resource value: 0x7f0b00f3
-			public const int ProgressButton = 2131427571;
+			// aapt resource value: 0x7f0b00ee
+			public const int ProgressButton = 2131427566;
 			
-			// aapt resource value: 0x7f0b00f4
-			public const int ProgressButton_Pin = 2131427572;
+			// aapt resource value: 0x7f0b00ef
+			public const int ProgressButton_Pin = 2131427567;
 			
 			// aapt resource value: 0x7f0b0065
 			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131427429;
@@ -2894,9 +3558,6 @@ namespace NavDrawer
 			// aapt resource value: 0x7f0b0099
 			public const int TextAppearance_AppCompat_Widget_Switch = 2131427481;
 			
-			// aapt resource value: 0x7f0b00f1
-			public const int TextAppearance_TabPageIndicator = 2131427569;
-			
 			// aapt resource value: 0x7f0b009a
 			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131427482;
 			
@@ -2936,9 +3597,6 @@ namespace NavDrawer
 			// aapt resource value: 0x7f0b00a6
 			public const int Theme_AppCompat_NoActionBar = 2131427494;
 			
-			// aapt resource value: 0x7f0b00ee
-			public const int Theme_PageIndicatorDefaults = 2131427566;
-			
 			// aapt resource value: 0x7f0b00a7
 			public const int ThemeOverlay_AppCompat = 2131427495;
 			
@@ -2953,9 +3611,6 @@ namespace NavDrawer
 			
 			// aapt resource value: 0x7f0b00ab
 			public const int ThemeOverlay_AppCompat_Light = 2131427499;
-			
-			// aapt resource value: 0x7f0b00ef
-			public const int Widget = 2131427567;
 			
 			// aapt resource value: 0x7f0b00ac
 			public const int Widget_AppCompat_ActionBar = 2131427500;
@@ -3109,12 +3764,6 @@ namespace NavDrawer
 			
 			// aapt resource value: 0x7f0b00de
 			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131427550;
-			
-			// aapt resource value: 0x7f0b00f2
-			public const int Widget_IconPageIndicator = 2131427570;
-			
-			// aapt resource value: 0x7f0b00f0
-			public const int Widget_TabPageIndicator = 2131427568;
 			
 			static Style()
 			{
@@ -3341,45 +3990,6 @@ namespace NavDrawer
 			// aapt resource value: 9
 			public const int CardView_contentPaddingTop = 9;
 			
-			public static int[] CirclePageIndicator = new int[]
-			{
-					16842948,
-					16842964,
-					2130772154,
-					2130772156,
-					2130772158,
-					2130772159,
-					2130772160,
-					2130772161,
-					2130772162};
-			
-			// aapt resource value: 1
-			public const int CirclePageIndicator_android_background = 1;
-			
-			// aapt resource value: 0
-			public const int CirclePageIndicator_android_orientation = 0;
-			
-			// aapt resource value: 2
-			public const int CirclePageIndicator_centered = 2;
-			
-			// aapt resource value: 4
-			public const int CirclePageIndicator_fillColor = 4;
-			
-			// aapt resource value: 5
-			public const int CirclePageIndicator_pageColor = 5;
-			
-			// aapt resource value: 6
-			public const int CirclePageIndicator_radius = 6;
-			
-			// aapt resource value: 7
-			public const int CirclePageIndicator_snap = 7;
-			
-			// aapt resource value: 8
-			public const int CirclePageIndicator_strokeColor = 8;
-			
-			// aapt resource value: 3
-			public const int CirclePageIndicator_strokeWidth = 3;
-			
 			public static int[] CompatTextView = new int[]
 			{
 					2130771999};
@@ -3424,14 +4034,14 @@ namespace NavDrawer
 			
 			public static int[] HoloCircularProgressBar = new int[]
 			{
-					2130772191,
-					2130772192,
-					2130772193,
-					2130772194,
-					2130772195,
-					2130772196,
-					2130772197,
-					2130772198};
+					2130772177,
+					2130772178,
+					2130772179,
+					2130772180,
+					2130772181,
+					2130772182,
+					2130772183,
+					2130772184};
 			
 			// aapt resource value: 0
 			public const int HoloCircularProgressBar_circular_gravity = 0;
@@ -3456,37 +4066,6 @@ namespace NavDrawer
 			
 			// aapt resource value: 1
 			public const int HoloCircularProgressBar_circular_stroke_width = 1;
-			
-			public static int[] LinePageIndicator = new int[]
-			{
-					16842964,
-					2130772154,
-					2130772155,
-					2130772156,
-					2130772157,
-					2130772163,
-					2130772164};
-			
-			// aapt resource value: 0
-			public const int LinePageIndicator_android_background = 0;
-			
-			// aapt resource value: 1
-			public const int LinePageIndicator_centered = 1;
-			
-			// aapt resource value: 6
-			public const int LinePageIndicator_gapWidth = 6;
-			
-			// aapt resource value: 5
-			public const int LinePageIndicator_lineWidth = 5;
-			
-			// aapt resource value: 2
-			public const int LinePageIndicator_selectedColor = 2;
-			
-			// aapt resource value: 3
-			public const int LinePageIndicator_strokeWidth = 3;
-			
-			// aapt resource value: 4
-			public const int LinePageIndicator_unselectedColor = 4;
 			
 			public static int[] LinearLayoutCompat = new int[]
 			{
@@ -3690,6 +4269,77 @@ namespace NavDrawer
 			// aapt resource value: 7
 			public const int MenuView_preserveIconSpacing = 7;
 			
+			public static int[] PagerSlidingTabStrip = new int[]
+			{
+					2130772148,
+					2130772149,
+					2130772150,
+					2130772151,
+					2130772152,
+					2130772153,
+					2130772154,
+					2130772155,
+					2130772156,
+					2130772157,
+					2130772158,
+					2130772159,
+					2130772160,
+					2130772161,
+					2130772162,
+					2130772163,
+					2130772164};
+			
+			// aapt resource value: 2
+			public const int PagerSlidingTabStrip_pstsDividerColor = 2;
+			
+			// aapt resource value: 6
+			public const int PagerSlidingTabStrip_pstsDividerPadding = 6;
+			
+			// aapt resource value: 3
+			public const int PagerSlidingTabStrip_pstsDividerWidth = 3;
+			
+			// aapt resource value: 0
+			public const int PagerSlidingTabStrip_pstsIndicatorColor = 0;
+			
+			// aapt resource value: 4
+			public const int PagerSlidingTabStrip_pstsIndicatorHeight = 4;
+			
+			// aapt resource value: 12
+			public const int PagerSlidingTabStrip_pstsPaddingMiddle = 12;
+			
+			// aapt resource value: 8
+			public const int PagerSlidingTabStrip_pstsScrollOffset = 8;
+			
+			// aapt resource value: 10
+			public const int PagerSlidingTabStrip_pstsShouldExpand = 10;
+			
+			// aapt resource value: 9
+			public const int PagerSlidingTabStrip_pstsTabBackground = 9;
+			
+			// aapt resource value: 7
+			public const int PagerSlidingTabStrip_pstsTabPaddingLeftRight = 7;
+			
+			// aapt resource value: 11
+			public const int PagerSlidingTabStrip_pstsTextAllCaps = 11;
+			
+			// aapt resource value: 15
+			public const int PagerSlidingTabStrip_pstsTextAlpha = 15;
+			
+			// aapt resource value: 16
+			public const int PagerSlidingTabStrip_pstsTextSelectedAlpha = 16;
+			
+			// aapt resource value: 14
+			public const int PagerSlidingTabStrip_pstsTextSelectedStyle = 14;
+			
+			// aapt resource value: 13
+			public const int PagerSlidingTabStrip_pstsTextStyle = 13;
+			
+			// aapt resource value: 1
+			public const int PagerSlidingTabStrip_pstsUnderlineColor = 1;
+			
+			// aapt resource value: 5
+			public const int PagerSlidingTabStrip_pstsUnderlineHeight = 5;
+			
 			public static int[] PopupWindow = new int[]
 			{
 					16843126,
@@ -3713,17 +4363,17 @@ namespace NavDrawer
 					16842970,
 					16842981,
 					16843534,
-					2130772180,
-					2130772181,
-					2130772182,
-					2130772183,
-					2130772184,
-					2130772185,
-					2130772186,
-					2130772187,
-					2130772188,
-					2130772189,
-					2130772190};
+					2130772166,
+					2130772167,
+					2130772168,
+					2130772169,
+					2130772170,
+					2130772171,
+					2130772172,
+					2130772173,
+					2130772174,
+					2130772175,
+					2130772176};
 			
 			// aapt resource value: 1
 			public const int ProgressButton_android_clickable = 1;
@@ -4005,7 +4655,7 @@ namespace NavDrawer
 					2130772119,
 					2130772120,
 					2130772121,
-					2130772199};
+					2130772185};
 			
 			// aapt resource value: 19
 			public const int Theme_actionBarDivider = 19;
@@ -4259,69 +4909,6 @@ namespace NavDrawer
 			// aapt resource value: 6
 			public const int Theme_windowFixedWidthMinor = 6;
 			
-			public static int[] TitlePageIndicator = new int[]
-			{
-					16842901,
-					16842904,
-					16842964,
-					2130772155,
-					2130772165,
-					2130772166,
-					2130772167,
-					2130772168,
-					2130772169,
-					2130772170,
-					2130772171,
-					2130772172,
-					2130772173,
-					2130772174,
-					2130772175};
-			
-			// aapt resource value: 2
-			public const int TitlePageIndicator_android_background = 2;
-			
-			// aapt resource value: 1
-			public const int TitlePageIndicator_android_textColor = 1;
-			
-			// aapt resource value: 0
-			public const int TitlePageIndicator_android_textSize = 0;
-			
-			// aapt resource value: 4
-			public const int TitlePageIndicator_clipPadding = 4;
-			
-			// aapt resource value: 5
-			public const int TitlePageIndicator_footerColor = 5;
-			
-			// aapt resource value: 8
-			public const int TitlePageIndicator_footerIndicatorHeight = 8;
-			
-			// aapt resource value: 7
-			public const int TitlePageIndicator_footerIndicatorStyle = 7;
-			
-			// aapt resource value: 9
-			public const int TitlePageIndicator_footerIndicatorUnderlinePadding = 9;
-			
-			// aapt resource value: 6
-			public const int TitlePageIndicator_footerLineHeight = 6;
-			
-			// aapt resource value: 10
-			public const int TitlePageIndicator_footerPadding = 10;
-			
-			// aapt resource value: 11
-			public const int TitlePageIndicator_linePosition = 11;
-			
-			// aapt resource value: 12
-			public const int TitlePageIndicator_selectedBold = 12;
-			
-			// aapt resource value: 3
-			public const int TitlePageIndicator_selectedColor = 3;
-			
-			// aapt resource value: 13
-			public const int TitlePageIndicator_titlePadding = 13;
-			
-			// aapt resource value: 14
-			public const int TitlePageIndicator_topPadding = 14;
-			
 			public static int[] Toolbar = new int[]
 			{
 					16842927,
@@ -4413,29 +5000,6 @@ namespace NavDrawer
 			// aapt resource value: 9
 			public const int Toolbar_titleTextAppearance = 9;
 			
-			public static int[] UnderlinePageIndicator = new int[]
-			{
-					16842964,
-					2130772155,
-					2130772176,
-					2130772177,
-					2130772178};
-			
-			// aapt resource value: 0
-			public const int UnderlinePageIndicator_android_background = 0;
-			
-			// aapt resource value: 3
-			public const int UnderlinePageIndicator_fadeDelay = 3;
-			
-			// aapt resource value: 4
-			public const int UnderlinePageIndicator_fadeLength = 4;
-			
-			// aapt resource value: 2
-			public const int UnderlinePageIndicator_fades = 2;
-			
-			// aapt resource value: 1
-			public const int UnderlinePageIndicator_selectedColor = 1;
-			
 			public static int[] View = new int[]
 			{
 					16842970,
@@ -4450,33 +5014,6 @@ namespace NavDrawer
 			
 			// aapt resource value: 1
 			public const int View_paddingStart = 1;
-			
-			public static int[] ViewPagerIndicator = new int[]
-			{
-					2130772148,
-					2130772149,
-					2130772150,
-					2130772151,
-					2130772152,
-					2130772153};
-			
-			// aapt resource value: 0
-			public const int ViewPagerIndicator_vpiCirclePageIndicatorStyle = 0;
-			
-			// aapt resource value: 1
-			public const int ViewPagerIndicator_vpiIconPageIndicatorStyle = 1;
-			
-			// aapt resource value: 2
-			public const int ViewPagerIndicator_vpiLinePageIndicatorStyle = 2;
-			
-			// aapt resource value: 4
-			public const int ViewPagerIndicator_vpiTabPageIndicatorStyle = 4;
-			
-			// aapt resource value: 3
-			public const int ViewPagerIndicator_vpiTitlePageIndicatorStyle = 3;
-			
-			// aapt resource value: 5
-			public const int ViewPagerIndicator_vpiUnderlinePageIndicatorStyle = 5;
 			
 			public static int[] ViewStubCompat = new int[]
 			{
