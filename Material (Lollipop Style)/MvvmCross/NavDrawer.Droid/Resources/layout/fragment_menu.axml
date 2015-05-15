@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mvx.MvxListView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_drawer_list"
+    local:MvxItemTemplate="@layout/item_menu"
+    local:MvxBind="ItemsSource MenuItems; ItemClick ItemSelectedCommand"
+    android:divider="@null"
+    android:scrollbars="vertical"
+    android:choiceMode="singleChoice"
+    android:layout_width="@dimen/drawer_width"
+    android:layout_height="match_parent"
+    android:layout_gravity="left|start"
+    android:background="@color/white" />
