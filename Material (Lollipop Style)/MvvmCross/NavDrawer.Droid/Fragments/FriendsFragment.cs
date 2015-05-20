@@ -4,11 +4,15 @@ using com.refractored;
 using Android.Support.V4.App;
 using Android.OS;
 using NavDrawer.Adapters;
+using Android.Runtime;
+using Cirrious.MvvmCross.Droid.FullFragging.Fragments;
+using NavDrawer.Core.ViewModels;
 
 
 namespace NavDrawer.Fragments
 {
-    /*public class FriendsFragment : Fragment
+    [Register("navdrawer.fragments.FriendsFragment")]
+    public class FriendsFragment : MvxFragment<FriendsViewModel>
     {
         private ViewPager m_ViewPager;
         private PagerSlidingTabStrip m_PageIndicator;
@@ -30,14 +34,14 @@ namespace NavDrawer.Fragments
 						this.m_PageIndicator = view.FindViewById<PagerSlidingTabStrip>(NavDrawer.Droid.Resource.Id.tabs);
 
             //Since we are a fragment in a fragment you need to pass down the child fragment manager!
-            this.m_Adapter = new FriendsAdapter(this.ChildFragmentManager);
+            //this.m_Adapter = new FriendsAdapter(this.ChildFragmentManager);
 
 
-            this.m_ViewPager.Adapter = this.m_Adapter;
+            //this.m_ViewPager.Adapter = this.m_Adapter;
 
             this.m_PageIndicator.SetViewPager(this.m_ViewPager);
             return view;
         }
 
-    }*/
+    }
 }

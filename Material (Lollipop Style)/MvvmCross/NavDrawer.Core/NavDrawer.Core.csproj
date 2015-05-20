@@ -56,12 +56,16 @@
   <ItemGroup>
     <Compile Include="App.cs" />
     <Compile Include="AppStart.cs" />
-    <Compile Include="Models\FriendViewModel.cs" />
     <Compile Include="Helpers\Util.cs" />
     <Compile Include="ViewModels\HomeViewModel.cs" />
     <Compile Include="ViewModels\ProfileViewModel.cs" />
     <Compile Include="ViewModels\MenuViewModel.cs" />
     <Compile Include="Models\MenuItem.cs" />
+    <Compile Include="ViewModels\BrowseViewModel.cs" />
+    <Compile Include="ViewModels\FriendsViewModel.cs" />
+    <Compile Include="ViewModels\FriendsAllViewModel.cs" />
+    <Compile Include="ViewModels\FriendsRecentViewModel.cs" />
+    <Compile Include="Models\Friend.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />

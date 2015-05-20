@@ -73,32 +73,23 @@ namespace NavDrawer.Activities
 
         private void registerFragments(Bundle bundle)
         {
-            RegisterFragment<ProfileFragment, ProfileViewModel>(typeof(ProfileFragment).Name);
             RegisterFragment<MenuFragment, MenuViewModel>(typeof(MenuFragment).Name);
-
-            //RegisterFragment<MailListView, MailListViewModel>(typeof(MailListView).Name, bundle);
-            //RegisterFragment<SettingsView, SettingsViewModel>(typeof(SettingsView).Name, bundle);
-            //RegisterFragment<WriteMessageView, WriteMessageViewModel>(typeof(WriteMessageView).Name, bundle);
+            RegisterFragment<ProfileFragment, ProfileViewModel>(typeof(ProfileFragment).Name);
+            RegisterFragment<BrowseFragment, BrowseViewModel>(typeof(BrowseFragment).Name);
+            RegisterFragment<FriendsFragment, FriendsViewModel>(typeof(FriendsFragment).Name);
+            RegisterFragment<FriendsAllFragment, FriendsAllViewModel>(typeof(FriendsAllFragment).Name);
+            RegisterFragment<FriendsRecentFragment, FriendsRecentViewModel>(typeof(FriendsRecentFragment).Name);
         }
-
-        /*public void RegisterFragment<TFragment, TViewModel>(string tag, Bundle args, IMvxViewModel viewModel = null)
-            where TFragment : IMvxFragmentView where TViewModel : IMvxViewModel
-        {
-            var customPresenter = Mvx.Resolve<IMvxFragmentsPresenter>();
-            customPresenter.RegisterViewModelAtHost<TViewModel>(this);
-            RegisterFragment<TFragment, TViewModel>(tag);
-        }*/
 
         public bool Show(MvxViewModelRequest request, Bundle bundle)
         {
-            if (request.ViewModelType == typeof(MenuViewModel))
-            {
-                ShowFragment(typeof(MenuFragment).Name, Resource.Id.left_drawer, bundle);
+            drawerLayout.CloseDrawers();
+
+            if (request.ViewModelType == typeof(MenuViewModel)) {
+                ShowFragment (typeof(MenuFragment).Name, Resource.Id.left_drawer, bundle);
                 return true;
-            }
-            if (request.ViewModelType == typeof(ProfileViewModel))
-            {
-                ShowFragment(typeof(ProfileFragment).Name, Resource.Id.content_frame, bundle);
+            } else {
+                ShowFragment(request.ViewModelType.Name, Resource.Id.content_frame, bundle);
                 return true;
             }
             return false;
@@ -106,16 +97,12 @@ namespace NavDrawer.Activities
 
         public override void OnBackPressed()
         {
-            //Mvx.Trace("MainActivity:OnBackPressed");
-            // check what fragment is currently on top
-            //Mvx.Trace("BackStackEntryCount = " + FragmentManager.BackStackEntryCount);
             if (FragmentManager.BackStackEntryCount == 0)
             {
                 MoveTaskToBack(true);
                 return;
             }
             fragmentManager.PopBackStackImmediate();
-            //CloseCurrentFragment(Resource.Id.contentFrame);
         }
 
         protected override void OnPostCreate(Bundle savedInstanceState)

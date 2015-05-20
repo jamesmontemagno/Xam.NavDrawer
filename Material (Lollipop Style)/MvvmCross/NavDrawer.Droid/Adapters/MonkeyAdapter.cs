@@ -21,10 +21,10 @@ namespace NavDrawer.Adapters
     class MonkeyAdapter : BaseAdapter
     {
         private readonly Activity m_Context;
-        private readonly IEnumerable<FriendViewModel> m_Friends;
+        private readonly IEnumerable<Friend> m_Friends;
         public ImageLoader ImageLoader { get; set; }
 
-        public MonkeyAdapter(Activity context, IEnumerable<FriendViewModel> friends)
+        public MonkeyAdapter(Activity context, IEnumerable<Friend> friends)
         {
             m_Context = context;
             this.m_Friends = friends;

@@ -12,12 +12,12 @@ using NavDrawer.Models;
 
 using com.refractored.monodroidtoolkit.imageloader;
 using NavDrawer.Droid;
+using Cirrious.MvvmCross.Droid.FullFragging.Views;
 
 namespace NavDrawer.Activities
 {
-    /*[Activity(Label = "Friend",ParentActivity = typeof(HomeView))]
-    [MetaData("android.support.PARENT_ACTIVITY", Value = "navdrawer.activities.HomeView")]
-	public class FriendActivity : BaseActivity
+    /*[Activity(Label = "Friend")]
+    public class FriendFragment : MvxFragment<FriendViewModel>
     {
         private List<FriendViewModel> _friends;
         private ImageLoader m_ImageLoader;
@@ -55,7 +55,7 @@ namespace NavDrawer.Activities
             grid.ItemClick += GridOnItemClick;
 
             //set title here
-						SupportActionBar.Title = Title;
+						//SupportActionBar.Title = Title;
         }
 
         private void GridOnItemClick(object sender, AdapterView.ItemClickEventArgs itemClickEventArgs)

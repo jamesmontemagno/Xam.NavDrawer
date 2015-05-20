@@ -10,9 +10,11 @@ using TaskStackBuilder = Android.Support.V4.App.TaskStackBuilder;
 using NavDrawer.Droid;
 using Cirrious.MvvmCross.Droid.FullFragging.Fragments;
 using NavDrawer.Core.ViewModels;
+using Android.Runtime;
 
 namespace NavDrawer.Fragments
 {
+    [Register("navdrawer.fragments.ProfileFragment")]
     public class ProfileFragment : MvxFragment<ProfileViewModel>
     {
         private ImageLoader m_ImageLoader;

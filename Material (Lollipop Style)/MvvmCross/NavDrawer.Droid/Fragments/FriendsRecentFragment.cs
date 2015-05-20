@@ -11,17 +11,21 @@ using NavDrawer.Activities;
 using NavDrawer.Adapters;
 using NavDrawer.Models;
 using NavDrawer.Droid;
+using Android.Runtime;
+using Cirrious.MvvmCross.Droid.FullFragging.Fragments;
+using NavDrawer.Core.ViewModels;
 
 namespace NavDrawer.Fragments
 {
-    /*public class FriendsRecentFragment : Fragment
+    [Register("navdrawer.fragments.FriendsRecentFragment")]
+    public class FriendsRecentFragment : MvxFragment<FriendsRecentViewModel>
     {
         public FriendsRecentFragment()
         {
             this.RetainInstance = true;
         }
 
-        private List<FriendViewModel> _friends;
+        private List<Friend> _friends;
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             var ignored = base.OnCreateView(inflater, container, savedInstanceState);
@@ -37,10 +41,10 @@ namespace NavDrawer.Fragments
 
         private void GridOnItemClick(object sender, AdapterView.ItemClickEventArgs itemClickEventArgs)
         {
-            var intent = new Intent(Activity, typeof(FriendActivity));
+            /*var intent = new Intent(Activity, typeof(FriendActivity));
             intent.PutExtra("Title", _friends[itemClickEventArgs.Position].Title);
             intent.PutExtra("Image", _friends[itemClickEventArgs.Position].Image);
-            StartActivity(intent);
+            StartActivity(intent);*/
         }
-    }*/
+    }
 }

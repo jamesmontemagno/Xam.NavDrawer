@@ -96,7 +96,6 @@
     <Compile Include="LinkerPleaseInclude.cs" />
     <Compile Include="Setup.cs" />
     <Compile Include="SplashScreen.cs" />
-    <Compile Include="Activities\FriendActivity.cs" />
     <Compile Include="Activities\HomeActivity.cs" />
     <Compile Include="Adapters\FriendsAdapter.cs" />
     <Compile Include="Adapters\MonkeyAdapter.cs" />
@@ -111,6 +110,7 @@
     <Compile Include="Helpers\MvxActionBarDrawerToggle.cs" />
     <Compile Include="Helpers\CustomFragmentsPresenter.cs" />
     <Compile Include="Fragments\MenuFragment.cs" />
+    <Compile Include="Fragments\FriendFragment.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -181,7 +181,6 @@
     <Folder Include="Adapters\" />
     <Folder Include="Fragments\" />
     <Folder Include="Helpers\" />
-    <Folder Include="Models\" />
     <Folder Include="Resources\" />
   </ItemGroup>
 </Project>

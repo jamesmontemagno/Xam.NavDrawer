@@ -4,7 +4,7 @@ using NavDrawer.Adapters;
 
 namespace NavDrawer.Models
 {
-    public class FriendViewModel
+    public class Friend
     {
         private string m_Image;
         public string Image
@@ -39,15 +39,6 @@ namespace NavDrawer.Models
             this.Id = id;
             this.Title = title;
             this.Image = image;
-            this.Items = Util.GenerateFriends();
-            this.Items.RemoveRange(0, this.Items.Count - 2);
-        }
-
-        private List<FriendViewModel> m_Items;
-        public List<FriendViewModel> Items
-        {
-            get { return this.m_Items; }
-            set { this.m_Items = value; }
         }
     }
 }
