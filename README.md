@@ -1,5 +1,6 @@
 Xam.NavigationDrawer
 ================
+Navigation Drawer sample implementations that you should be using in your Android applications :)
 
 Maintained by:
 James Montemagno ([@JamesMontemagno](http://www.twitter.com/jamesmontemagno))
@@ -7,6 +8,9 @@ James Montemagno ([@JamesMontemagno](http://www.twitter.com/jamesmontemagno))
 
 Sample code showing Standard and MvvmCross implementation of the Navigation Drawer. Easy to implement with fragments to create a beautiful navigation scheme for your app. Also shows example of [ViewPagerIndicator](https://github.com/Cheesebaron/ViewPagerIndicator) which highlights the use of fragments inside of fragments.
 
+
+**Update July 9th 2015**
+Added new Design Support Library example! This is the new default implementation that you should be using!
 
 
 ## Getting started
