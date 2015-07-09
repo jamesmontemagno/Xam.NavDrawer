@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:layout_below="@id/toolbar">
+        <ImageView
+            android:id="@+id/friend_image"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop" />
+        <TextView
+            android:id="@+id/friend_description"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Name here"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:singleLine="true" />
+        <TextView
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="My Friends:"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:singleLine="true" />
+        <GridView
+            android:id="@+id/grid"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:numColumns="@integer/item_columns"
+            android:longClickable="true"
+            android:stretchMode="columnWidth"
+            android:drawSelectorOnTop="true"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:horizontalSpacing="8dp"
+            android:verticalSpacing="8dp"
+            android:gravity="center"
+            android:fastScrollEnabled="true"
+            android:fastScrollAlwaysVisible="true"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            android:scrollbars="vertical"
+            android:scrollbarStyle="outsideInset"
+            android:smoothScrollbar="true" />
+    </LinearLayout>
+</RelativeLayout>
