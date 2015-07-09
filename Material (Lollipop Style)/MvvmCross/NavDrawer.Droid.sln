@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavDrawer.Droid", "NavDrawer.Droid\NavDrawer.Droid.csproj", "{4AF4487D-0C3E-4384-BA68-62CB1680C648}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavDrawer.Core", "NavDrawer.Core\NavDrawer.Core.csproj", "{BF6E204B-ABB3-4883-9F0D-15975880342C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AF4487D-0C3E-4384-BA68-62CB1680C648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AF4487D-0C3E-4384-BA68-62CB1680C648}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AF4487D-0C3E-4384-BA68-62CB1680C648}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4AF4487D-0C3E-4384-BA68-62CB1680C648}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AF4487D-0C3E-4384-BA68-62CB1680C648}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AF4487D-0C3E-4384-BA68-62CB1680C648}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{BF6E204B-ABB3-4883-9F0D-15975880342C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF6E204B-ABB3-4883-9F0D-15975880342C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF6E204B-ABB3-4883-9F0D-15975880342C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF6E204B-ABB3-4883-9F0D-15975880342C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
