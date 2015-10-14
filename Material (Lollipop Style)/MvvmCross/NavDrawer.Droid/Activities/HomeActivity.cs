@@ -73,26 +73,22 @@ namespace NavDrawer.Activities
 
         private void registerFragments(Bundle bundle)
         {
-            RegisterFragment<MenuFragment, MenuViewModel>(typeof(MenuFragment).Name);
-            RegisterFragment<ProfileFragment, ProfileViewModel>(typeof(ProfileFragment).Name);
-            RegisterFragment<BrowseFragment, BrowseViewModel>(typeof(BrowseFragment).Name);
-            RegisterFragment<FriendsFragment, FriendsViewModel>(typeof(FriendsFragment).Name);
-            RegisterFragment<FriendsAllFragment, FriendsAllViewModel>(typeof(FriendsAllFragment).Name);
-            RegisterFragment<FriendsRecentFragment, FriendsRecentViewModel>(typeof(FriendsRecentFragment).Name);
+            RegisterFragment<MenuFragment, MenuViewModel>(typeof(MenuViewModel).Name);
+            RegisterFragment<ProfileFragment, ProfileViewModel>(typeof(ProfileViewModel).Name);
+            RegisterFragment<BrowseFragment, BrowseViewModel>(typeof(BrowseViewModel).Name);
+            RegisterFragment<FriendsFragment, FriendsViewModel>(typeof(FriendsViewModel).Name);
+            RegisterFragment<FriendsAllFragment, FriendsAllViewModel>(typeof(FriendsAllViewModel).Name);
+            RegisterFragment<FriendsRecentFragment, FriendsRecentViewModel>(typeof(FriendsRecentViewModel).Name);
         }
 
         public bool Show(MvxViewModelRequest request, Bundle bundle)
         {
             drawerLayout.CloseDrawers();
 
-            if (request.ViewModelType == typeof(MenuViewModel)) {
-                ShowFragment (typeof(MenuFragment).Name, Resource.Id.left_drawer, bundle);
-                return true;
-            } else {
-                ShowFragment(request.ViewModelType.Name, Resource.Id.content_frame, bundle);
-                return true;
-            }
-            return false;
+            int targetId = request.ViewModelType == typeof(MenuViewModel) ? Resource.Id.left_drawer : Resource.Id.content_frame;
+            ShowFragment(request.ViewModelType.Name, targetId, bundle);
+
+            return true;
         }
 
         public override void OnBackPressed()
