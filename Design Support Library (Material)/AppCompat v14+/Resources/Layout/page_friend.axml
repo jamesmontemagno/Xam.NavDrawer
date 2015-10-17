@@ -1,60 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:local="http://schemas.android.com/apk/res-auto"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
-    <include
-        android:id="@+id/toolbar"
-        layout="@layout/toolbar" />
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:paddingLeft="8dp"
-        android:paddingRight="8dp"
-        android:layout_below="@id/toolbar">
-        <ImageView
-            android:id="@+id/friend_image"
-            android:layout_width="fill_parent"
-            android:layout_height="150dp"
-            android:scaleType="centerCrop" />
-        <TextView
-            android:id="@+id/friend_description"
-            android:paddingLeft="8dp"
-            android:paddingRight="8dp"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="Name here"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:singleLine="true" />
-        <TextView
-            android:paddingLeft="8dp"
-            android:paddingRight="8dp"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="My Friends:"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:singleLine="true" />
-        <GridView
-            android:id="@+id/grid"
-            android:paddingTop="8dp"
-            android:paddingBottom="8dp"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:numColumns="@integer/item_columns"
-            android:longClickable="true"
-            android:stretchMode="columnWidth"
-            android:drawSelectorOnTop="true"
-            android:clipChildren="false"
-            android:clipToPadding="false"
-            android:horizontalSpacing="8dp"
-            android:verticalSpacing="8dp"
-            android:gravity="center"
-            android:fastScrollEnabled="true"
-            android:fastScrollAlwaysVisible="true"
-            android:scrollbarAlwaysDrawVerticalTrack="true"
-            android:scrollbars="vertical"
-            android:scrollbarStyle="outsideInset"
-            android:smoothScrollbar="true" />
-    </LinearLayout>
-</RelativeLayout>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:fitsSystemWindows="true">
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:expandedTitleMarginStart="48dp"
+            app:expandedTitleMarginEnd="64dp">
+            <ImageView
+                android:id="@+id/friend_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:fitsSystemWindows="true"
+                app:layout_collapseMode="parallax" />
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                app:layout_collapseMode="pin" />
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="8dp">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="The golden lion tamarin Leontopithecus rosalia, Portuguese: mico-leão-dourado Brazilian Portuguese:  also known as the golden marmoset, is a small New World monkey of the family Callitrichidae. Native to the Atlantic coastal forests of Brazil, the golden lion tamarin is an endangered species with an estimated wild population of about 3,200 individuals spread between four places along southeastern Brazil, and a captive population maintained at about 490 individuals among 150 zoos."
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+        <!--<GridView
+                android:id="@+id/grid"
+                android:padding="8dp"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:numColumns="@integer/item_columns"
+                android:longClickable="true"
+                android:stretchMode="columnWidth"
+                android:drawSelectorOnTop="true"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:horizontalSpacing="8dp"
+                android:verticalSpacing="8dp"
+                android:gravity="center"
+                android:fastScrollEnabled="true"
+                android:fastScrollAlwaysVisible="true"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:scrollbars="vertical"
+                android:scrollbarStyle="outsideInset"
+                android:smoothScrollbar="true" />-->
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.design.widget.CoordinatorLayout>

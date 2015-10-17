@@ -44,9 +44,6 @@ namespace NavDrawer.Fragments
             StartActivity(intent);
         }
 
-        public override void OnCreateOptionsMenu(IMenu menu, MenuInflater inflater)
-        {
-            inflater.Inflate(Resource.Menu.refresh, menu);
-        }
+       
     }
 }

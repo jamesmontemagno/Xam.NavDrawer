@@ -4,9 +4,9 @@ using Android.Support.V4.App;
 using Android.Views;
 using Android.Widget;
 using NavDrawer.Activities;
-using com.refractored.monodroidtoolkit.imageloader;
 using Fragment = Android.Support.V4.App.Fragment;
 using TaskStackBuilder = Android.Support.V4.App.TaskStackBuilder;
+using UniversalImageLoader.Core;
 
 namespace NavDrawer.Fragments
 {
@@ -22,10 +22,10 @@ namespace NavDrawer.Fragments
         {
             var ignored = base.OnCreateView(inflater, container, savedInstanceState);
             var view = inflater.Inflate(Resource.Layout.fragment_profile, null);
-            imageLoader = new ImageLoader(Activity);
+            imageLoader = ImageLoader.Instance;
             view.FindViewById<TextView>(Resource.Id.profile_name).Text = "James Montemagno";
 			view.FindViewById<TextView>(Resource.Id.profile_description).Text = "James Montemagno is a Developer Evangelist at Xamarin and Microsoft MVP. He has been a .NET developer for over a decade working in a wide range of industries and before joining Xamarin was a professional mobile developer on the Xamarin platform for over 4 years. He can be found on Twitter @JamesMontemagno and blogs regularly at  www.MotzCod.es";
-			imageLoader.DisplayImage("https://pbs.twimg.com/profile_images/618564939523862528/TMHi-4M-.jpg", view.FindViewById<ImageView>(Resource.Id.profile_image), -1);
+            imageLoader.DisplayImage("https://s.gravatar.com/avatar/7d1f32b86a6076963e7beab73dddf7ca?s=250", view.FindViewById<ImageView>(Resource.Id.profile_image));
 
             view.FindViewById<ImageView>(Resource.Id.profile_image).Click += (sender, args) =>
                 {

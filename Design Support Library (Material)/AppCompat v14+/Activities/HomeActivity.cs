@@ -6,6 +6,7 @@ using Android.Views;
 
 using NavDrawer.Fragments;
 using Android.Support.Design.Widget;
+using UniversalImageLoader.Core;
 
 namespace NavDrawer.Activities
 {
@@ -24,7 +25,9 @@ namespace NavDrawer.Activities
 		protected override void OnCreate (Bundle savedInstanceState)
 		{
 			base.OnCreate (savedInstanceState);
-
+            var config = ImageLoaderConfiguration.CreateDefault(ApplicationContext);
+            // Initialize ImageLoader with configuration.
+            ImageLoader.Instance.Init(config);
 
 			drawerLayout = FindViewById<DrawerLayout> (Resource.Id.drawer_layout);
 

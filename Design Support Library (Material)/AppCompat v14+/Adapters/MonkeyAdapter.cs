@@ -6,8 +6,7 @@ using Android.Views;
 using Android.Widget;
 
 using NavDrawer.Models;
-
-using com.refractored.monodroidtoolkit.imageloader;
+using UniversalImageLoader.Core;
 
 namespace NavDrawer.Adapters
 {
@@ -27,7 +26,7 @@ namespace NavDrawer.Adapters
         {
             this.context = context;
             this.friends = friends;
-            ImageLoader = new ImageLoader(context, 128);
+            ImageLoader = ImageLoader.Instance;
         }
 
         public override View GetView(int position, View convertView, ViewGroup parent)
@@ -57,7 +56,7 @@ namespace NavDrawer.Adapters
             var friend = friends.ElementAt(position);
 
             wrapper.Title.Text = friend.Title;
-            ImageLoader.DisplayImage(friend.Image, wrapper.Art, -1);
+            ImageLoader.DisplayImage(friend.Image, wrapper.Art);
             return view;
         }
 

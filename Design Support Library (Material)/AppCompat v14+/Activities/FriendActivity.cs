@@ -9,52 +9,56 @@ using Android.Widget;
 
 using NavDrawer.Adapters;
 using NavDrawer.Models;
+using UniversalImageLoader.Core;
+using Android.Support.Design.Widget;
+using Android.Support.V7.App;
 
-using com.refractored.monodroidtoolkit.imageloader;
+
+using V7Toolbar = Android.Support.V7.Widget.Toolbar;
 
 namespace NavDrawer.Activities
 {
     [Activity(Label = "Friend",ParentActivity = typeof(HomeView))]
     [MetaData("android.support.PARENT_ACTIVITY", Value = "navdrawer.activities.HomeView")]
-	public class FriendActivity : BaseActivity
+	public class FriendActivity : AppCompatActivity
     {
 		List<FriendViewModel> friends;
 		ImageLoader imageLoader;
 
-				protected override int LayoutResource {
-					get {
-						return Resource.Layout.page_friend;
-					}
-				}
 
         protected override void OnCreate(Android.OS.Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
            
-			imageLoader = new ImageLoader(this, 128);
+            SetContentView(Resource.Layout.page_friend);
+            imageLoader = ImageLoader.Instance;
 
 						
             friends = Util.GenerateFriends();
-            friends.RemoveRange(0, friends.Count - 2);
             var title = Intent.GetStringExtra("Title");
             var image = Intent.GetStringExtra("Image");
 
             title = string.IsNullOrWhiteSpace(title) ? "New Friend" : title;
-            Title = title;
+            var toolbar = FindViewById<V7Toolbar>(Resource.Id.toolbar);
+            SetSupportActionBar (toolbar);
 
             if (string.IsNullOrWhiteSpace(image))
                 image = friends[0].Image;
 
+            SupportActionBar.SetDisplayHomeAsUpEnabled (true);
 
-            imageLoader.DisplayImage(image, FindViewById<ImageView> (Resource.Id.friend_image), -1);
-            FindViewById<TextView> (Resource.Id.friend_description).Text = title;
+            var collapsingToolbar = FindViewById<CollapsingToolbarLayout> (Resource.Id.collapsing_toolbar);
+            collapsingToolbar.SetTitle (title);
 
-            var grid = FindViewById<GridView>(Resource.Id.grid);
-            grid.Adapter = new MonkeyAdapter(this, friends);
-            grid.ItemClick += GridOnItemClick;
+            imageLoader.DisplayImage(image, FindViewById<ImageView> (Resource.Id.friend_image));
 
-            //set title here
-						SupportActionBar.Title = Title;
+            //var grid = FindViewById<GridView>(Resource.Id.grid);
+            //grid.Adapter = new MonkeyAdapter(this, friends);
+            //grid.ItemClick += GridOnItemClick;
+
+          
+
+
         }
 
         private void GridOnItemClick(object sender, AdapterView.ItemClickEventArgs itemClickEventArgs)

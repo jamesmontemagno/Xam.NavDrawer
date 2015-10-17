@@ -26,111 +26,6 @@ namespace NavDrawer
 		
 		public static void UpdateIdValues()
 		{
-			global::com.refractored.monodroidtoolkit.Resource.Attribute.circleColor = global::NavDrawer.Resource.Attribute.circleColor;
-			global::com.refractored.monodroidtoolkit.Resource.Attribute.circularProgressBarStyle = global::NavDrawer.Resource.Attribute.circularProgressBarStyle;
-			global::com.refractored.monodroidtoolkit.Resource.Attribute.circular_gravity = global::NavDrawer.Resource.Attribute.circular_gravity;
-			global::com.refractored.monodroidtoolkit.Resource.Attribute.circular_indeterminate = global::NavDrawer.Resource.Attribute.circular_indeterminate;
-			global::com.refractored.monodroidtoolkit.Resource.Attribute.circular_indeterminate_interval = global::NavDrawer.Resource.Attribute.circular_indeterminate_interval;
-			global::com.refractored.monodroidtoolkit.Resource.Attribute.circular_marker_progress = global::NavDrawer.Resource.Attribute.circular_marker_progress;
-			global::com.refractored.monodroidtoolkit.Resource.Attribute.circular_progress = global::NavDrawer.Resource.Attribute.circular_progress;
-			global::com.refractored.monodroidtoolkit.Resource.Attribute.circular_progress_background_color = global::NavDrawer.Resource.Attribute.circular_progress_background_color;
-			global::com.refractored.monodroidtoolkit.Resource.Attribute.circular_progress_color = global::NavDrawer.Resource.Attribute.circular_progress_color;
-			global::com.refractored.monodroidtoolkit.Resource.Attribute.circular_stroke_width = global::NavDrawer.Resource.Attribute.circular_stroke_width;
-			global::com.refractored.monodroidtoolkit.Resource.Attribute.indeterminate = global::NavDrawer.Resource.Attribute.indeterminate;
-			global::com.refractored.monodroidtoolkit.Resource.Attribute.indeterminate_interval = global::NavDrawer.Resource.Attribute.indeterminate_interval;
-			global::com.refractored.monodroidtoolkit.Resource.Attribute.innerSize = global::NavDrawer.Resource.Attribute.innerSize;
-			global::com.refractored.monodroidtoolkit.Resource.Attribute.max = global::NavDrawer.Resource.Attribute.max;
-			global::com.refractored.monodroidtoolkit.Resource.Attribute.pinned = global::NavDrawer.Resource.Attribute.pinned;
-			global::com.refractored.monodroidtoolkit.Resource.Attribute.pinnedDrawable = global::NavDrawer.Resource.Attribute.pinnedDrawable;
-			global::com.refractored.monodroidtoolkit.Resource.Attribute.progress = global::NavDrawer.Resource.Attribute.progress;
-			global::com.refractored.monodroidtoolkit.Resource.Attribute.progressButtonStyle = global::NavDrawer.Resource.Attribute.progressButtonStyle;
-			global::com.refractored.monodroidtoolkit.Resource.Attribute.progressColor = global::NavDrawer.Resource.Attribute.progressColor;
-			global::com.refractored.monodroidtoolkit.Resource.Attribute.shadowDrawable = global::NavDrawer.Resource.Attribute.shadowDrawable;
-			global::com.refractored.monodroidtoolkit.Resource.Attribute.unpinnedDrawable = global::NavDrawer.Resource.Attribute.unpinnedDrawable;
-			global::com.refractored.monodroidtoolkit.Resource.Color.progress_default_circle_color = global::NavDrawer.Resource.Color.progress_default_circle_color;
-			global::com.refractored.monodroidtoolkit.Resource.Color.progress_default_progress_color = global::NavDrawer.Resource.Color.progress_default_progress_color;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_background_dark = global::NavDrawer.Resource.Color.refractored_background_dark;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_background_holo_dark = global::NavDrawer.Resource.Color.refractored_background_holo_dark;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_background_holo_light = global::NavDrawer.Resource.Color.refractored_background_holo_light;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_background_light = global::NavDrawer.Resource.Color.refractored_background_light;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_bright_foreground_dark = global::NavDrawer.Resource.Color.refractored_bright_foreground_dark;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_bright_foreground_dark_disabled = global::NavDrawer.Resource.Color.refractored_bright_foreground_dark_disabled;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_bright_foreground_disabled_holo_dark = global::NavDrawer.Resource.Color.refractored_bright_foreground_disabled_holo_dark;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_bright_foreground_disabled_holo_light = global::NavDrawer.Resource.Color.refractored_bright_foreground_disabled_holo_light;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_bright_foreground_holo_dark = global::NavDrawer.Resource.Color.refractored_bright_foreground_holo_dark;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_bright_foreground_holo_light = global::NavDrawer.Resource.Color.refractored_bright_foreground_holo_light;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_bright_foreground_light = global::NavDrawer.Resource.Color.refractored_bright_foreground_light;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_dim_foreground_disabled_holo_dark = global::NavDrawer.Resource.Color.refractored_dim_foreground_disabled_holo_dark;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_dim_foreground_disabled_holo_light = global::NavDrawer.Resource.Color.refractored_dim_foreground_disabled_holo_light;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_dim_foreground_holo_dark = global::NavDrawer.Resource.Color.refractored_dim_foreground_holo_dark;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_dim_foreground_holo_light = global::NavDrawer.Resource.Color.refractored_dim_foreground_holo_light;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_highlighted_text_holo_dark = global::NavDrawer.Resource.Color.refractored_highlighted_text_holo_dark;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_highlighted_text_holo_light = global::NavDrawer.Resource.Color.refractored_highlighted_text_holo_light;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_hint_foreground_holo_dark = global::NavDrawer.Resource.Color.refractored_hint_foreground_holo_dark;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_hint_foreground_holo_light = global::NavDrawer.Resource.Color.refractored_hint_foreground_holo_light;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_holo_blue_bright = global::NavDrawer.Resource.Color.refractored_holo_blue_bright;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_holo_blue_dark = global::NavDrawer.Resource.Color.refractored_holo_blue_dark;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_holo_blue_light = global::NavDrawer.Resource.Color.refractored_holo_blue_light;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_holo_green_dark = global::NavDrawer.Resource.Color.refractored_holo_green_dark;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_holo_green_light = global::NavDrawer.Resource.Color.refractored_holo_green_light;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_holo_orange_dark = global::NavDrawer.Resource.Color.refractored_holo_orange_dark;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_holo_orange_light = global::NavDrawer.Resource.Color.refractored_holo_orange_light;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_holo_purple = global::NavDrawer.Resource.Color.refractored_holo_purple;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_holo_red_dark = global::NavDrawer.Resource.Color.refractored_holo_red_dark;
-			global::com.refractored.monodroidtoolkit.Resource.Color.refractored_holo_red_light = global::NavDrawer.Resource.Color.refractored_holo_red_light;
-			global::com.refractored.monodroidtoolkit.Resource.Dimension.progress_inner_size = global::NavDrawer.Resource.Dimension.progress_inner_size;
-			global::com.refractored.monodroidtoolkit.Resource.Drawable.pin_progress_pinned = global::NavDrawer.Resource.Drawable.pin_progress_pinned;
-			global::com.refractored.monodroidtoolkit.Resource.Drawable.pin_progress_shadow = global::NavDrawer.Resource.Drawable.pin_progress_shadow;
-			global::com.refractored.monodroidtoolkit.Resource.Drawable.pin_progress_unpinned = global::NavDrawer.Resource.Drawable.pin_progress_unpinned;
-			global::com.refractored.monodroidtoolkit.Resource.Drawable.scrubber_control_normal_holo = global::NavDrawer.Resource.Drawable.scrubber_control_normal_holo;
-			global::com.refractored.monodroidtoolkit.Resource.Drawable.scrubber_control_pressed_holo = global::NavDrawer.Resource.Drawable.scrubber_control_pressed_holo;
-			global::com.refractored.monodroidtoolkit.Resource.Id.bottom = global::NavDrawer.Resource.Id.bottom;
-			global::com.refractored.monodroidtoolkit.Resource.Id.center = global::NavDrawer.Resource.Id.center;
-			global::com.refractored.monodroidtoolkit.Resource.Id.center_horizontal = global::NavDrawer.Resource.Id.center_horizontal;
-			global::com.refractored.monodroidtoolkit.Resource.Id.center_vertical = global::NavDrawer.Resource.Id.center_vertical;
-			global::com.refractored.monodroidtoolkit.Resource.Id.clip = global::NavDrawer.Resource.Id.clip;
-			global::com.refractored.monodroidtoolkit.Resource.Id.clip_horizontal = global::NavDrawer.Resource.Id.clip_horizontal;
-			global::com.refractored.monodroidtoolkit.Resource.Id.clip_vertical = global::NavDrawer.Resource.Id.clip_vertical;
-			global::com.refractored.monodroidtoolkit.Resource.Id.end = global::NavDrawer.Resource.Id.end;
-			global::com.refractored.monodroidtoolkit.Resource.Id.fill = global::NavDrawer.Resource.Id.fill;
-			global::com.refractored.monodroidtoolkit.Resource.Id.fill_horizontal = global::NavDrawer.Resource.Id.fill_horizontal;
-			global::com.refractored.monodroidtoolkit.Resource.Id.fill_vertical = global::NavDrawer.Resource.Id.fill_vertical;
-			global::com.refractored.monodroidtoolkit.Resource.Id.left = global::NavDrawer.Resource.Id.left;
-			global::com.refractored.monodroidtoolkit.Resource.Id.right = global::NavDrawer.Resource.Id.right;
-			global::com.refractored.monodroidtoolkit.Resource.Id.start = global::NavDrawer.Resource.Id.start;
-			global::com.refractored.monodroidtoolkit.Resource.Id.top = global::NavDrawer.Resource.Id.top;
-			global::com.refractored.monodroidtoolkit.Resource.Integer.circular_indeterminent_interval = global::NavDrawer.Resource.Integer.circular_indeterminent_interval;
-			global::com.refractored.monodroidtoolkit.Resource.Integer.progressbutton_indeterminent_interval = global::NavDrawer.Resource.Integer.progressbutton_indeterminent_interval;
-			global::com.refractored.monodroidtoolkit.Resource.Style.CircularProgressBar = global::NavDrawer.Resource.Style.CircularProgressBar;
-			global::com.refractored.monodroidtoolkit.Resource.Style.CircularProgressBarLight = global::NavDrawer.Resource.Style.CircularProgressBarLight;
-			global::com.refractored.monodroidtoolkit.Resource.Style.ProgressButton = global::NavDrawer.Resource.Style.ProgressButton;
-			global::com.refractored.monodroidtoolkit.Resource.Style.ProgressButton_Pin = global::NavDrawer.Resource.Style.ProgressButton_Pin;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.HoloCircularProgressBar = global::NavDrawer.Resource.Styleable.HoloCircularProgressBar;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.HoloCircularProgressBar_circular_gravity = global::NavDrawer.Resource.Styleable.HoloCircularProgressBar_circular_gravity;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.HoloCircularProgressBar_circular_indeterminate = global::NavDrawer.Resource.Styleable.HoloCircularProgressBar_circular_indeterminate;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.HoloCircularProgressBar_circular_indeterminate_interval = global::NavDrawer.Resource.Styleable.HoloCircularProgressBar_circular_indeterminate_interval;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.HoloCircularProgressBar_circular_marker_progress = global::NavDrawer.Resource.Styleable.HoloCircularProgressBar_circular_marker_progress;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.HoloCircularProgressBar_circular_progress = global::NavDrawer.Resource.Styleable.HoloCircularProgressBar_circular_progress;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.HoloCircularProgressBar_circular_progress_background_color = global::NavDrawer.Resource.Styleable.HoloCircularProgressBar_circular_progress_background_color;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.HoloCircularProgressBar_circular_progress_color = global::NavDrawer.Resource.Styleable.HoloCircularProgressBar_circular_progress_color;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.HoloCircularProgressBar_circular_stroke_width = global::NavDrawer.Resource.Styleable.HoloCircularProgressBar_circular_stroke_width;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton = global::NavDrawer.Resource.Styleable.ProgressButton;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_android_clickable = global::NavDrawer.Resource.Styleable.ProgressButton_android_clickable;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_android_focusable = global::NavDrawer.Resource.Styleable.ProgressButton_android_focusable;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_android_selectableItemBackground = global::NavDrawer.Resource.Styleable.ProgressButton_android_selectableItemBackground;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_circleColor = global::NavDrawer.Resource.Styleable.ProgressButton_circleColor;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_indeterminate = global::NavDrawer.Resource.Styleable.ProgressButton_indeterminate;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_indeterminate_interval = global::NavDrawer.Resource.Styleable.ProgressButton_indeterminate_interval;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_innerSize = global::NavDrawer.Resource.Styleable.ProgressButton_innerSize;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_max = global::NavDrawer.Resource.Styleable.ProgressButton_max;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_pinned = global::NavDrawer.Resource.Styleable.ProgressButton_pinned;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_pinnedDrawable = global::NavDrawer.Resource.Styleable.ProgressButton_pinnedDrawable;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_progress = global::NavDrawer.Resource.Styleable.ProgressButton_progress;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_progressColor = global::NavDrawer.Resource.Styleable.ProgressButton_progressColor;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_shadowDrawable = global::NavDrawer.Resource.Styleable.ProgressButton_shadowDrawable;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.ProgressButton_unpinnedDrawable = global::NavDrawer.Resource.Styleable.ProgressButton_unpinnedDrawable;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.Theme = global::NavDrawer.Resource.Styleable.Theme;
-			global::com.refractored.monodroidtoolkit.Resource.Styleable.Theme_circularProgressBarStyle = global::NavDrawer.Resource.Styleable.Theme_circularProgressBarStyle;
 		}
 		
 		public partial class Animation
@@ -395,36 +290,6 @@ namespace NavDrawer
 			// aapt resource value: 0x7f0100ea
 			public const int checkedTextViewStyle = 2130772202;
 			
-			// aapt resource value: 0x7f010112
-			public const int circleColor = 2130772242;
-			
-			// aapt resource value: 0x7f010123
-			public const int circularProgressBarStyle = 2130772259;
-			
-			// aapt resource value: 0x7f01011b
-			public const int circular_gravity = 2130772251;
-			
-			// aapt resource value: 0x7f010121
-			public const int circular_indeterminate = 2130772257;
-			
-			// aapt resource value: 0x7f010122
-			public const int circular_indeterminate_interval = 2130772258;
-			
-			// aapt resource value: 0x7f01011e
-			public const int circular_marker_progress = 2130772254;
-			
-			// aapt resource value: 0x7f01011d
-			public const int circular_progress = 2130772253;
-			
-			// aapt resource value: 0x7f010120
-			public const int circular_progress_background_color = 2130772256;
-			
-			// aapt resource value: 0x7f01011f
-			public const int circular_progress_color = 2130772255;
-			
-			// aapt resource value: 0x7f01011c
-			public const int circular_stroke_width = 2130772252;
-			
 			// aapt resource value: 0x7f010076
 			public const int closeIcon = 2130772086;
 			
@@ -626,20 +491,11 @@ namespace NavDrawer
 			// aapt resource value: 0x7f010073
 			public const int iconifiedByDefault = 2130772083;
 			
-			// aapt resource value: 0x7f010119
-			public const int indeterminate = 2130772249;
-			
 			// aapt resource value: 0x7f01004b
 			public const int indeterminateProgressStyle = 2130772043;
 			
-			// aapt resource value: 0x7f01011a
-			public const int indeterminate_interval = 2130772250;
-			
 			// aapt resource value: 0x7f010056
 			public const int initialActivityCount = 2130772054;
-			
-			// aapt resource value: 0x7f010117
-			public const int innerSize = 2130772247;
 			
 			// aapt resource value: 0x7f010022
 			public const int insetForeground = 2130772002;
@@ -728,9 +584,6 @@ namespace NavDrawer
 			// aapt resource value: 0x7f0100fc
 			public const int logoDescription = 2130772220;
 			
-			// aapt resource value: 0x7f010111
-			public const int max = 2130772241;
-			
 			// aapt resource value: 0x7f010024
 			public const int maxActionInlineWidth = 2130772004;
 			
@@ -773,12 +626,6 @@ namespace NavDrawer
 			// aapt resource value: 0x7f0100d2
 			public const int panelMenuListWidth = 2130772178;
 			
-			// aapt resource value: 0x7f010118
-			public const int pinned = 2130772248;
-			
-			// aapt resource value: 0x7f010114
-			public const int pinnedDrawable = 2130772244;
-			
 			// aapt resource value: 0x7f0100c0
 			public const int popupMenuStyle = 2130772160;
 			
@@ -794,20 +641,11 @@ namespace NavDrawer
 			// aapt resource value: 0x7f01001a
 			public const int pressedTranslationZ = 2130771994;
 			
-			// aapt resource value: 0x7f010110
-			public const int progress = 2130772240;
-			
 			// aapt resource value: 0x7f01004c
 			public const int progressBarPadding = 2130772044;
 			
 			// aapt resource value: 0x7f01004a
 			public const int progressBarStyle = 2130772042;
-			
-			// aapt resource value: 0x7f01010f
-			public const int progressButtonStyle = 2130772239;
-			
-			// aapt resource value: 0x7f010113
-			public const int progressColor = 2130772243;
 			
 			// aapt resource value: 0x7f01007d
 			public const int queryBackground = 2130772093;
@@ -838,9 +676,6 @@ namespace NavDrawer
 			
 			// aapt resource value: 0x7f0100b9
 			public const int selectableItemBackgroundBorderless = 2130772153;
-			
-			// aapt resource value: 0x7f010116
-			public const int shadowDrawable = 2130772246;
 			
 			// aapt resource value: 0x7f01006b
 			public const int showAsAction = 2130772075;
@@ -1031,9 +866,6 @@ namespace NavDrawer
 			// aapt resource value: 0x7f01007f
 			public const int track = 2130772095;
 			
-			// aapt resource value: 0x7f010115
-			public const int unpinnedDrawable = 2130772245;
-			
 			// aapt resource value: 0x7f01007a
 			public const int voiceIcon = 2130772090;
 			
@@ -1114,32 +946,32 @@ namespace NavDrawer
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f050069
-			public const int abc_background_cache_hint_selector_material_dark = 2131034217;
+			// aapt resource value: 0x7f05004a
+			public const int abc_background_cache_hint_selector_material_dark = 2131034186;
 			
-			// aapt resource value: 0x7f05006a
-			public const int abc_background_cache_hint_selector_material_light = 2131034218;
+			// aapt resource value: 0x7f05004b
+			public const int abc_background_cache_hint_selector_material_light = 2131034187;
 			
-			// aapt resource value: 0x7f05006b
-			public const int abc_color_highlight_material = 2131034219;
+			// aapt resource value: 0x7f05004c
+			public const int abc_color_highlight_material = 2131034188;
 			
 			// aapt resource value: 0x7f05000c
 			public const int abc_input_method_navigation_guard = 2131034124;
 			
-			// aapt resource value: 0x7f05006c
-			public const int abc_primary_text_disable_only_material_dark = 2131034220;
+			// aapt resource value: 0x7f05004d
+			public const int abc_primary_text_disable_only_material_dark = 2131034189;
 			
-			// aapt resource value: 0x7f05006d
-			public const int abc_primary_text_disable_only_material_light = 2131034221;
+			// aapt resource value: 0x7f05004e
+			public const int abc_primary_text_disable_only_material_light = 2131034190;
 			
-			// aapt resource value: 0x7f05006e
-			public const int abc_primary_text_material_dark = 2131034222;
+			// aapt resource value: 0x7f05004f
+			public const int abc_primary_text_material_dark = 2131034191;
 			
-			// aapt resource value: 0x7f05006f
-			public const int abc_primary_text_material_light = 2131034223;
+			// aapt resource value: 0x7f050050
+			public const int abc_primary_text_material_light = 2131034192;
 			
-			// aapt resource value: 0x7f050070
-			public const int abc_search_url_text = 2131034224;
+			// aapt resource value: 0x7f050051
+			public const int abc_search_url_text = 2131034193;
 			
 			// aapt resource value: 0x7f05000d
 			public const int abc_search_url_text_normal = 2131034125;
@@ -1150,11 +982,11 @@ namespace NavDrawer
 			// aapt resource value: 0x7f05000f
 			public const int abc_search_url_text_selected = 2131034127;
 			
-			// aapt resource value: 0x7f050071
-			public const int abc_secondary_text_material_dark = 2131034225;
+			// aapt resource value: 0x7f050052
+			public const int abc_secondary_text_material_dark = 2131034194;
 			
-			// aapt resource value: 0x7f050072
-			public const int abc_secondary_text_material_light = 2131034226;
+			// aapt resource value: 0x7f050053
+			public const int abc_secondary_text_material_light = 2131034195;
 			
 			// aapt resource value: 0x7f050002
 			public const int accent = 2131034114;
@@ -1336,99 +1168,6 @@ namespace NavDrawer
 			// aapt resource value: 0x7f05003b
 			public const int primary_text_disabled_material_light = 2131034171;
 			
-			// aapt resource value: 0x7f05004a
-			public const int progress_default_circle_color = 2131034186;
-			
-			// aapt resource value: 0x7f05004b
-			public const int progress_default_progress_color = 2131034187;
-			
-			// aapt resource value: 0x7f05004c
-			public const int refractored_background_dark = 2131034188;
-			
-			// aapt resource value: 0x7f050051
-			public const int refractored_background_holo_dark = 2131034193;
-			
-			// aapt resource value: 0x7f050052
-			public const int refractored_background_holo_light = 2131034194;
-			
-			// aapt resource value: 0x7f05004d
-			public const int refractored_background_light = 2131034189;
-			
-			// aapt resource value: 0x7f05004e
-			public const int refractored_bright_foreground_dark = 2131034190;
-			
-			// aapt resource value: 0x7f050050
-			public const int refractored_bright_foreground_dark_disabled = 2131034192;
-			
-			// aapt resource value: 0x7f050055
-			public const int refractored_bright_foreground_disabled_holo_dark = 2131034197;
-			
-			// aapt resource value: 0x7f050056
-			public const int refractored_bright_foreground_disabled_holo_light = 2131034198;
-			
-			// aapt resource value: 0x7f050053
-			public const int refractored_bright_foreground_holo_dark = 2131034195;
-			
-			// aapt resource value: 0x7f050054
-			public const int refractored_bright_foreground_holo_light = 2131034196;
-			
-			// aapt resource value: 0x7f05004f
-			public const int refractored_bright_foreground_light = 2131034191;
-			
-			// aapt resource value: 0x7f050058
-			public const int refractored_dim_foreground_disabled_holo_dark = 2131034200;
-			
-			// aapt resource value: 0x7f05005b
-			public const int refractored_dim_foreground_disabled_holo_light = 2131034203;
-			
-			// aapt resource value: 0x7f050057
-			public const int refractored_dim_foreground_holo_dark = 2131034199;
-			
-			// aapt resource value: 0x7f05005a
-			public const int refractored_dim_foreground_holo_light = 2131034202;
-			
-			// aapt resource value: 0x7f05005d
-			public const int refractored_highlighted_text_holo_dark = 2131034205;
-			
-			// aapt resource value: 0x7f05005e
-			public const int refractored_highlighted_text_holo_light = 2131034206;
-			
-			// aapt resource value: 0x7f050059
-			public const int refractored_hint_foreground_holo_dark = 2131034201;
-			
-			// aapt resource value: 0x7f05005c
-			public const int refractored_hint_foreground_holo_light = 2131034204;
-			
-			// aapt resource value: 0x7f050068
-			public const int refractored_holo_blue_bright = 2131034216;
-			
-			// aapt resource value: 0x7f050062
-			public const int refractored_holo_blue_dark = 2131034210;
-			
-			// aapt resource value: 0x7f05005f
-			public const int refractored_holo_blue_light = 2131034207;
-			
-			// aapt resource value: 0x7f050063
-			public const int refractored_holo_green_dark = 2131034211;
-			
-			// aapt resource value: 0x7f050060
-			public const int refractored_holo_green_light = 2131034208;
-			
-			// aapt resource value: 0x7f050067
-			public const int refractored_holo_orange_dark = 2131034215;
-			
-			// aapt resource value: 0x7f050066
-			public const int refractored_holo_orange_light = 2131034214;
-			
-			// aapt resource value: 0x7f050065
-			public const int refractored_holo_purple = 2131034213;
-			
-			// aapt resource value: 0x7f050064
-			public const int refractored_holo_red_dark = 2131034212;
-			
-			// aapt resource value: 0x7f050061
-			public const int refractored_holo_red_light = 2131034209;
-			
 			// aapt resource value: 0x7f05003c
 			public const int ripple_material_dark = 2131034172;
 			
@@ -1453,11 +1192,11 @@ namespace NavDrawer
 			// aapt resource value: 0x7f050043
 			public const int switch_thumb_disabled_material_light = 2131034179;
 			
-			// aapt resource value: 0x7f050073
-			public const int switch_thumb_material_dark = 2131034227;
+			// aapt resource value: 0x7f050054
+			public const int switch_thumb_material_dark = 2131034196;
 			
-			// aapt resource value: 0x7f050074
-			public const int switch_thumb_material_light = 2131034228;
+			// aapt resource value: 0x7f050055
+			public const int switch_thumb_material_light = 2131034197;
 			
 			// aapt resource value: 0x7f050044
 			public const int switch_thumb_normal_material_dark = 2131034180;
@@ -1784,9 +1523,6 @@ namespace NavDrawer
 			// aapt resource value: 0x7f060062
 			public const int notification_subtext_size = 2131099746;
 			
-			// aapt resource value: 0x7f060066
-			public const int progress_inner_size = 2131099750;
-			
 			static Dimension()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -2019,23 +1755,8 @@ namespace NavDrawer
 			// aapt resource value: 0x7f020048
 			public const int ic_menu_refresh = 2130837576;
 			
-			// aapt resource value: 0x7f02004e
-			public const int notification_template_icon_bg = 2130837582;
-			
 			// aapt resource value: 0x7f020049
-			public const int pin_progress_pinned = 2130837577;
-			
-			// aapt resource value: 0x7f02004a
-			public const int pin_progress_shadow = 2130837578;
-			
-			// aapt resource value: 0x7f02004b
-			public const int pin_progress_unpinned = 2130837579;
-			
-			// aapt resource value: 0x7f02004c
-			public const int scrubber_control_normal_holo = 2130837580;
-			
-			// aapt resource value: 0x7f02004d
-			public const int scrubber_control_pressed_holo = 2130837581;
+			public const int notification_template_icon_bg = 2130837577;
 			
 			static Drawable()
 			{
@@ -2050,35 +1771,35 @@ namespace NavDrawer
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0a006f
-			public const int action0 = 2131361903;
+			// aapt resource value: 0x7f0a006e
+			public const int action0 = 2131361902;
 			
-			// aapt resource value: 0x7f0a0056
-			public const int action_bar = 2131361878;
+			// aapt resource value: 0x7f0a0055
+			public const int action_bar = 2131361877;
 			
 			// aapt resource value: 0x7f0a0001
 			public const int action_bar_activity_content = 2131361793;
 			
-			// aapt resource value: 0x7f0a0055
-			public const int action_bar_container = 2131361877;
+			// aapt resource value: 0x7f0a0054
+			public const int action_bar_container = 2131361876;
 			
-			// aapt resource value: 0x7f0a0051
-			public const int action_bar_root = 2131361873;
+			// aapt resource value: 0x7f0a0050
+			public const int action_bar_root = 2131361872;
 			
 			// aapt resource value: 0x7f0a0002
 			public const int action_bar_spinner = 2131361794;
 			
-			// aapt resource value: 0x7f0a003a
-			public const int action_bar_subtitle = 2131361850;
-			
 			// aapt resource value: 0x7f0a0039
-			public const int action_bar_title = 2131361849;
+			public const int action_bar_subtitle = 2131361849;
 			
-			// aapt resource value: 0x7f0a0057
-			public const int action_context_bar = 2131361879;
+			// aapt resource value: 0x7f0a0038
+			public const int action_bar_title = 2131361848;
 			
-			// aapt resource value: 0x7f0a0073
-			public const int action_divider = 2131361907;
+			// aapt resource value: 0x7f0a0056
+			public const int action_context_bar = 2131361878;
+			
+			// aapt resource value: 0x7f0a0072
+			public const int action_divider = 2131361906;
 			
 			// aapt resource value: 0x7f0a0003
 			public const int action_menu_divider = 2131361795;
@@ -2086,23 +1807,26 @@ namespace NavDrawer
 			// aapt resource value: 0x7f0a0004
 			public const int action_menu_presenter = 2131361796;
 			
-			// aapt resource value: 0x7f0a0053
-			public const int action_mode_bar = 2131361875;
-			
 			// aapt resource value: 0x7f0a0052
-			public const int action_mode_bar_stub = 2131361874;
+			public const int action_mode_bar = 2131361874;
+			
+			// aapt resource value: 0x7f0a0051
+			public const int action_mode_bar_stub = 2131361873;
+			
+			// aapt resource value: 0x7f0a003a
+			public const int action_mode_close_button = 2131361850;
 			
 			// aapt resource value: 0x7f0a003b
-			public const int action_mode_close_button = 2131361851;
+			public const int activity_chooser_view_content = 2131361851;
 			
-			// aapt resource value: 0x7f0a003c
-			public const int activity_chooser_view_content = 2131361852;
-			
-			// aapt resource value: 0x7f0a0046
-			public const int alertTitle = 2131361862;
+			// aapt resource value: 0x7f0a0045
+			public const int alertTitle = 2131361861;
 			
 			// aapt resource value: 0x7f0a0032
 			public const int always = 2131361842;
+			
+			// aapt resource value: 0x7f0a007c
+			public const int appbar = 2131361916;
 			
 			// aapt resource value: 0x7f0a0030
 			public const int beginning = 2131361840;
@@ -2110,11 +1834,11 @@ namespace NavDrawer
 			// aapt resource value: 0x7f0a0011
 			public const int bottom = 2131361809;
 			
-			// aapt resource value: 0x7f0a004c
-			public const int buttonPanel = 2131361868;
+			// aapt resource value: 0x7f0a004b
+			public const int buttonPanel = 2131361867;
 			
-			// aapt resource value: 0x7f0a0070
-			public const int cancel_action = 2131361904;
+			// aapt resource value: 0x7f0a006f
+			public const int cancel_action = 2131361903;
 			
 			// aapt resource value: 0x7f0a0012
 			public const int center = 2131361810;
@@ -2125,14 +1849,11 @@ namespace NavDrawer
 			// aapt resource value: 0x7f0a0014
 			public const int center_vertical = 2131361812;
 			
-			// aapt resource value: 0x7f0a004e
-			public const int checkbox = 2131361870;
+			// aapt resource value: 0x7f0a004d
+			public const int checkbox = 2131361869;
 			
-			// aapt resource value: 0x7f0a0076
-			public const int chronometer = 2131361910;
-			
-			// aapt resource value: 0x7f0a0038
-			public const int clip = 2131361848;
+			// aapt resource value: 0x7f0a0075
+			public const int chronometer = 2131361909;
 			
 			// aapt resource value: 0x7f0a001b
 			public const int clip_horizontal = 2131361819;
@@ -2143,38 +1864,41 @@ namespace NavDrawer
 			// aapt resource value: 0x7f0a0033
 			public const int collapseActionView = 2131361843;
 			
-			// aapt resource value: 0x7f0a0047
-			public const int contentPanel = 2131361863;
+			// aapt resource value: 0x7f0a007d
+			public const int collapsing_toolbar = 2131361917;
 			
-			// aapt resource value: 0x7f0a0081
-			public const int content_frame = 2131361921;
+			// aapt resource value: 0x7f0a0046
+			public const int contentPanel = 2131361862;
 			
-			// aapt resource value: 0x7f0a004b
-			public const int custom = 2131361867;
+			// aapt resource value: 0x7f0a0082
+			public const int content_frame = 2131361922;
 			
 			// aapt resource value: 0x7f0a004a
-			public const int customPanel = 2131361866;
+			public const int custom = 2131361866;
 			
-			// aapt resource value: 0x7f0a0054
-			public const int decor_content_parent = 2131361876;
+			// aapt resource value: 0x7f0a0049
+			public const int customPanel = 2131361865;
 			
-			// aapt resource value: 0x7f0a003f
-			public const int default_activity_button = 2131361855;
+			// aapt resource value: 0x7f0a0053
+			public const int decor_content_parent = 2131361875;
+			
+			// aapt resource value: 0x7f0a003e
+			public const int default_activity_button = 2131361854;
 			
 			// aapt resource value: 0x7f0a0025
 			public const int disableHome = 2131361829;
 			
-			// aapt resource value: 0x7f0a007f
-			public const int drawer_layout = 2131361919;
+			// aapt resource value: 0x7f0a0080
+			public const int drawer_layout = 2131361920;
 			
-			// aapt resource value: 0x7f0a0058
-			public const int edit_query = 2131361880;
+			// aapt resource value: 0x7f0a0057
+			public const int edit_query = 2131361879;
 			
 			// aapt resource value: 0x7f0a0015
 			public const int end = 2131361813;
 			
-			// aapt resource value: 0x7f0a007b
-			public const int end_padder = 2131361915;
+			// aapt resource value: 0x7f0a007a
+			public const int end_padder = 2131361914;
 			
 			// aapt resource value: 0x7f0a000a
 			public const int enterAlways = 2131361802;
@@ -2185,11 +1909,11 @@ namespace NavDrawer
 			// aapt resource value: 0x7f0a000c
 			public const int exitUntilCollapsed = 2131361804;
 			
-			// aapt resource value: 0x7f0a003d
-			public const int expand_activities_button = 2131361853;
+			// aapt resource value: 0x7f0a003c
+			public const int expand_activities_button = 2131361852;
 			
-			// aapt resource value: 0x7f0a004d
-			public const int expanded_menu = 2131361869;
+			// aapt resource value: 0x7f0a004c
+			public const int expanded_menu = 2131361868;
 			
 			// aapt resource value: 0x7f0a001d
 			public const int fill = 2131361821;
@@ -2204,13 +1928,10 @@ namespace NavDrawer
 			public const int @fixed = 2131361825;
 			
 			// aapt resource value: 0x7f0a007e
-			public const int friend_description = 2131361918;
+			public const int friend_image = 2131361918;
 			
-			// aapt resource value: 0x7f0a007d
-			public const int friend_image = 2131361917;
-			
-			// aapt resource value: 0x7f0a0067
-			public const int grid = 2131361895;
+			// aapt resource value: 0x7f0a0066
+			public const int grid = 2131361894;
 			
 			// aapt resource value: 0x7f0a0005
 			public const int home = 2131361797;
@@ -2218,44 +1939,44 @@ namespace NavDrawer
 			// aapt resource value: 0x7f0a0026
 			public const int homeAsUp = 2131361830;
 			
-			// aapt resource value: 0x7f0a0041
-			public const int icon = 2131361857;
+			// aapt resource value: 0x7f0a0040
+			public const int icon = 2131361856;
 			
 			// aapt resource value: 0x7f0a0034
 			public const int ifRoom = 2131361844;
 			
-			// aapt resource value: 0x7f0a003e
-			public const int image = 2131361854;
+			// aapt resource value: 0x7f0a003d
+			public const int image = 2131361853;
 			
-			// aapt resource value: 0x7f0a007a
-			public const int info = 2131361914;
+			// aapt resource value: 0x7f0a0079
+			public const int info = 2131361913;
+			
+			// aapt resource value: 0x7f0a006c
+			public const int item_image = 2131361900;
 			
 			// aapt resource value: 0x7f0a006d
-			public const int item_image = 2131361901;
-			
-			// aapt resource value: 0x7f0a006e
-			public const int item_title = 2131361902;
+			public const int item_title = 2131361901;
 			
 			// aapt resource value: 0x7f0a0017
 			public const int left = 2131361815;
 			
-			// aapt resource value: 0x7f0a0074
-			public const int line1 = 2131361908;
+			// aapt resource value: 0x7f0a0073
+			public const int line1 = 2131361907;
 			
-			// aapt resource value: 0x7f0a0078
-			public const int line3 = 2131361912;
+			// aapt resource value: 0x7f0a0077
+			public const int line3 = 2131361911;
 			
 			// aapt resource value: 0x7f0a0023
 			public const int listMode = 2131361827;
 			
-			// aapt resource value: 0x7f0a0040
-			public const int list_item = 2131361856;
+			// aapt resource value: 0x7f0a003f
+			public const int list_item = 2131361855;
 			
-			// aapt resource value: 0x7f0a0072
-			public const int media_actions = 2131361906;
+			// aapt resource value: 0x7f0a007b
+			public const int main_content = 2131361915;
 			
-			// aapt resource value: 0x7f0a0086
-			public const int menu_refresh = 2131361926;
+			// aapt resource value: 0x7f0a0071
+			public const int media_actions = 2131361905;
 			
 			// aapt resource value: 0x7f0a0031
 			public const int middle = 2131361841;
@@ -2266,17 +1987,17 @@ namespace NavDrawer
 			// aapt resource value: 0x7f0a002b
 			public const int multiply = 2131361835;
 			
+			// aapt resource value: 0x7f0a0085
+			public const int nav_friends = 2131361925;
+			
 			// aapt resource value: 0x7f0a0084
-			public const int nav_friends = 2131361924;
+			public const int nav_home = 2131361924;
+			
+			// aapt resource value: 0x7f0a0086
+			public const int nav_profile = 2131361926;
 			
 			// aapt resource value: 0x7f0a0083
-			public const int nav_home = 2131361923;
-			
-			// aapt resource value: 0x7f0a0085
-			public const int nav_profile = 2131361925;
-			
-			// aapt resource value: 0x7f0a0082
-			public const int nav_view = 2131361922;
+			public const int nav_view = 2131361923;
 			
 			// aapt resource value: 0x7f0a0035
 			public const int never = 2131361845;
@@ -2290,20 +2011,20 @@ namespace NavDrawer
 			// aapt resource value: 0x7f0a000f
 			public const int parallax = 2131361807;
 			
-			// aapt resource value: 0x7f0a0043
-			public const int parentPanel = 2131361859;
+			// aapt resource value: 0x7f0a0042
+			public const int parentPanel = 2131361858;
 			
 			// aapt resource value: 0x7f0a0010
 			public const int pin = 2131361808;
 			
-			// aapt resource value: 0x7f0a006c
-			public const int profile_description = 2131361900;
+			// aapt resource value: 0x7f0a006b
+			public const int profile_description = 2131361899;
+			
+			// aapt resource value: 0x7f0a0069
+			public const int profile_image = 2131361897;
 			
 			// aapt resource value: 0x7f0a006a
-			public const int profile_image = 2131361898;
-			
-			// aapt resource value: 0x7f0a006b
-			public const int profile_name = 2131361899;
+			public const int profile_name = 2131361898;
 			
 			// aapt resource value: 0x7f0a0006
 			public const int progress_circular = 2131361798;
@@ -2311,8 +2032,8 @@ namespace NavDrawer
 			// aapt resource value: 0x7f0a0007
 			public const int progress_horizontal = 2131361799;
 			
-			// aapt resource value: 0x7f0a0050
-			public const int radio = 2131361872;
+			// aapt resource value: 0x7f0a004f
+			public const int radio = 2131361871;
 			
 			// aapt resource value: 0x7f0a0018
 			public const int right = 2131361816;
@@ -2323,47 +2044,47 @@ namespace NavDrawer
 			// aapt resource value: 0x7f0a000d
 			public const int scroll = 2131361805;
 			
-			// aapt resource value: 0x7f0a0048
-			public const int scrollView = 2131361864;
+			// aapt resource value: 0x7f0a0047
+			public const int scrollView = 2131361863;
 			
 			// aapt resource value: 0x7f0a0022
 			public const int scrollable = 2131361826;
 			
-			// aapt resource value: 0x7f0a005a
-			public const int search_badge = 2131361882;
-			
 			// aapt resource value: 0x7f0a0059
-			public const int search_bar = 2131361881;
+			public const int search_badge = 2131361881;
 			
-			// aapt resource value: 0x7f0a005b
-			public const int search_button = 2131361883;
+			// aapt resource value: 0x7f0a0058
+			public const int search_bar = 2131361880;
 			
-			// aapt resource value: 0x7f0a0060
-			public const int search_close_btn = 2131361888;
-			
-			// aapt resource value: 0x7f0a005c
-			public const int search_edit_frame = 2131361884;
-			
-			// aapt resource value: 0x7f0a0062
-			public const int search_go_btn = 2131361890;
-			
-			// aapt resource value: 0x7f0a005d
-			public const int search_mag_icon = 2131361885;
-			
-			// aapt resource value: 0x7f0a005e
-			public const int search_plate = 2131361886;
+			// aapt resource value: 0x7f0a005a
+			public const int search_button = 2131361882;
 			
 			// aapt resource value: 0x7f0a005f
-			public const int search_src_text = 2131361887;
+			public const int search_close_btn = 2131361887;
+			
+			// aapt resource value: 0x7f0a005b
+			public const int search_edit_frame = 2131361883;
+			
+			// aapt resource value: 0x7f0a0061
+			public const int search_go_btn = 2131361889;
+			
+			// aapt resource value: 0x7f0a005c
+			public const int search_mag_icon = 2131361884;
+			
+			// aapt resource value: 0x7f0a005d
+			public const int search_plate = 2131361885;
+			
+			// aapt resource value: 0x7f0a005e
+			public const int search_src_text = 2131361886;
+			
+			// aapt resource value: 0x7f0a0062
+			public const int search_voice_btn = 2131361890;
 			
 			// aapt resource value: 0x7f0a0063
-			public const int search_voice_btn = 2131361891;
+			public const int select_dialog_listview = 2131361891;
 			
-			// aapt resource value: 0x7f0a0064
-			public const int select_dialog_listview = 2131361892;
-			
-			// aapt resource value: 0x7f0a004f
-			public const int shortcut = 2131361871;
+			// aapt resource value: 0x7f0a004e
+			public const int shortcut = 2131361870;
 			
 			// aapt resource value: 0x7f0a0027
 			public const int showCustom = 2131361831;
@@ -2374,11 +2095,11 @@ namespace NavDrawer
 			// aapt resource value: 0x7f0a0029
 			public const int showTitle = 2131361833;
 			
-			// aapt resource value: 0x7f0a0066
-			public const int snackbar_action = 2131361894;
-			
 			// aapt resource value: 0x7f0a0065
-			public const int snackbar_text = 2131361893;
+			public const int snackbar_action = 2131361893;
+			
+			// aapt resource value: 0x7f0a0064
+			public const int snackbar_text = 2131361892;
 			
 			// aapt resource value: 0x7f0a0008
 			public const int split_action_bar = 2131361800;
@@ -2395,47 +2116,47 @@ namespace NavDrawer
 			// aapt resource value: 0x7f0a0019
 			public const int start = 2131361817;
 			
-			// aapt resource value: 0x7f0a0071
-			public const int status_bar_latest_event_content = 2131361905;
+			// aapt resource value: 0x7f0a0070
+			public const int status_bar_latest_event_content = 2131361904;
 			
-			// aapt resource value: 0x7f0a0061
-			public const int submit_area = 2131361889;
+			// aapt resource value: 0x7f0a0060
+			public const int submit_area = 2131361888;
 			
 			// aapt resource value: 0x7f0a0024
 			public const int tabMode = 2131361828;
 			
-			// aapt resource value: 0x7f0a0068
-			public const int tabs = 2131361896;
+			// aapt resource value: 0x7f0a0067
+			public const int tabs = 2131361895;
 			
-			// aapt resource value: 0x7f0a0079
-			public const int text = 2131361913;
+			// aapt resource value: 0x7f0a0078
+			public const int text = 2131361912;
 			
-			// aapt resource value: 0x7f0a0077
-			public const int text2 = 2131361911;
+			// aapt resource value: 0x7f0a0076
+			public const int text2 = 2131361910;
 			
-			// aapt resource value: 0x7f0a0049
-			public const int textSpacerNoButtons = 2131361865;
+			// aapt resource value: 0x7f0a0048
+			public const int textSpacerNoButtons = 2131361864;
 			
-			// aapt resource value: 0x7f0a0075
-			public const int time = 2131361909;
+			// aapt resource value: 0x7f0a0074
+			public const int time = 2131361908;
 			
-			// aapt resource value: 0x7f0a0042
-			public const int title = 2131361858;
+			// aapt resource value: 0x7f0a0041
+			public const int title = 2131361857;
 			
-			// aapt resource value: 0x7f0a0045
-			public const int title_template = 2131361861;
+			// aapt resource value: 0x7f0a0044
+			public const int title_template = 2131361860;
 			
-			// aapt resource value: 0x7f0a007c
-			public const int toolbar = 2131361916;
+			// aapt resource value: 0x7f0a007f
+			public const int toolbar = 2131361919;
 			
-			// aapt resource value: 0x7f0a0080
-			public const int toolbar_layout = 2131361920;
+			// aapt resource value: 0x7f0a0081
+			public const int toolbar_layout = 2131361921;
 			
 			// aapt resource value: 0x7f0a001a
 			public const int top = 2131361818;
 			
-			// aapt resource value: 0x7f0a0044
-			public const int topPanel = 2131361860;
+			// aapt resource value: 0x7f0a0043
+			public const int topPanel = 2131361859;
 			
 			// aapt resource value: 0x7f0a0009
 			public const int up = 2131361801;
@@ -2443,8 +2164,8 @@ namespace NavDrawer
 			// aapt resource value: 0x7f0a002a
 			public const int useLogo = 2131361834;
 			
-			// aapt resource value: 0x7f0a0069
-			public const int viewPager = 2131361897;
+			// aapt resource value: 0x7f0a0068
+			public const int viewPager = 2131361896;
 			
 			// aapt resource value: 0x7f0a0000
 			public const int view_offset_helper = 2131361792;
@@ -2480,17 +2201,11 @@ namespace NavDrawer
 			// aapt resource value: 0x7f070005
 			public const int cancel_button_image_alpha = 2131165189;
 			
-			// aapt resource value: 0x7f070008
-			public const int circular_indeterminent_interval = 2131165192;
-			
 			// aapt resource value: 0x7f070001
 			public const int design_snackbar_text_max_lines = 2131165185;
 			
 			// aapt resource value: 0x7f070000
 			public const int item_columns = 2131165184;
-			
-			// aapt resource value: 0x7f070007
-			public const int progressbutton_indeterminent_interval = 2131165191;
 			
 			// aapt resource value: 0x7f070006
 			public const int status_bar_notification_info_maxnum = 2131165190;
@@ -2691,9 +2406,6 @@ namespace NavDrawer
 			
 			// aapt resource value: 0x7f0c0000
 			public const int nav_menu = 2131492864;
-			
-			// aapt resource value: 0x7f0c0001
-			public const int refresh = 2131492865;
 			
 			static Menu()
 			{
@@ -3231,12 +2943,6 @@ namespace NavDrawer
 			// aapt resource value: 0x7f090141
 			public const int CardView_Light = 2131296577;
 			
-			// aapt resource value: 0x7f090144
-			public const int CircularProgressBar = 2131296580;
-			
-			// aapt resource value: 0x7f090145
-			public const int CircularProgressBarLight = 2131296581;
-			
 			// aapt resource value: 0x7f090001
 			public const int MyTheme = 2131296257;
 			
@@ -3272,12 +2978,6 @@ namespace NavDrawer
 			
 			// aapt resource value: 0x7f090024
 			public const int Platform_Widget_AppCompat_Spinner = 2131296292;
-			
-			// aapt resource value: 0x7f090142
-			public const int ProgressButton = 2131296578;
-			
-			// aapt resource value: 0x7f090143
-			public const int ProgressButton_Pin = 2131296579;
 			
 			// aapt resource value: 0x7f090031
 			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131296305;
@@ -4249,41 +3949,6 @@ namespace NavDrawer
 			// aapt resource value: 1
 			public const int FloatingActionButton_rippleColor = 1;
 			
-			public static int[] HoloCircularProgressBar = new int[]
-			{
-					2130772251,
-					2130772252,
-					2130772253,
-					2130772254,
-					2130772255,
-					2130772256,
-					2130772257,
-					2130772258};
-			
-			// aapt resource value: 0
-			public const int HoloCircularProgressBar_circular_gravity = 0;
-			
-			// aapt resource value: 6
-			public const int HoloCircularProgressBar_circular_indeterminate = 6;
-			
-			// aapt resource value: 7
-			public const int HoloCircularProgressBar_circular_indeterminate_interval = 7;
-			
-			// aapt resource value: 3
-			public const int HoloCircularProgressBar_circular_marker_progress = 3;
-			
-			// aapt resource value: 2
-			public const int HoloCircularProgressBar_circular_progress = 2;
-			
-			// aapt resource value: 5
-			public const int HoloCircularProgressBar_circular_progress_background_color = 5;
-			
-			// aapt resource value: 4
-			public const int HoloCircularProgressBar_circular_progress_color = 4;
-			
-			// aapt resource value: 1
-			public const int HoloCircularProgressBar_circular_stroke_width = 1;
-			
 			public static int[] LinearLayoutCompat = new int[]
 			{
 					16842927,
@@ -4546,65 +4211,6 @@ namespace NavDrawer
 			
 			// aapt resource value: 0
 			public const int PopupWindowBackgroundState_state_above_anchor = 0;
-			
-			public static int[] ProgressButton = new int[]
-			{
-					16842970,
-					16842981,
-					16843534,
-					2130772240,
-					2130772241,
-					2130772242,
-					2130772243,
-					2130772244,
-					2130772245,
-					2130772246,
-					2130772247,
-					2130772248,
-					2130772249,
-					2130772250};
-			
-			// aapt resource value: 1
-			public const int ProgressButton_android_clickable = 1;
-			
-			// aapt resource value: 0
-			public const int ProgressButton_android_focusable = 0;
-			
-			// aapt resource value: 2
-			public const int ProgressButton_android_selectableItemBackground = 2;
-			
-			// aapt resource value: 5
-			public const int ProgressButton_circleColor = 5;
-			
-			// aapt resource value: 12
-			public const int ProgressButton_indeterminate = 12;
-			
-			// aapt resource value: 13
-			public const int ProgressButton_indeterminate_interval = 13;
-			
-			// aapt resource value: 10
-			public const int ProgressButton_innerSize = 10;
-			
-			// aapt resource value: 4
-			public const int ProgressButton_max = 4;
-			
-			// aapt resource value: 11
-			public const int ProgressButton_pinned = 11;
-			
-			// aapt resource value: 7
-			public const int ProgressButton_pinnedDrawable = 7;
-			
-			// aapt resource value: 3
-			public const int ProgressButton_progress = 3;
-			
-			// aapt resource value: 6
-			public const int ProgressButton_progressColor = 6;
-			
-			// aapt resource value: 9
-			public const int ProgressButton_shadowDrawable = 9;
-			
-			// aapt resource value: 8
-			public const int ProgressButton_unpinnedDrawable = 8;
 			
 			public static int[] ScrimInsetsFrameLayout = new int[]
 			{
@@ -4994,8 +4600,7 @@ namespace NavDrawer
 					2130772204,
 					2130772205,
 					2130772206,
-					2130772207,
-					2130772259};
+					2130772207};
 			
 			// aapt resource value: 23
 			public const int Theme_actionBarDivider = 23;
@@ -5140,9 +4745,6 @@ namespace NavDrawer
 			
 			// aapt resource value: 102
 			public const int Theme_checkedTextViewStyle = 102;
-			
-			// aapt resource value: 108
-			public const int Theme_circularProgressBarStyle = 108;
 			
 			// aapt resource value: 83
 			public const int Theme_colorAccent = 83;
