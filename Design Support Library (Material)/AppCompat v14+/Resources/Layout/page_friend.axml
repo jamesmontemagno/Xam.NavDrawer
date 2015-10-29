@@ -43,32 +43,47 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:padding="8dp">
-            <TextView
-                android:layout_width="fill_parent"
+            android:paddingTop="24dp">
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="The golden lion tamarin Leontopithecus rosalia, Portuguese: mico-leão-dourado Brazilian Portuguese:  also known as the golden marmoset, is a small New World monkey of the family Callitrichidae. Native to the Atlantic coastal forests of Brazil, the golden lion tamarin is an endangered species with an estimated wild population of about 3,200 individuals spread between four places along southeastern Brazil, and a captive population maintained at about 490 individuals among 150 zoos."
-                android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
-        <!--<GridView
-                android:id="@+id/grid"
-                android:padding="8dp"
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:numColumns="@integer/item_columns"
-                android:longClickable="true"
-                android:stretchMode="columnWidth"
-                android:drawSelectorOnTop="true"
-                android:clipChildren="false"
-                android:clipToPadding="false"
-                android:horizontalSpacing="8dp"
-                android:verticalSpacing="8dp"
-                android:gravity="center"
-                android:fastScrollEnabled="true"
-                android:fastScrollAlwaysVisible="true"
-                android:scrollbarAlwaysDrawVerticalTrack="true"
-                android:scrollbars="vertical"
-                android:scrollbarStyle="outsideInset"
-                android:smoothScrollbar="true" />-->
+                android:layout_margin="@dimen/card_margin">
+                <LinearLayout
+                    style="@style/Widget.CardContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="About"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/details" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/card_margin"
+                android:layout_marginLeft="@dimen/card_margin"
+                android:layout_marginRight="@dimen/card_margin">
+                <LinearLayout
+                    style="@style/Widget.CardContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Friends"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/monkey_ipsum" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
 </android.support.design.widget.CoordinatorLayout>

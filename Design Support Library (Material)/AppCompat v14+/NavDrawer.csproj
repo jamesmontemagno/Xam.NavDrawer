@@ -79,10 +79,10 @@
     <Compile Include="Fragments\FriendsFragment.cs" />
     <Compile Include="Fragments\ProfileFragment.cs" />
     <Compile Include="Helpers\SquareImageView.cs" />
-    <Compile Include="Models\FriendViewModel.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Activities\BaseActivity.cs" />
+    <Compile Include="Models\Monkey.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

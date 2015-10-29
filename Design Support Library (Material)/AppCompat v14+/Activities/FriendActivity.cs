@@ -22,7 +22,7 @@ namespace NavDrawer.Activities
     [MetaData("android.support.PARENT_ACTIVITY", Value = "navdrawer.activities.HomeView")]
 	public class FriendActivity : AppCompatActivity
     {
-		List<FriendViewModel> friends;
+		List<Monkey> friends;
 		ImageLoader imageLoader;
 
 
@@ -37,6 +37,7 @@ namespace NavDrawer.Activities
             friends = Util.GenerateFriends();
             var title = Intent.GetStringExtra("Title");
             var image = Intent.GetStringExtra("Image");
+            var details = Intent.GetStringExtra("Details");
 
             title = string.IsNullOrWhiteSpace(title) ? "New Friend" : title;
             var toolbar = FindViewById<V7Toolbar>(Resource.Id.toolbar);
@@ -52,6 +53,10 @@ namespace NavDrawer.Activities
 
             imageLoader.DisplayImage(image, FindViewById<ImageView> (Resource.Id.friend_image));
 
+
+            var detailsTextView = FindViewById<TextView>(Resource.Id.details);
+            detailsTextView.Text = details;
+
             //var grid = FindViewById<GridView>(Resource.Id.grid);
             //grid.Adapter = new MonkeyAdapter(this, friends);
             //grid.ItemClick += GridOnItemClick;
@@ -66,6 +71,7 @@ namespace NavDrawer.Activities
             var intent = new Intent(this, typeof(FriendActivity));
             intent.PutExtra("Title", friends[itemClickEventArgs.Position].Title);
             intent.PutExtra("Image", friends[itemClickEventArgs.Position].Image);
+            intent.PutExtra("Details", friends[itemClickEventArgs.Position].Details);
             StartActivity(intent);
         }
 

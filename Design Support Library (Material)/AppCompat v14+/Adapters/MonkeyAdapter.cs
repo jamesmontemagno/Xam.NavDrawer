@@ -13,16 +13,18 @@ namespace NavDrawer.Adapters
     internal class MonkeyAdapterWrapper : Java.Lang.Object
     {
         public TextView Title { get; set; }
+
         public ImageView Art { get; set; }
     }
 
     class MonkeyAdapter : BaseAdapter
     {
-		private readonly Activity context;
-		private readonly IEnumerable<FriendViewModel> friends;
+        private readonly Activity context;
+        private readonly IEnumerable<Monkey> friends;
+
         public ImageLoader ImageLoader { get; set; }
 
-        public MonkeyAdapter(Activity context, IEnumerable<FriendViewModel> friends)
+        public MonkeyAdapter(Activity context, IEnumerable<Monkey> friends)
         {
             this.context = context;
             this.friends = friends;
@@ -35,9 +37,9 @@ namespace NavDrawer.Adapters
                 return null;
 
             var view = (convertView
-                            ?? context.LayoutInflater.Inflate(
-                                    Resource.Layout.item_monkey, parent, false)
-                        );
+                       ?? context.LayoutInflater.Inflate(
+                           Resource.Layout.item_monkey, parent, false)
+                       );
 
             if (view == null)
                 return null;
@@ -46,16 +48,18 @@ namespace NavDrawer.Adapters
             if (wrapper == null)
             {
                 wrapper = new MonkeyAdapterWrapper
-                              {
-                                  Title = view.FindViewById<TextView>(Resource.Id.item_title),
-                                  Art = view.FindViewById<ImageView>(Resource.Id.item_image)
-                              };
+                {
+                    Title = view.FindViewById<TextView>(Resource.Id.item_title),
+                    Art = view.FindViewById<ImageView>(Resource.Id.item_image)
+                };
                 view.Tag = wrapper;
             }
 
             var friend = friends.ElementAt(position);
 
             wrapper.Title.Text = friend.Title;
+
+            wrapper.Art.SetImageResource(Android.Resource.Color.Transparent);
             ImageLoader.DisplayImage(friend.Image, wrapper.Art);
             return view;
         }

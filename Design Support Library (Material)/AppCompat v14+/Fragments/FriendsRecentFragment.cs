@@ -20,7 +20,7 @@ namespace NavDrawer.Fragments
             RetainInstance = true;
         }
 
-		private List<FriendViewModel> friends;
+		private List<Monkey> friends;
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
             base.OnCreateView(inflater, container, savedInstanceState);

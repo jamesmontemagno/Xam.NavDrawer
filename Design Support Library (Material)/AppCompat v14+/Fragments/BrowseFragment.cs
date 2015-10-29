@@ -21,7 +21,7 @@ namespace NavDrawer.Fragments
         {
             RetainInstance = true;
         }
-		List<FriendViewModel> friends;
+		List<Monkey> friends;
         public override View OnCreateView(LayoutInflater inflater, Android.Views.ViewGroup container, Android.OS.Bundle savedInstanceState)
         {
 			base.OnCreateView(inflater, container, savedInstanceState);
@@ -41,6 +41,7 @@ namespace NavDrawer.Fragments
             var intent = new Intent(Activity, typeof(FriendActivity));
             intent.PutExtra("Title", friends[itemClickEventArgs.Position].Title);
             intent.PutExtra("Image", friends[itemClickEventArgs.Position].Image);
+            intent.PutExtra("Details", friends[itemClickEventArgs.Position].Details);
             StartActivity(intent);
         }
 

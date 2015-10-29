@@ -33,7 +33,7 @@ namespace NavDrawer.Adapters
 										
                 }
 
-								return new FriendsAllFragment();
+				return new FriendsAllFragment();
             }
 
             public override Java.Lang.ICharSequence GetPageTitleFormatted(int p0) { return new Java.Lang.String(Content[p0 % Content.Length].ToUpper()); }
