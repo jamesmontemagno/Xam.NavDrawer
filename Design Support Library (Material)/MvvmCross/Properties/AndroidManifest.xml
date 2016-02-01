@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="com.refractored.navdrawer.sample" android:versionCode="1" android:versionName="1">
+	<uses-sdk android:minSdkVersion="15" android:targetSdkVersion="23" />
+	<application android:label="Nav Drawer Sample" android:icon="@drawable/ic_launcher" android:theme="@style/MyTheme"></application>
+</manifest>
